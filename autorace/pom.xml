@@ -1,0 +1,60 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>jp.autorace</groupId>
+  <artifactId>autorace</artifactId>
+  <version>1.0</version>
+  <dependencies>
+	<dependency>
+      <groupId>poseidon</groupId>
+      <artifactId>poseidon</artifactId>
+      <version>1.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+		<groupId>org.htmlparser</groupId>
+		<artifactId>htmlparser</artifactId>
+		<version>1.6</version>
+	</dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <configuration>
+          <archive>
+            <manifest>
+              <mainClass>jp.autorace.App</mainClass>
+              <addClasspath>true</addClasspath>
+              <classpathPrefix>dependency/</classpathPrefix>
+            </manifest>
+          </archive>
+        </configuration>
+      </plugin>
+     
+      <plugin>
+         <artifactId>maven-assembly-plugin</artifactId>
+         <configuration>
+          	<appendAssemblyId>false</appendAssemblyId>
+	            <descriptors>
+	            	<descriptor>distribution.xml</descriptor>
+	            </descriptors>
+           </configuration>
+      </plugin>
+    </plugins>
+    
+    <resources>
+      <resource>
+        <targetPath>jp/autorace/dc</targetPath>
+        <filtering>false</filtering>
+        <directory>${basedir}/src/main/java/jp/autorace/dc</directory>
+        <includes>
+          <include>*.xml</include>
+        </includes>
+      </resource>
+    </resources>           
+
+  </build>
+</project>

@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2015-10-13 3:28:12 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="jp.autorace.dc.AutoRacePostRaceRace" table="AutoRace_PostRace_Race" schema="dbo" catalog="JPMotorDB">
+        <id name="raceId" type="long">
+            <column name="RaceID" />
+            <generator class="assigned" />
+        </id>
+        <property name="uraceId" type="java.lang.Long">
+            <column name="URaceID" />
+        </property>
+        <property name="raceNo" type="java.lang.Byte">
+            <column name="RaceNo" />
+        </property>
+        <property name="raceDate" type="timestamp">
+            <column name="RaceDate" length="16" />
+        </property>
+        <property name="trackId" type="java.lang.Short">
+            <column name="TrackID" />
+        </property>
+        <property name="trackName" type="string">
+            <column name="TrackName" length="50" />
+        </property>
+        <property name="actualStartTime" type="string">
+            <column name="ActualStartTime" length="5" />
+        </property>
+        <property name="raceName" type="string">
+            <column name="RaceName" length="100" />
+        </property>
+        <property name="raceDesc" type="string">
+            <column name="Race_Desc" length="50" />
+        </property>
+        <property name="classId" type="java.lang.Integer">
+            <column name="ClassID" />
+        </property>
+        <property name="className" type="string">
+            <column name="ClassName" length="50" />
+        </property>
+        <property name="raceCategory" type="string">
+            <column name="RaceCategory" length="50" />
+        </property>
+        <property name="noOfRound" type="string">
+            <column name="NoOfRound" length="20" />
+        </property>
+        <property name="distance" type="java.lang.Integer">
+            <column name="Distance" />
+        </property>
+        <property name="grade" type="string">
+            <column name="Grade" length="50" />
+        </property>
+        <property name="weather" type="string">
+            <column name="Weather" length="10" />
+        </property>
+        <property name="temperatureTrack" type="string">
+            <column name="Temperature_Track" length="20" />
+        </property>
+        <property name="temperature" type="string">
+            <column name="Temperature" length="10" />
+        </property>
+        <property name="humidity" type="string">
+            <column name="Humidity" length="20" />
+        </property>
+        <property name="going" type="string">
+            <column name="Going" length="20" />
+        </property>
+        <property name="trophy" type="string">
+            <column name="Trophy" length="50" />
+        </property>
+        <property name="cancelled" type="java.lang.Boolean">
+            <column name="Cancelled" />
+        </property>
+        <property name="totalMeetingDay" type="java.lang.Byte">
+            <column name="TotalMeetingDay" />
+        </property>
+        <property name="bettypeNameList" type="string">
+            <column name="BettypeNameList" length="50" />
+        </property>
+        <property name="extractTime" type="timestamp">
+            <column name="ExtractTime" length="16" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,10 @@
+[2013-09-23 17:18:05] jackfan: http://autorace.jp/netstadium/ns/Program/Display/?p=5
+[2013-09-23 17:18:34] jackfan: alan , 　摩托电动车　比赛数据　
+[2013-09-23 17:18:37] jackfan: 这里是　ＰＲＥＲＡＣＥ
+[2013-09-23 17:18:53] jackfan: http://autorace.jp/netstadium/ns/RaceResult/Display/?p=5&d=2013-09-23&r=1
+[2013-09-23 17:19:05] jackfan: 这里是　ＲＥＳＵＬＴ,　　ＤＩＶＩＤＥＮＤ
+[2013-09-23 17:19:28] jackfan: http://autorace.jp/netstadium/ns/Odds/Exacta_Trifecta/?p=5　
+这里是　ＯＤＤＳ　
+[2013-09-24 17:22:30] jackfan: http://autorace.jp/new_netstadium/ns/Program/Display/?p=5&d=2013-09-24&r=2
+请注意　ＰＲＥ　从这个页面里取
+[2013-09-24 17:30:31] jackfan: 这里有　ＷＥＡＴＨＥＲ　Race conditions 之类的数据。。其它页面没有

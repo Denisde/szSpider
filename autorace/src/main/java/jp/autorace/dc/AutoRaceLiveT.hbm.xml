@@ -1,0 +1,202 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2015-10-13 3:28:12 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="jp.autorace.dc.AutoRaceLiveT" table="AutoRace_LiveT" schema="dbo" catalog="JPMotorDB">
+        <composite-id name="id" class="jp.autorace.dc.AutoRaceLiveTId">
+            <key-property name="raceId" type="long">
+                <column name="RaceID" />
+            </key-property>
+            <key-property name="timeStamp" type="timestamp">
+                <column name="TimeStamp" length="23" />
+            </key-property>
+        </composite-id>
+        <property name="isFinal" type="java.lang.Boolean">
+            <column name="IsFinal" />
+        </property>
+        <property name="h123" type="big_decimal">
+            <column name="H1_2_3" precision="9" />
+        </property>
+        <property name="h124" type="big_decimal">
+            <column name="H1_2_4" precision="9" />
+        </property>
+        <property name="h125" type="big_decimal">
+            <column name="H1_2_5" precision="9" />
+        </property>
+        <property name="h126" type="big_decimal">
+            <column name="H1_2_6" precision="9" />
+        </property>
+        <property name="h127" type="big_decimal">
+            <column name="H1_2_7" precision="9" />
+        </property>
+        <property name="h128" type="big_decimal">
+            <column name="H1_2_8" precision="9" />
+        </property>
+        <property name="h134" type="big_decimal">
+            <column name="H1_3_4" precision="9" />
+        </property>
+        <property name="h135" type="big_decimal">
+            <column name="H1_3_5" precision="9" />
+        </property>
+        <property name="h136" type="big_decimal">
+            <column name="H1_3_6" precision="9" />
+        </property>
+        <property name="h137" type="big_decimal">
+            <column name="H1_3_7" precision="9" />
+        </property>
+        <property name="h138" type="big_decimal">
+            <column name="H1_3_8" precision="9" />
+        </property>
+        <property name="h145" type="big_decimal">
+            <column name="H1_4_5" precision="9" />
+        </property>
+        <property name="h146" type="big_decimal">
+            <column name="H1_4_6" precision="9" />
+        </property>
+        <property name="h147" type="big_decimal">
+            <column name="H1_4_7" precision="9" />
+        </property>
+        <property name="h148" type="big_decimal">
+            <column name="H1_4_8" precision="9" />
+        </property>
+        <property name="h156" type="big_decimal">
+            <column name="H1_5_6" precision="9" />
+        </property>
+        <property name="h157" type="big_decimal">
+            <column name="H1_5_7" precision="9" />
+        </property>
+        <property name="h158" type="big_decimal">
+            <column name="H1_5_8" precision="9" />
+        </property>
+        <property name="h167" type="big_decimal">
+            <column name="H1_6_7" precision="9" />
+        </property>
+        <property name="h168" type="big_decimal">
+            <column name="H1_6_8" precision="9" />
+        </property>
+        <property name="h178" type="big_decimal">
+            <column name="H1_7_8" precision="9" />
+        </property>
+        <property name="h234" type="big_decimal">
+            <column name="H2_3_4" precision="9" />
+        </property>
+        <property name="h235" type="big_decimal">
+            <column name="H2_3_5" precision="9" />
+        </property>
+        <property name="h236" type="big_decimal">
+            <column name="H2_3_6" precision="9" />
+        </property>
+        <property name="h237" type="big_decimal">
+            <column name="H2_3_7" precision="9" />
+        </property>
+        <property name="h238" type="big_decimal">
+            <column name="H2_3_8" precision="9" />
+        </property>
+        <property name="h245" type="big_decimal">
+            <column name="H2_4_5" precision="9" />
+        </property>
+        <property name="h246" type="big_decimal">
+            <column name="H2_4_6" precision="9" />
+        </property>
+        <property name="h247" type="big_decimal">
+            <column name="H2_4_7" precision="9" />
+        </property>
+        <property name="h248" type="big_decimal">
+            <column name="H2_4_8" precision="9" />
+        </property>
+        <property name="h256" type="big_decimal">
+            <column name="H2_5_6" precision="9" />
+        </property>
+        <property name="h257" type="big_decimal">
+            <column name="H2_5_7" precision="9" />
+        </property>
+        <property name="h258" type="big_decimal">
+            <column name="H2_5_8" precision="9" />
+        </property>
+        <property name="h267" type="big_decimal">
+            <column name="H2_6_7" precision="9" />
+        </property>
+        <property name="h268" type="big_decimal">
+            <column name="H2_6_8" precision="9" />
+        </property>
+        <property name="h278" type="big_decimal">
+            <column name="H2_7_8" precision="9" />
+        </property>
+        <property name="h345" type="big_decimal">
+            <column name="H3_4_5" precision="9" />
+        </property>
+        <property name="h346" type="big_decimal">
+            <column name="H3_4_6" precision="9" />
+        </property>
+        <property name="h347" type="big_decimal">
+            <column name="H3_4_7" precision="9" />
+        </property>
+        <property name="h348" type="big_decimal">
+            <column name="H3_4_8" precision="9" />
+        </property>
+        <property name="h356" type="big_decimal">
+            <column name="H3_5_6" precision="9" />
+        </property>
+        <property name="h357" type="big_decimal">
+            <column name="H3_5_7" precision="9" />
+        </property>
+        <property name="h358" type="big_decimal">
+            <column name="H3_5_8" precision="9" />
+        </property>
+        <property name="h367" type="big_decimal">
+            <column name="H3_6_7" precision="9" />
+        </property>
+        <property name="h368" type="big_decimal">
+            <column name="H3_6_8" precision="9" />
+        </property>
+        <property name="h378" type="big_decimal">
+            <column name="H3_7_8" precision="9" />
+        </property>
+        <property name="h456" type="big_decimal">
+            <column name="H4_5_6" precision="9" />
+        </property>
+        <property name="h457" type="big_decimal">
+            <column name="H4_5_7" precision="9" />
+        </property>
+        <property name="h458" type="big_decimal">
+            <column name="H4_5_8" precision="9" />
+        </property>
+        <property name="h467" type="big_decimal">
+            <column name="H4_6_7" precision="9" />
+        </property>
+        <property name="h468" type="big_decimal">
+            <column name="H4_6_8" precision="9" />
+        </property>
+        <property name="h478" type="big_decimal">
+            <column name="H4_7_8" precision="9" />
+        </property>
+        <property name="h567" type="big_decimal">
+            <column name="H5_6_7" precision="9" />
+        </property>
+        <property name="h568" type="big_decimal">
+            <column name="H5_6_8" precision="9" />
+        </property>
+        <property name="h578" type="big_decimal">
+            <column name="H5_7_8" precision="9" />
+        </property>
+        <property name="h678" type="big_decimal">
+            <column name="H6_7_8" precision="9" />
+        </property>
+        <property name="extractTime" type="timestamp">
+            <column name="ExtractTime" length="23" />
+        </property>
+        <property name="corruptedOdds" type="java.lang.Boolean">
+            <column name="CorruptedOdds" />
+        </property>
+        <property name="sales" type="java.lang.Integer">
+            <column name="Sales" />
+        </property>
+        <property name="returnSales" type="java.lang.Integer">
+            <column name="ReturnSales" />
+        </property>
+        <property name="netsales" type="java.lang.Integer">
+            <column name="Netsales" />
+        </property>
+    </class>
+</hibernate-mapping>

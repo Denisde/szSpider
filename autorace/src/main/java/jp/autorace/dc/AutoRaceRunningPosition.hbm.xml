@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2015-10-13 3:28:12 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="jp.autorace.dc.AutoRaceRunningPosition" table="AutoRace_RunningPosition" schema="dbo" catalog="JPMotorDB">
+        <composite-id name="id" class="jp.autorace.dc.AutoRaceRunningPositionId">
+            <key-property name="raceid" type="long">
+                <column name="raceid" />
+            </key-property>
+            <key-property name="clothno" type="byte">
+                <column name="Clothno" />
+            </key-property>
+        </composite-id>
+        <property name="racedate" type="timestamp">
+            <column name="Racedate" length="16" />
+        </property>
+        <property name="pos1" type="java.lang.Byte">
+            <column name="Pos1" />
+        </property>
+        <property name="pos2" type="java.lang.Byte">
+            <column name="Pos2" />
+        </property>
+        <property name="pos3" type="java.lang.Byte">
+            <column name="Pos3" />
+        </property>
+        <property name="pos4" type="java.lang.Byte">
+            <column name="Pos4" />
+        </property>
+        <property name="pos5" type="java.lang.Byte">
+            <column name="Pos5" />
+        </property>
+        <property name="pos6" type="java.lang.Byte">
+            <column name="Pos6" />
+        </property>
+        <property name="pos7" type="java.lang.Byte">
+            <column name="Pos7" />
+        </property>
+        <property name="pos8" type="java.lang.Byte">
+            <column name="Pos8" />
+        </property>
+        <property name="pos9" type="java.lang.Byte">
+            <column name="Pos9" />
+        </property>
+        <property name="pos10" type="java.lang.Byte">
+            <column name="Pos10" />
+        </property>
+        <property name="finalPos" type="java.lang.Byte">
+            <column name="FinalPos" />
+        </property>
+    </class>
+</hibernate-mapping>

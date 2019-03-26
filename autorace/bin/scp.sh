@@ -1,0 +1,1 @@
+scp xxx.jar szspider@192.168.120.218:/home/szspider/xxx

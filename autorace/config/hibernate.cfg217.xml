@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+    	<property name="hibernate.connection.url">jdbc:jtds:sqlserver://localhost:1433/JPMotorDB</property>
+        <property name="hibernate.cglib.use_reflection_optimizer">true</property>
+        <property name="hibernate.connection.username">spider</property>
+        <property name="hibernate.connection.password">83862909</property>
+        <property name="hibernate.connection.driver_class">net.sourceforge.jtds.jdbc.Driver</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</property>
+        <property name="hibernate.show_sql">false</property>     
+        <mapping resource="jp/autorace/dc/AutoRaceLiveE.hbm.xml" />
+        <mapping resource="jp/autorace/dc/AutoRaceLiveTi.hbm.xml" />
+        <mapping resource="jp/autorace/dc/AutoRaceLiveT.hbm.xml" />
+        <mapping resource="jp/autorace/dc/AutoRacePostRaceRace.hbm.xml" />
+        <mapping resource="jp/autorace/dc/AutoRacePreRacePlayer.hbm.xml" />
+        <mapping resource="jp/autorace/dc/AutoRacePostRacePlayer.hbm.xml" />
+        <mapping resource="jp/autorace/dc/AutoRaceLiveQ.hbm.xml" />
+        <mapping resource="jp/autorace/dc/CodeTrack.hbm.xml" />
+        <mapping resource="jp/autorace/dc/AutoRaceDividend.hbm.xml" />
+        <mapping resource="jp/autorace/dc/CodeBetType.hbm.xml" />
+        <mapping resource="jp/autorace/dc/CodePlayer.hbm.xml" />
+        <mapping resource="jp/autorace/dc/AutoRacePreRaceRace.hbm.xml" />
+        <mapping resource="jp/autorace/dc/AutoRaceLiveQw.hbm.xml" />
+    </session-factory>
+</hibernate-configuration>

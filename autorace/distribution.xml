@@ -1,0 +1,37 @@
+<assembly>
+    <id>distribution</id>
+    <formats>
+        <format>zip</format>
+    </formats>
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <fileSets>
+        <fileSet>
+            <directory>config</directory>
+            <includes>
+                <include>*.*</include>
+            </includes>
+            <outputDirectory>/config</outputDirectory>
+        </fileSet>
+        <fileSet>
+            <directory>bin</directory>
+            <includes>
+                <include>*.*</include>
+            </includes>
+            <outputDirectory>/bin</outputDirectory>
+        </fileSet>
+        <fileSet>
+            <directory>target/dependency</directory>
+            <includes>
+                <include>*.jar</include>
+            </includes>
+            <outputDirectory>/dependency</outputDirectory>
+        </fileSet>
+        <fileSet>
+            <directory>target</directory>
+            <includes>
+                <include>*.jar</include>
+            </includes>
+            <outputDirectory>/</outputDirectory>
+        </fileSet>
+    </fileSets>
+</assembly>

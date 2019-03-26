@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2015-10-13 3:28:12 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="jp.autorace.dc.AutoRaceFinalQw" table="AutoRace_FinalQW" schema="dbo" catalog="JPMotorDB">
+        <id name="raceid" type="long">
+            <column name="raceid" />
+            <generator class="assigned" />
+        </id>
+        <property name="qwmin12" type="big_decimal">
+            <column name="qwmin1_2" precision="9" />
+        </property>
+        <property name="qwmax12" type="big_decimal">
+            <column name="qwmax1_2" precision="9" />
+        </property>
+        <property name="qwmin13" type="big_decimal">
+            <column name="qwmin1_3" precision="9" />
+        </property>
+        <property name="qwmax13" type="big_decimal">
+            <column name="qwmax1_3" precision="9" />
+        </property>
+        <property name="qwmin14" type="big_decimal">
+            <column name="qwmin1_4" precision="9" />
+        </property>
+        <property name="qwmax14" type="big_decimal">
+            <column name="qwmax1_4" precision="9" />
+        </property>
+        <property name="qwmin15" type="big_decimal">
+            <column name="qwmin1_5" precision="9" />
+        </property>
+        <property name="qwmax15" type="big_decimal">
+            <column name="qwmax1_5" precision="9" />
+        </property>
+        <property name="qwmin16" type="big_decimal">
+            <column name="qwmin1_6" precision="9" />
+        </property>
+        <property name="qwmax16" type="big_decimal">
+            <column name="qwmax1_6" precision="9" />
+        </property>
+        <property name="qwmin17" type="big_decimal">
+            <column name="qwmin1_7" precision="9" />
+        </property>
+        <property name="qwmax17" type="big_decimal">
+            <column name="qwmax1_7" precision="9" />
+        </property>
+        <property name="qwmin18" type="big_decimal">
+            <column name="qwmin1_8" precision="9" />
+        </property>
+        <property name="qwmax18" type="big_decimal">
+            <column name="qwmax1_8" precision="9" />
+        </property>
+        <property name="qwmin23" type="big_decimal">
+            <column name="qwmin2_3" precision="9" />
+        </property>
+        <property name="qwmax23" type="big_decimal">
+            <column name="qwmax2_3" precision="9" />
+        </property>
+        <property name="qwmin24" type="big_decimal">
+            <column name="qwmin2_4" precision="9" />
+        </property>
+        <property name="qwmax24" type="big_decimal">
+            <column name="qwmax2_4" precision="9" />
+        </property>
+        <property name="qwmin25" type="big_decimal">
+            <column name="qwmin2_5" precision="9" />
+        </property>
+        <property name="qwmax25" type="big_decimal">
+            <column name="qwmax2_5" precision="9" />
+        </property>
+        <property name="qwmin26" type="big_decimal">
+            <column name="qwmin2_6" precision="9" />
+        </property>
+        <property name="qwmax26" type="big_decimal">
+            <column name="qwmax2_6" precision="9" />
+        </property>
+        <property name="qwmin27" type="big_decimal">
+            <column name="qwmin2_7" precision="9" />
+        </property>
+        <property name="qwmax27" type="big_decimal">
+            <column name="qwmax2_7" precision="9" />
+        </property>
+        <property name="qwmin28" type="big_decimal">
+            <column name="qwmin2_8" precision="9" />
+        </property>
+        <property name="qwmax28" type="big_decimal">
+            <column name="qwmax2_8" precision="9" />
+        </property>
+        <property name="qwmin34" type="big_decimal">
+            <column name="qwmin3_4" precision="9" />
+        </property>
+        <property name="qwmax34" type="big_decimal">
+            <column name="qwmax3_4" precision="9" />
+        </property>
+        <property name="qwmin35" type="big_decimal">
+            <column name="qwmin3_5" precision="9" />
+        </property>
+        <property name="qwmax35" type="big_decimal">
+            <column name="qwmax3_5" precision="9" />
+        </property>
+        <property name="qwmin36" type="big_decimal">
+            <column name="qwmin3_6" precision="9" />
+        </property>
+        <property name="qwmax36" type="big_decimal">
+            <column name="qwmax3_6" precision="9" />
+        </property>
+        <property name="qwmin37" type="big_decimal">
+            <column name="qwmin3_7" precision="9" />
+        </property>
+        <property name="qwmax37" type="big_decimal">
+            <column name="qwmax3_7" precision="9" />
+        </property>
+        <property name="qwmin38" type="big_decimal">
+            <column name="qwmin3_8" precision="9" />
+        </property>
+        <property name="qwmax38" type="big_decimal">
+            <column name="qwmax3_8" precision="9" />
+        </property>
+        <property name="qwmin45" type="big_decimal">
+            <column name="qwmin4_5" precision="9" />
+        </property>
+        <property name="qwmax45" type="big_decimal">
+            <column name="qwmax4_5" precision="9" />
+        </property>
+        <property name="qwmin46" type="big_decimal">
+            <column name="qwmin4_6" precision="9" />
+        </property>
+        <property name="qwmax46" type="big_decimal">
+            <column name="qwmax4_6" precision="9" />
+        </property>
+        <property name="qwmin47" type="big_decimal">
+            <column name="qwmin4_7" precision="9" />
+        </property>
+        <property name="qwmax47" type="big_decimal">
+            <column name="qwmax4_7" precision="9" />
+        </property>
+        <property name="qwmin48" type="big_decimal">
+            <column name="qwmin4_8" precision="9" />
+        </property>
+        <property name="qwmax48" type="big_decimal">
+            <column name="qwmax4_8" precision="9" />
+        </property>
+        <property name="qwmin56" type="big_decimal">
+            <column name="qwmin5_6" precision="9" />
+        </property>
+        <property name="qwmax56" type="big_decimal">
+            <column name="qwmax5_6" precision="9" />
+        </property>
+        <property name="qwmin57" type="big_decimal">
+            <column name="qwmin5_7" precision="9" />
+        </property>
+        <property name="qwmax57" type="big_decimal">
+            <column name="qwmax5_7" precision="9" />
+        </property>
+        <property name="qwmin58" type="big_decimal">
+            <column name="qwmin5_8" precision="9" />
+        </property>
+        <property name="qwmax58" type="big_decimal">
+            <column name="qwmax5_8" precision="9" />
+        </property>
+        <property name="qwmin67" type="big_decimal">
+            <column name="qwmin6_7" precision="9" />
+        </property>
+        <property name="qwmax67" type="big_decimal">
+            <column name="qwmax6_7" precision="9" />
+        </property>
+        <property name="qwmin68" type="big_decimal">
+            <column name="qwmin6_8" precision="9" />
+        </property>
+        <property name="qwmax68" type="big_decimal">
+            <column name="qwmax6_8" precision="9" />
+        </property>
+        <property name="qwmin78" type="big_decimal">
+            <column name="qwmin7_8" precision="9" />
+        </property>
+        <property name="qwmax78" type="big_decimal">
+            <column name="qwmax7_8" precision="9" />
+        </property>
+        <property name="extractTime" type="timestamp">
+            <column name="ExtractTime" length="23" />
+        </property>
+        <property name="corruptedOdds" type="java.lang.Boolean">
+            <column name="CorruptedOdds" />
+        </property>
+        <property name="sales" type="java.lang.Integer">
+            <column name="Sales" />
+        </property>
+        <property name="returnSales" type="java.lang.Integer">
+            <column name="ReturnSales" />
+        </property>
+        <property name="netSales" type="java.lang.Integer">
+            <column name="NetSales" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2015-10-13 3:28:12 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="jp.autorace.dc.AutoRaceFinalQ" table="AutoRace_FinalQ" schema="dbo" catalog="JPMotorDB">
+        <id name="raceid" type="long">
+            <column name="raceid" />
+            <generator class="assigned" />
+        </id>
+        <property name="q12" type="big_decimal">
+            <column name="q1_2" precision="9" />
+        </property>
+        <property name="q13" type="big_decimal">
+            <column name="q1_3" precision="9" />
+        </property>
+        <property name="q14" type="big_decimal">
+            <column name="q1_4" precision="9" />
+        </property>
+        <property name="q15" type="big_decimal">
+            <column name="q1_5" precision="9" />
+        </property>
+        <property name="q16" type="big_decimal">
+            <column name="q1_6" precision="9" />
+        </property>
+        <property name="q17" type="big_decimal">
+            <column name="q1_7" precision="9" />
+        </property>
+        <property name="q18" type="big_decimal">
+            <column name="q1_8" precision="9" />
+        </property>
+        <property name="q23" type="big_decimal">
+            <column name="q2_3" precision="9" />
+        </property>
+        <property name="q24" type="big_decimal">
+            <column name="q2_4" precision="9" />
+        </property>
+        <property name="q25" type="big_decimal">
+            <column name="q2_5" precision="9" />
+        </property>
+        <property name="q26" type="big_decimal">
+            <column name="q2_6" precision="9" />
+        </property>
+        <property name="q27" type="big_decimal">
+            <column name="q2_7" precision="9" />
+        </property>
+        <property name="q28" type="big_decimal">
+            <column name="q2_8" precision="9" />
+        </property>
+        <property name="q34" type="big_decimal">
+            <column name="q3_4" precision="9" />
+        </property>
+        <property name="q35" type="big_decimal">
+            <column name="q3_5" precision="9" />
+        </property>
+        <property name="q36" type="big_decimal">
+            <column name="q3_6" precision="9" />
+        </property>
+        <property name="q37" type="big_decimal">
+            <column name="q3_7" precision="9" />
+        </property>
+        <property name="q38" type="big_decimal">
+            <column name="q3_8" precision="9" />
+        </property>
+        <property name="q45" type="big_decimal">
+            <column name="q4_5" precision="9" />
+        </property>
+        <property name="q46" type="big_decimal">
+            <column name="q4_6" precision="9" />
+        </property>
+        <property name="q47" type="big_decimal">
+            <column name="q4_7" precision="9" />
+        </property>
+        <property name="q48" type="big_decimal">
+            <column name="q4_8" precision="9" />
+        </property>
+        <property name="q56" type="big_decimal">
+            <column name="q5_6" precision="9" />
+        </property>
+        <property name="q57" type="big_decimal">
+            <column name="q5_7" precision="9" />
+        </property>
+        <property name="q58" type="big_decimal">
+            <column name="q5_8" precision="9" />
+        </property>
+        <property name="q67" type="big_decimal">
+            <column name="q6_7" precision="9" />
+        </property>
+        <property name="q68" type="big_decimal">
+            <column name="q6_8" precision="9" />
+        </property>
+        <property name="q78" type="big_decimal">
+            <column name="q7_8" precision="9" />
+        </property>
+        <property name="extractTime" type="timestamp">
+            <column name="ExtractTime" length="23" />
+        </property>
+        <property name="corruptedOdds" type="java.lang.Boolean">
+            <column name="CorruptedOdds" />
+        </property>
+        <property name="sales" type="java.lang.Integer">
+            <column name="Sales" />
+        </property>
+        <property name="returnSales" type="java.lang.Integer">
+            <column name="ReturnSales" />
+        </property>
+        <property name="netSales" type="java.lang.Integer">
+            <column name="NetSales" />
+        </property>
+    </class>
+</hibernate-mapping>
