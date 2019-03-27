@@ -1,0 +1,202 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2015-10-13 3:28:12 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="jp.autorace.dc.AutoRaceLiveE" table="AutoRace_LiveE" schema="dbo" catalog="JPMotorDB">
+        <composite-id name="id" class="jp.autorace.dc.AutoRaceLiveEId">
+            <key-property name="raceid" type="long">
+                <column name="raceid" />
+            </key-property>
+            <key-property name="timeStamp" type="timestamp">
+                <column name="TimeStamp" length="23" />
+            </key-property>
+        </composite-id>
+        <property name="isFinal" type="java.lang.Boolean">
+            <column name="IsFinal" />
+        </property>
+        <property name="e12" type="big_decimal">
+            <column name="e1_2" precision="9" />
+        </property>
+        <property name="e13" type="big_decimal">
+            <column name="e1_3" precision="9" />
+        </property>
+        <property name="e14" type="big_decimal">
+            <column name="e1_4" precision="9" />
+        </property>
+        <property name="e15" type="big_decimal">
+            <column name="e1_5" precision="9" />
+        </property>
+        <property name="e16" type="big_decimal">
+            <column name="e1_6" precision="9" />
+        </property>
+        <property name="e17" type="big_decimal">
+            <column name="e1_7" precision="9" />
+        </property>
+        <property name="e18" type="big_decimal">
+            <column name="e1_8" precision="9" />
+        </property>
+        <property name="e21" type="big_decimal">
+            <column name="e2_1" precision="9" />
+        </property>
+        <property name="e23" type="big_decimal">
+            <column name="e2_3" precision="9" />
+        </property>
+        <property name="e24" type="big_decimal">
+            <column name="e2_4" precision="9" />
+        </property>
+        <property name="e25" type="big_decimal">
+            <column name="e2_5" precision="9" />
+        </property>
+        <property name="e26" type="big_decimal">
+            <column name="e2_6" precision="9" />
+        </property>
+        <property name="e27" type="big_decimal">
+            <column name="e2_7" precision="9" />
+        </property>
+        <property name="e28" type="big_decimal">
+            <column name="e2_8" precision="9" />
+        </property>
+        <property name="e31" type="big_decimal">
+            <column name="e3_1" precision="9" />
+        </property>
+        <property name="e32" type="big_decimal">
+            <column name="e3_2" precision="9" />
+        </property>
+        <property name="e34" type="big_decimal">
+            <column name="e3_4" precision="9" />
+        </property>
+        <property name="e35" type="big_decimal">
+            <column name="e3_5" precision="9" />
+        </property>
+        <property name="e36" type="big_decimal">
+            <column name="e3_6" precision="9" />
+        </property>
+        <property name="e37" type="big_decimal">
+            <column name="e3_7" precision="9" />
+        </property>
+        <property name="e38" type="big_decimal">
+            <column name="e3_8" precision="9" />
+        </property>
+        <property name="e41" type="big_decimal">
+            <column name="e4_1" precision="9" />
+        </property>
+        <property name="e42" type="big_decimal">
+            <column name="e4_2" precision="9" />
+        </property>
+        <property name="e43" type="big_decimal">
+            <column name="e4_3" precision="9" />
+        </property>
+        <property name="e45" type="big_decimal">
+            <column name="e4_5" precision="9" />
+        </property>
+        <property name="e46" type="big_decimal">
+            <column name="e4_6" precision="9" />
+        </property>
+        <property name="e47" type="big_decimal">
+            <column name="e4_7" precision="9" />
+        </property>
+        <property name="e48" type="big_decimal">
+            <column name="e4_8" precision="9" />
+        </property>
+        <property name="e51" type="big_decimal">
+            <column name="e5_1" precision="9" />
+        </property>
+        <property name="e52" type="big_decimal">
+            <column name="e5_2" precision="9" />
+        </property>
+        <property name="e53" type="big_decimal">
+            <column name="e5_3" precision="9" />
+        </property>
+        <property name="e54" type="big_decimal">
+            <column name="e5_4" precision="9" />
+        </property>
+        <property name="e56" type="big_decimal">
+            <column name="e5_6" precision="9" />
+        </property>
+        <property name="e57" type="big_decimal">
+            <column name="e5_7" precision="9" />
+        </property>
+        <property name="e58" type="big_decimal">
+            <column name="e5_8" precision="9" />
+        </property>
+        <property name="e61" type="big_decimal">
+            <column name="e6_1" precision="9" />
+        </property>
+        <property name="e62" type="big_decimal">
+            <column name="e6_2" precision="9" />
+        </property>
+        <property name="e63" type="big_decimal">
+            <column name="e6_3" precision="9" />
+        </property>
+        <property name="e64" type="big_decimal">
+            <column name="e6_4" precision="9" />
+        </property>
+        <property name="e65" type="big_decimal">
+            <column name="e6_5" precision="9" />
+        </property>
+        <property name="e67" type="big_decimal">
+            <column name="e6_7" precision="9" />
+        </property>
+        <property name="e68" type="big_decimal">
+            <column name="e6_8" precision="9" />
+        </property>
+        <property name="e71" type="big_decimal">
+            <column name="e7_1" precision="9" />
+        </property>
+        <property name="e72" type="big_decimal">
+            <column name="e7_2" precision="9" />
+        </property>
+        <property name="e73" type="big_decimal">
+            <column name="e7_3" precision="9" />
+        </property>
+        <property name="e74" type="big_decimal">
+            <column name="e7_4" precision="9" />
+        </property>
+        <property name="e75" type="big_decimal">
+            <column name="e7_5" precision="9" />
+        </property>
+        <property name="e76" type="big_decimal">
+            <column name="e7_6" precision="9" />
+        </property>
+        <property name="e78" type="big_decimal">
+            <column name="e7_8" precision="9" />
+        </property>
+        <property name="e81" type="big_decimal">
+            <column name="e8_1" precision="9" />
+        </property>
+        <property name="e82" type="big_decimal">
+            <column name="e8_2" precision="9" />
+        </property>
+        <property name="e83" type="big_decimal">
+            <column name="e8_3" precision="9" />
+        </property>
+        <property name="e84" type="big_decimal">
+            <column name="e8_4" precision="9" />
+        </property>
+        <property name="e85" type="big_decimal">
+            <column name="e8_5" precision="9" />
+        </property>
+        <property name="e86" type="big_decimal">
+            <column name="e8_6" precision="9" />
+        </property>
+        <property name="e87" type="big_decimal">
+            <column name="e8_7" precision="9" />
+        </property>
+        <property name="extractTime" type="timestamp">
+            <column name="ExtractTime" length="23" />
+        </property>
+        <property name="corruptedOdds" type="java.lang.Boolean">
+            <column name="CorruptedOdds" />
+        </property>
+        <property name="sales" type="java.lang.Integer">
+            <column name="Sales" />
+        </property>
+        <property name="returnSales" type="java.lang.Integer">
+            <column name="ReturnSales" />
+        </property>
+        <property name="netsales" type="java.lang.Integer">
+            <column name="Netsales" />
+        </property>
+    </class>
+</hibernate-mapping>

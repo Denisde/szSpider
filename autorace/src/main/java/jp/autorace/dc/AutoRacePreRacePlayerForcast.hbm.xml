@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2015-10-17 10:47:54 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="jp.autorace.dc.AutoRacePreRacePlayerForcast" table="AutoRace_PreRace_Player_Forecast" schema="dbo" catalog="JPMotorDB">
+        <composite-id name="id" class="jp.autorace.dc.AutoRacePreRacePlayerForcastId">
+            <key-property name="raceId" type="long">
+                <column name="RaceID" />
+            </key-property>
+            <key-property name="playerId" type="int">
+                <column name="PlayerID" />
+            </key-property>
+        </composite-id>
+        <property name="uraceId" type="java.lang.Long">
+            <column name="URaceID" />
+        </property>
+        <property name="clothNo" type="java.lang.Byte">
+            <column name="ClothNo" />
+        </property>
+        <property name="forcastVisual" type="string">
+            <column name="Forcast_Visual" length="100" />
+        </property>
+        <property name="forcastFine" type="string">
+            <column name="Forcast_Fine" length="50" />
+        </property>
+        <property name="forcastRain" type="string">
+            <column name="Forcast_Rain" length="50" />
+        </property>
+        <property name="forcastStrength" type="string">
+            <column name="Forcast_Strength" length="50" />
+        </property>
+        <property name="extractTime" type="timestamp">
+            <column name="ExtractTime" length="23" />
+        </property>
+    </class>
+</hibernate-mapping>

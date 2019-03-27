@@ -1,0 +1,529 @@
+[INFO] 2019-01-03 10:39:34,866 [jp.autorace.App.<init>(App.java:322)]
+192.168.60.88
+[INFO] 2019-01-03 10:39:34,974 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/funabashi/2019-01-03
+[INFO] 2019-01-03 10:39:35,855 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=200
+[INFO] 2019-01-03 10:39:35,983 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03
+[INFO] 2019-01-03 10:39:36,496 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=200
+[INFO] 2019-01-03 10:39:37,413 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_01
+[INFO] 2019-01-03 10:39:37,739 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:39:37,757 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_02
+[INFO] 2019-01-03 10:39:38,388 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:39:38,389 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_03
+[INFO] 2019-01-03 10:39:38,773 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:39:38,774 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_04
+[INFO] 2019-01-03 10:39:39,209 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:39:39,209 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_05
+[INFO] 2019-01-03 10:39:39,450 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:39:39,644 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_06
+[INFO] 2019-01-03 10:39:40,044 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:39:40,045 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_07
+[INFO] 2019-01-03 10:39:40,317 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:39:40,318 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_08
+[INFO] 2019-01-03 10:39:40,756 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:39:40,757 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_09
+[INFO] 2019-01-03 10:39:41,076 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:39:41,076 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_10
+[INFO] 2019-01-03 10:39:41,462 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=200
+[INFO] 2019-01-03 10:39:42,764 [poseidon.db.DBSession.ConnectTest(DBSession.java:251)]
+driver=net.sourceforge.jtds.jdbc.Driver | url=jdbc:jtds:sqlserver://192.168.120.113:1433/JPMotorDB | user=spider | password=83862909
+[WARN] 2019-01-03 10:39:44,891 [net.sf.ehcache.config.Configurator.configure(Configurator.java:126)]
+No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: jar:file:/G:/workspace/autorace/lib/ehcache-1.1.jar!/ehcache-failsafe.xml
+[INFO] 2019-01-03 10:40:12,395 [jp.autorace.App.<init>(App.java:322)]
+192.168.60.88
+[INFO] 2019-01-03 10:40:12,433 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/funabashi/2019-01-03
+[INFO] 2019-01-03 10:40:12,911 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=200
+[INFO] 2019-01-03 10:40:13,027 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03
+[INFO] 2019-01-03 10:40:13,931 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=200
+[INFO] 2019-01-03 10:40:15,697 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_01
+[INFO] 2019-01-03 10:40:15,960 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:40:15,963 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_02
+[INFO] 2019-01-03 10:40:16,350 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:40:16,351 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_03
+[INFO] 2019-01-03 10:40:16,612 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:40:16,613 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_04
+[INFO] 2019-01-03 10:40:17,055 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:40:17,056 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_05
+[INFO] 2019-01-03 10:40:17,335 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:40:17,336 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_06
+[INFO] 2019-01-03 10:40:17,977 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:40:17,978 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_07
+[INFO] 2019-01-03 10:40:18,430 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:40:18,431 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_08
+[INFO] 2019-01-03 10:40:18,681 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:40:18,874 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_09
+[INFO] 2019-01-03 10:40:28,216 [jp.autorace.App.<init>(App.java:322)]
+192.168.60.88
+[INFO] 2019-01-03 10:40:28,249 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/funabashi/2019-01-03
+[INFO] 2019-01-03 10:40:28,607 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=200
+[INFO] 2019-01-03 10:40:28,722 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03
+[INFO] 2019-01-03 10:40:29,314 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=200
+[INFO] 2019-01-03 10:40:31,005 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_01
+[INFO] 2019-01-03 10:44:56,496 [jp.autorace.App.<init>(App.java:322)]
+192.168.60.88
+[INFO] 2019-01-03 10:44:56,528 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/funabashi/2019-01-03
+[INFO] 2019-01-03 10:44:57,004 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=200
+[INFO] 2019-01-03 10:44:57,120 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03
+[INFO] 2019-01-03 10:44:57,985 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=200
+[INFO] 2019-01-03 10:45:01,703 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_01
+[INFO] 2019-01-03 10:45:02,088 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:45:02,091 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_02
+[INFO] 2019-01-03 10:45:02,534 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:45:02,535 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_03
+[INFO] 2019-01-03 10:45:02,808 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:45:02,809 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_04
+[INFO] 2019-01-03 10:45:03,268 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:45:03,269 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_05
+[INFO] 2019-01-03 10:45:03,536 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:45:03,729 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_06
+[INFO] 2019-01-03 10:45:04,111 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:45:04,112 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_07
+[INFO] 2019-01-03 10:45:04,384 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:45:04,385 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_08
+[INFO] 2019-01-03 10:45:05,173 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:45:05,174 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_09
+[INFO] 2019-01-03 10:45:05,612 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:45:05,613 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_10
+[INFO] 2019-01-03 10:45:06,212 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=200
+[INFO] 2019-01-03 10:45:07,059 [poseidon.db.DBSession.ConnectTest(DBSession.java:251)]
+driver=net.sourceforge.jtds.jdbc.Driver | url=jdbc:jtds:sqlserver://192.168.120.113:1433/JPMotorDB | user=spider | password=83862909
+[WARN] 2019-01-03 10:45:07,855 [net.sf.ehcache.config.Configurator.configure(Configurator.java:126)]
+No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: jar:file:/G:/workspace/autorace/lib/ehcache-1.1.jar!/ehcache-failsafe.xml
+[INFO] 2019-01-03 10:45:10,104 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_11
+[INFO] 2019-01-03 10:45:10,707 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=200
+[INFO] 2019-01-03 10:45:12,311 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_12
+[INFO] 2019-01-03 10:45:12,966 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=200
+[INFO] 2019-01-03 10:45:14,775 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/isesaki/2019-01-03
+[INFO] 2019-01-03 10:45:15,463 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=200
+[INFO] 2019-01-03 10:45:15,660 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/hamamatsu/2019-01-03
+[INFO] 2019-01-03 10:45:16,438 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=200
+[INFO] 2019-01-03 10:45:17,529 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/hamamatsu/2019-01-03_01
+[INFO] 2019-01-03 10:45:18,370 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:45:18,371 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/hamamatsu/2019-01-03_02
+[INFO] 2019-01-03 10:45:18,786 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:45:18,786 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/hamamatsu/2019-01-03_03
+[INFO] 2019-01-03 10:45:19,242 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:45:19,242 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/hamamatsu/2019-01-03_04
+[INFO] 2019-01-03 10:45:19,494 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:45:19,687 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/hamamatsu/2019-01-03_05
+[INFO] 2019-01-03 10:45:20,221 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:45:20,222 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/hamamatsu/2019-01-03_06
+[INFO] 2019-01-03 10:45:20,536 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:45:20,537 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/hamamatsu/2019-01-03_07
+[INFO] 2019-01-03 10:45:20,723 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:45:20,854 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/hamamatsu/2019-01-03_08
+[INFO] 2019-01-03 10:45:21,233 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:45:21,234 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/hamamatsu/2019-01-03_09
+[INFO] 2019-01-03 10:45:21,887 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:45:21,888 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/hamamatsu/2019-01-03_10
+[INFO] 2019-01-03 10:45:27,175 [jp.autorace.App.<init>(App.java:322)]
+192.168.60.88
+[INFO] 2019-01-03 10:45:44,997 [jp.autorace.App.<init>(App.java:322)]
+192.168.60.88
+[INFO] 2019-01-03 10:45:45,042 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/funabashi/2019-01-02
+[INFO] 2019-01-03 10:45:45,768 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=200
+[INFO] 2019-01-03 10:45:45,969 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-02
+[INFO] 2019-01-03 10:45:46,617 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=200
+[INFO] 2019-01-03 10:45:48,468 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-02_01
+[INFO] 2019-01-03 10:45:48,912 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:45:48,915 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-02_02
+[INFO] 2019-01-03 10:45:49,167 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:45:49,359 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-02_03
+[INFO] 2019-01-03 10:45:49,806 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:45:49,807 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-02_04
+[INFO] 2019-01-03 10:45:50,267 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:45:50,268 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-02_05
+[INFO] 2019-01-03 10:45:50,580 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:45:50,581 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-02_06
+[INFO] 2019-01-03 10:45:50,970 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:45:50,971 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-02_07
+[INFO] 2019-01-03 10:45:51,309 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:45:51,309 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-02_08
+[INFO] 2019-01-03 10:48:03,974 [jp.autorace.App.<init>(App.java:322)]
+192.168.60.88
+[INFO] 2019-01-03 10:48:04,017 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/funabashi/2019-01-03
+[INFO] 2019-01-03 10:48:04,749 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=200
+[INFO] 2019-01-03 10:48:04,950 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03
+[INFO] 2019-01-03 10:48:05,556 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=200
+[INFO] 2019-01-03 10:48:06,651 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_01
+[INFO] 2019-01-03 10:48:06,810 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:48:06,812 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_02
+[INFO] 2019-01-03 10:48:06,991 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:48:06,991 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_03
+[INFO] 2019-01-03 10:48:07,631 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:48:07,631 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_04
+[INFO] 2019-01-03 10:48:08,084 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:48:08,085 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_05
+[INFO] 2019-01-03 10:48:08,495 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:48:08,496 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_06
+[INFO] 2019-01-03 10:48:08,812 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:48:08,813 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_07
+[INFO] 2019-01-03 10:48:09,319 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:48:09,320 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_08
+[INFO] 2019-01-03 10:48:09,879 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:48:09,880 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_09
+[INFO] 2019-01-03 10:48:10,149 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:48:10,150 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_10
+[INFO] 2019-01-03 10:48:10,602 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=200
+[INFO] 2019-01-03 10:48:12,878 [poseidon.db.DBSession.ConnectTest(DBSession.java:251)]
+driver=net.sourceforge.jtds.jdbc.Driver | url=jdbc:jtds:sqlserver://192.168.120.113:1433/JPMotorDB | user=spider | password=83862909
+[WARN] 2019-01-03 10:48:13,709 [net.sf.ehcache.config.Configurator.configure(Configurator.java:126)]
+No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: jar:file:/G:/workspace/autorace/lib/ehcache-1.1.jar!/ehcache-failsafe.xml
+[INFO] 2019-01-03 10:48:15,081 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_11
+[INFO] 2019-01-03 10:48:15,672 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=200
+[INFO] 2019-01-03 10:48:17,240 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_12
+[INFO] 2019-01-03 10:48:17,944 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=200
+[INFO] 2019-01-03 10:48:21,549 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/isesaki/2019-01-03
+[INFO] 2019-01-03 10:48:22,048 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=200
+[INFO] 2019-01-03 10:48:22,185 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/hamamatsu/2019-01-03
+[INFO] 2019-01-03 10:48:22,796 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=200
+[INFO] 2019-01-03 10:48:23,811 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/hamamatsu/2019-01-03_01
+[INFO] 2019-01-03 10:48:24,100 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:48:24,101 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/hamamatsu/2019-01-03_02
+[INFO] 2019-01-03 10:48:24,268 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:48:24,373 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/hamamatsu/2019-01-03_03
+[INFO] 2019-01-03 10:48:24,824 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:48:24,825 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/hamamatsu/2019-01-03_04
+[INFO] 2019-01-03 10:48:25,464 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:48:25,465 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/hamamatsu/2019-01-03_05
+[INFO] 2019-01-03 10:48:25,914 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:48:25,914 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/hamamatsu/2019-01-03_06
+[INFO] 2019-01-03 10:48:26,167 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:48:26,360 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/hamamatsu/2019-01-03_07
+[INFO] 2019-01-03 10:48:26,750 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:48:26,751 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/hamamatsu/2019-01-03_08
+[INFO] 2019-01-03 10:48:27,210 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:48:27,211 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/hamamatsu/2019-01-03_09
+[INFO] 2019-01-03 10:48:27,539 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:48:27,539 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/hamamatsu/2019-01-03_10
+[INFO] 2019-01-03 10:48:28,376 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=200
+[INFO] 2019-01-03 10:48:31,335 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/hamamatsu/2019-01-03_11
+[INFO] 2019-01-03 10:48:32,142 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=200
+[INFO] 2019-01-03 10:48:35,327 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/hamamatsu/2019-01-03_12
+[INFO] 2019-01-03 10:48:36,082 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=200
+[INFO] 2019-01-03 10:48:37,683 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/iizuka/2019-01-03
+[INFO] 2019-01-03 10:48:38,119 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=200
+[INFO] 2019-01-03 10:48:38,225 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/sanyou/2019-01-03
+[INFO] 2019-01-03 10:48:38,721 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=200
+[INFO] 2019-01-03 10:50:59,634 [jp.autorace.App.<init>(App.java:322)]
+192.168.60.88
+[INFO] 2019-01-03 10:50:59,668 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/funabashi/2019-01-03
+[INFO] 2019-01-03 10:51:00,314 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=200
+[INFO] 2019-01-03 10:51:00,428 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03
+[INFO] 2019-01-03 10:51:01,267 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=200
+[INFO] 2019-01-03 10:55:12,786 [jp.autorace.App.<init>(App.java:322)]
+192.168.60.88
+[INFO] 2019-01-03 10:55:33,607 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/funabashi/2019-01-03
+[INFO] 2019-01-03 10:55:34,073 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=200
+[INFO] 2019-01-03 10:55:34,188 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03
+[INFO] 2019-01-03 10:55:34,651 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=200
+[INFO] 2019-01-03 10:55:55,560 [jp.autorace.App.<init>(App.java:322)]
+192.168.60.88
+[INFO] 2019-01-03 10:56:01,810 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/funabashi/2019-01-03
+[INFO] 2019-01-03 10:56:02,237 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=200
+[INFO] 2019-01-03 10:56:02,758 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03
+[INFO] 2019-01-03 10:56:03,343 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=200
+[INFO] 2019-01-03 10:56:06,453 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_01
+[INFO] 2019-01-03 10:56:06,969 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:56:06,973 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_02
+[INFO] 2019-01-03 10:56:07,292 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:56:07,293 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_03
+[INFO] 2019-01-03 10:56:08,113 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:56:08,115 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_04
+[INFO] 2019-01-03 10:56:08,617 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:56:08,618 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_05
+[INFO] 2019-01-03 10:56:09,010 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:56:09,011 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_06
+[INFO] 2019-01-03 10:56:09,279 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:56:09,280 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_07
+[INFO] 2019-01-03 10:56:09,448 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:56:09,557 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_08
+[INFO] 2019-01-03 10:56:10,020 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:56:10,021 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_09
+[INFO] 2019-01-03 10:56:10,342 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=404
+[INFO] 2019-01-03 10:56:10,343 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03_10
+[INFO] 2019-01-03 10:56:10,746 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=200
+[INFO] 2019-01-03 10:56:11,873 [poseidon.db.DBSession.ConnectTest(DBSession.java:251)]
+driver=net.sourceforge.jtds.jdbc.Driver | url=jdbc:jtds:sqlserver://192.168.120.113:1433/JPMotorDB | user=spider | password=83862909
+[WARN] 2019-01-03 10:56:12,792 [net.sf.ehcache.config.Configurator.configure(Configurator.java:126)]
+No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: jar:file:/G:/workspace/autorace/lib/ehcache-1.1.jar!/ehcache-failsafe.xml
+[INFO] 2019-01-03 10:56:31,624 [jp.autorace.App.<init>(App.java:323)]
+192.168.60.88
+[ERROR] 2019-01-03 10:56:34,114 [jp.autorace.App.CanOpen(App.java:526)]
+no proxy to use...
+[ERROR] 2019-01-03 10:56:39,890 [jp.autorace.App.CanOpen(App.java:526)]
+no proxy to use...
+[INFO] 2019-01-03 10:57:31,276 [jp.autorace.App.<init>(App.java:323)]
+192.168.60.88
+[ERROR] 2019-01-03 10:57:35,825 [jp.autorace.App.CanOpen(App.java:526)]
+no proxy to use...
+[ERROR] 2019-01-03 10:57:40,056 [jp.autorace.App.CanOpen(App.java:526)]
+no proxy to use...
+[INFO] 2019-01-03 10:59:05,824 [jp.autorace.App.<init>(App.java:323)]
+192.168.60.88
+[INFO] 2019-01-03 10:59:05,856 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/funabashi/2019-01-03
+[INFO] 2019-01-03 10:59:06,594 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=200
+[INFO] 2019-01-03 10:59:06,797 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/kawaguchi/2019-01-03
+[INFO] 2019-01-03 10:59:07,488 [poseidon.bot.PageHelper.doGet(PageHelper.java:192)]
+GetGetReturnCode=200
+[INFO] 2019-01-03 11:00:09,450 [jp.autorace.App.<init>(App.java:323)]
+192.168.60.88
+[INFO] 2019-01-03 11:00:15,146 [jp.autorace.ProxyPool.LoadProxy(ProxyPool.java:24)]
+
+**************** start to load and test proxy ****************
+
+[INFO] 2019-01-03 11:00:15,157 [jp.autorace.ProxyPool.LoadProxy(ProxyPool.java:53)]
+
+**************** proxy state list ****************
+proxy: 119.47.113.125:10808:aus:se4rfdgy7ujh ::: Loaded...
+proxy: 192.168.28.196:3128:se:se4rfd ::: Loaded...
+proxy: 119.47.113.125:10808:aus:se4rfdgy7ujh ::: Loaded...
+proxy: 66.225.230.44:10808:nap:se4rfdgy7ujh ::: Loaded...
+proxy: 103.6.213.45:10808:aus:se4rfdgy7ujh ::: Loaded...
+proxy: 78.31.111.24:8080:pmu:se4rfdgy7ujh ::: Loaded...
+proxy: 79.99.0.118:8080:pmu:se4rfdgy7ujh ::: Loaded...
+proxy: 91.123.203.27:8080:pmu:se4rfdgy7ujh ::: Loaded...
+proxy: 92.243.23.237:8080:pmu:se4rfdgy7ujh ::: Loaded...
+
+[INFO] 2019-01-03 11:00:21,041 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/funabashi/2019-01-03
+[INFO] 2019-01-03 11:02:01,825 [jp.autorace.App.<init>(App.java:323)]
+192.168.60.88
+[INFO] 2019-01-03 11:02:01,857 [jp.autorace.ProxyPool.LoadProxy(ProxyPool.java:24)]
+
+**************** start to load and test proxy ****************
+
+[INFO] 2019-01-03 11:02:01,858 [jp.autorace.ProxyPool.LoadProxy(ProxyPool.java:53)]
+
+**************** proxy state list ****************
+proxy: 103.200.98.148:8080:jp3:se4rfdgy7ujh ::: Loaded...
+proxy: 119.47.113.125:10808:aus:se4rfdgy7ujh ::: Loaded...
+proxy: 192.168.28.196:3128:se:se4rfd ::: Loaded...
+proxy: 119.47.113.125:10808:aus:se4rfdgy7ujh ::: Loaded...
+proxy: 66.225.230.44:10808:nap:se4rfdgy7ujh ::: Loaded...
+proxy: 103.6.213.45:10808:aus:se4rfdgy7ujh ::: Loaded...
+proxy: 78.31.111.24:8080:pmu:se4rfdgy7ujh ::: Loaded...
+proxy: 79.99.0.118:8080:pmu:se4rfdgy7ujh ::: Loaded...
+proxy: 91.123.203.27:8080:pmu:se4rfdgy7ujh ::: Loaded...
+proxy: 92.243.23.237:8080:pmu:se4rfdgy7ujh ::: Loaded...
+
+[INFO] 2019-01-03 11:02:01,859 [poseidon.bot.PageHelper.PageOpen(PageHelper.java:759)]
+opening http://autorace.jp/netstadium/Odds/funabashi/2019-01-03
+[INFO] 2019-01-03 11:02:22,899 [org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:439)]
+I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+[INFO] 2019-01-03 11:02:22,899 [org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:445)]
+Retrying request

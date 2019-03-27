@@ -1,0 +1,110 @@
+<?xml version="1.0"  encoding="UTF-8" ?>
+<spider name="spidername">
+<datasources>   
+    <datasource>
+        <name>ztnet</name>   
+        <driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</driver>   
+        <url>jdbc:sqlserver://localhost:1433;databaseName=JPMotorDB</url>   
+        <username>spider</username>   
+        <password>83862909</password>
+        <maxconn>100</maxconn>
+        <using>true</using>
+    </datasource>   
+    <datasource>   
+        <name>oracledatasource</name>   
+        <driver>oracle.jdbc.driver.oracledriver</driver>   
+        <url>jdbc:oracle:thin:@localhost:1521:orcl</url>   
+        <username>scott</username>   
+        <password>tiger</password>
+        <maxconn>100</maxconn> 
+        <using>false</using>
+    </datasource>
+</datasources>
+
+<mail>
+	<receiveAddressList>alan.fu@datalabchina.com</receiveAddressList>
+	<sendAddress>admin.intranet@datalabchina.com</sendAddress>		
+	<sendPassword>fff</sendPassword>	
+	<sendHostSmtp>smtp.lexon-tech.com</sendHostSmtp>
+	<using>true</using>
+</mail>
+
+<proxys>
+<proxy>119.47.113.125:10808:aus:se4rfdgy7ujh</proxy>
+<proxy>192.168.28.196:3128:se:se4rfd</proxy>
+<proxy>119.47.113.125:10808:aus:se4rfdgy7ujh</proxy>
+<proxy>66.225.230.44:10808:nap:se4rfdgy7ujh</proxy>
+<proxy>103.6.213.45:10808:aus:se4rfdgy7ujh</proxy>
+<proxy>78.31.111.24:8080:pmu:se4rfdgy7ujh</proxy>
+<proxy>79.99.0.118:8080:pmu:se4rfdgy7ujh</proxy>
+<proxy>91.123.203.27:8080:pmu:se4rfdgy7ujh</proxy>
+<proxy>92.243.23.237:8080:pmu:se4rfdgy7ujh</proxy>
+</proxys>
+
+<commondb>
+  <databaseName>JPMotorDB</databaseName>
+  <dbconfigPath>/home/szspider/config</dbconfigPath>
+</commondb>
+
+<parameters>
+<parameter>
+		<name>IsOverWrite</name>
+				<value>True</value>
+					</parameter>
+						<parameter>
+								<name>UpdateFromRaceIDSql</name>
+										<value><![CDATA[select  raceid  from dbo.AutoRace_PostRace_Player group by raceid having count(ClothNo) <MAX(ClothNo) order by 1]]></value>
+						</parameter>
+<parameter>
+   <name>EnProxy</name>
+      <value>True</value>
+      </parameter>
+  <parameter>
+      <name>download_thread_num</name>
+          <value>2</value>
+            </parameter>
+              <parameter>
+                  <name>download_wait_seconds</name>
+                      <value>3</value>
+                        </parameter>
+                            <parameter>
+                                <name>runcycle_seconds</name>
+                                  <value>60</value>
+                                    </parameter>
+                                    <parameter>
+                                                    <name>savepath</name>
+                                                                    <value>/home/szspider/websitefile/jp/autorace</value>
+                                                                            </parameter>
+<parameter>
+	<name>UpdateSqlOdds</name>
+		<value><![CDATA[]]></value>
+		</parameter>
+		<parameter>
+			<name>UpdateSqlFinalOdds</name>
+				<value><![CDATA[select raceid from AutoRace_PostRace_Race where RaceID not in (select RaceID from AutoRace_FinalE)]]></value>
+				</parameter>
+				<parameter>
+					<name>UpdateSqlPre</name>
+						<value><![CDATA[]]></value>
+						</parameter>
+						<parameter>
+							<name>UpdateSqlPreLive</name>
+								<value><![CDATA[]]></value>
+								</parameter>
+								<parameter>
+									<name>UpdateSqlPost</name>
+										<value><![CDATA[]]></value>
+										</parameter>
+										<parameter>
+											<name>UpdateSqlDividend</name>
+												<value><![CDATA[  select top 1000  r.raceid from postrace_race r where not exists
+												(select 1 from dividend where uraceid=r.uraceid)
+												order by uraceid desc   ]]></value>
+												</parameter>
+												<parameter>
+													<name>UpdateSqlPlayer</name>
+														<value><![CDATA[]]></value>
+														</parameter>
+</parameters>
+
+</spider>

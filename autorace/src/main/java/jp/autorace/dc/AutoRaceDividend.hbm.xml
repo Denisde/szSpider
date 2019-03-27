@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2015-10-13 3:28:12 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="jp.autorace.dc.AutoRaceDividend" table="AutoRace_Dividend" schema="dbo" catalog="JPMotorDB">
+        <composite-id name="id" class="jp.autorace.dc.AutoRaceDividendId">
+            <key-property name="raceId" type="long">
+                <column name="RaceID" />
+            </key-property>
+            <key-property name="betTypeId" type="byte">
+                <column name="BetTypeID" />
+            </key-property>
+            <key-property name="combination" type="string">
+                <column name="Combination" length="50" />
+            </key-property>
+        </composite-id>
+        <property name="uraceId" type="java.lang.Long">
+            <column name="URaceID" />
+        </property>
+        <property name="raceDate" type="timestamp">
+            <column name="RaceDate" length="16" />
+        </property>
+        <property name="betTypeName" type="string">
+            <column name="BetTypeName" length="20" />
+        </property>
+        <property name="comb1" type="java.lang.Byte">
+            <column name="Comb1" />
+        </property>
+        <property name="comb2" type="java.lang.Byte">
+            <column name="Comb2" />
+        </property>
+        <property name="comb3" type="java.lang.Byte">
+            <column name="Comb3" />
+        </property>
+        <property name="dividend" type="big_decimal">
+            <column name="Dividend" precision="14" />
+        </property>
+        <property name="popularity" type="big_decimal">
+            <column name="Popularity" precision="9" />
+        </property>
+        <property name="extractTime" type="timestamp">
+            <column name="ExtractTime" length="16" />
+        </property>
+    </class>
+</hibernate-mapping>

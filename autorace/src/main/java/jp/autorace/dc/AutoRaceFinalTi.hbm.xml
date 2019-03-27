@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2015-10-13 3:28:12 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="jp.autorace.dc.AutoRaceFinalTi" table="AutoRace_FinalTi" schema="dbo" catalog="JPMotorDB">
+        <composite-id name="id" class="jp.autorace.dc.AutoRaceFinalTiId">
+            <key-property name="raceId" type="long">
+                <column name="RaceID" />
+            </key-property>
+            <key-property name="clothNo" type="byte">
+                <column name="ClothNo" />
+            </key-property>
+        </composite-id>
+        <property name="h12" type="big_decimal">
+            <column name="H_1_2" precision="9" />
+        </property>
+        <property name="h13" type="big_decimal">
+            <column name="H_1_3" precision="9" />
+        </property>
+        <property name="h14" type="big_decimal">
+            <column name="H_1_4" precision="9" />
+        </property>
+        <property name="h15" type="big_decimal">
+            <column name="H_1_5" precision="9" />
+        </property>
+        <property name="h16" type="big_decimal">
+            <column name="H_1_6" precision="9" />
+        </property>
+        <property name="h17" type="big_decimal">
+            <column name="H_1_7" precision="9" />
+        </property>
+        <property name="h18" type="big_decimal">
+            <column name="H_1_8" precision="9" />
+        </property>
+        <property name="h21" type="big_decimal">
+            <column name="H_2_1" precision="9" />
+        </property>
+        <property name="h23" type="big_decimal">
+            <column name="H_2_3" precision="9" />
+        </property>
+        <property name="h24" type="big_decimal">
+            <column name="H_2_4" precision="9" />
+        </property>
+        <property name="h25" type="big_decimal">
+            <column name="H_2_5" precision="9" />
+        </property>
+        <property name="h26" type="big_decimal">
+            <column name="H_2_6" precision="9" />
+        </property>
+        <property name="h27" type="big_decimal">
+            <column name="H_2_7" precision="9" />
+        </property>
+        <property name="h28" type="big_decimal">
+            <column name="H_2_8" precision="9" />
+        </property>
+        <property name="h31" type="big_decimal">
+            <column name="H_3_1" precision="9" />
+        </property>
+        <property name="h32" type="big_decimal">
+            <column name="H_3_2" precision="9" />
+        </property>
+        <property name="h34" type="big_decimal">
+            <column name="H_3_4" precision="9" />
+        </property>
+        <property name="h35" type="big_decimal">
+            <column name="H_3_5" precision="9" />
+        </property>
+        <property name="h36" type="big_decimal">
+            <column name="H_3_6" precision="9" />
+        </property>
+        <property name="h37" type="big_decimal">
+            <column name="H_3_7" precision="9" />
+        </property>
+        <property name="h38" type="big_decimal">
+            <column name="H_3_8" precision="9" />
+        </property>
+        <property name="h41" type="big_decimal">
+            <column name="H_4_1" precision="9" />
+        </property>
+        <property name="h42" type="big_decimal">
+            <column name="H_4_2" precision="9" />
+        </property>
+        <property name="h43" type="big_decimal">
+            <column name="H_4_3" precision="9" />
+        </property>
+        <property name="h45" type="big_decimal">
+            <column name="H_4_5" precision="9" />
+        </property>
+        <property name="h46" type="big_decimal">
+            <column name="H_4_6" precision="9" />
+        </property>
+        <property name="h47" type="big_decimal">
+            <column name="H_4_7" precision="9" />
+        </property>
+        <property name="h48" type="big_decimal">
+            <column name="H_4_8" precision="9" />
+        </property>
+        <property name="h51" type="big_decimal">
+            <column name="H_5_1" precision="9" />
+        </property>
+        <property name="h52" type="big_decimal">
+            <column name="H_5_2" precision="9" />
+        </property>
+        <property name="h53" type="big_decimal">
+            <column name="H_5_3" precision="9" />
+        </property>
+        <property name="h54" type="big_decimal">
+            <column name="H_5_4" precision="9" />
+        </property>
+        <property name="h56" type="big_decimal">
+            <column name="H_5_6" precision="9" />
+        </property>
+        <property name="h57" type="big_decimal">
+            <column name="H_5_7" precision="9" />
+        </property>
+        <property name="h58" type="big_decimal">
+            <column name="H_5_8" precision="9" />
+        </property>
+        <property name="h61" type="big_decimal">
+            <column name="H_6_1" precision="9" />
+        </property>
+        <property name="h62" type="big_decimal">
+            <column name="H_6_2" precision="9" />
+        </property>
+        <property name="h63" type="big_decimal">
+            <column name="H_6_3" precision="9" />
+        </property>
+        <property name="h64" type="big_decimal">
+            <column name="H_6_4" precision="9" />
+        </property>
+        <property name="h65" type="big_decimal">
+            <column name="H_6_5" precision="9" />
+        </property>
+        <property name="h67" type="big_decimal">
+            <column name="H_6_7" precision="9" />
+        </property>
+        <property name="h68" type="big_decimal">
+            <column name="H_6_8" precision="9" />
+        </property>
+        <property name="h71" type="big_decimal">
+            <column name="H_7_1" precision="9" />
+        </property>
+        <property name="h72" type="big_decimal">
+            <column name="H_7_2" precision="9" />
+        </property>
+        <property name="h73" type="big_decimal">
+            <column name="H_7_3" precision="9" />
+        </property>
+        <property name="h74" type="big_decimal">
+            <column name="H_7_4" precision="9" />
+        </property>
+        <property name="h75" type="big_decimal">
+            <column name="H_7_5" precision="9" />
+        </property>
+        <property name="h76" type="big_decimal">
+            <column name="H_7_6" precision="9" />
+        </property>
+        <property name="h78" type="big_decimal">
+            <column name="H_7_8" precision="9" />
+        </property>
+        <property name="h81" type="big_decimal">
+            <column name="H_8_1" precision="9" />
+        </property>
+        <property name="h82" type="big_decimal">
+            <column name="H_8_2" precision="9" />
+        </property>
+        <property name="h83" type="big_decimal">
+            <column name="H_8_3" precision="9" />
+        </property>
+        <property name="h84" type="big_decimal">
+            <column name="H_8_4" precision="9" />
+        </property>
+        <property name="h85" type="big_decimal">
+            <column name="H_8_5" precision="9" />
+        </property>
+        <property name="h86" type="big_decimal">
+            <column name="H_8_6" precision="9" />
+        </property>
+        <property name="h87" type="big_decimal">
+            <column name="H_8_7" precision="9" />
+        </property>
+        <property name="extractTime" type="timestamp">
+            <column name="ExtractTime" length="23" />
+        </property>
+        <property name="corruptedOdds" type="java.lang.Boolean">
+            <column name="CorruptedOdds" />
+        </property>
+        <property name="sales" type="java.lang.Integer">
+            <column name="Sales" />
+        </property>
+        <property name="returnSales" type="java.lang.Integer">
+            <column name="ReturnSales" />
+        </property>
+        <property name="netSales" type="java.lang.Integer">
+            <column name="NetSales" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2015-10-13 3:28:12 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="jp.autorace.dc.CodePlayer" table="Code_Player" schema="dbo" catalog="JPMotorDB">
+        <id name="playerId" type="int">
+            <column name="PlayerID" />
+            <generator class="assigned" />
+        </id>
+        <property name="playerName" type="string">
+            <column name="PlayerName" length="50" />
+        </property>
+        <property name="playerNameEn" type="string">
+            <column name="PlayerNameEn" length="50" />
+        </property>
+        <property name="playerOrigin" type="string">
+            <column name="PlayerOrigin" length="20" />
+        </property>
+        <property name="playerBirthday" type="timestamp">
+            <column name="PlayerBirthday" length="16" />
+        </property>
+        <property name="registrationDate" type="timestamp">
+            <column name="RegistrationDate" length="16" />
+        </property>
+        <property name="registrationNo" type="java.lang.Integer">
+            <column name="RegistrationNo" />
+        </property>
+        <property name="period" type="string">
+            <column name="Period" length="20" />
+        </property>
+        <property name="lg" type="string">
+            <column name="LG" length="20" />
+        </property>
+        <property name="ownedCar" type="string">
+            <column name="OwnedCar" length="100" />
+        </property>
+        <property name="playerHeight" type="big_decimal">
+            <column name="PlayerHeight" precision="9" />
+        </property>
+        <property name="playerWeight" type="big_decimal">
+            <column name="PlayerWeight" precision="9" />
+        </property>
+        <property name="bloodType" type="string">
+            <column name="BloodType" length="10" />
+        </property>
+        <property name="constellation" type="string">
+            <column name="Constellation" length="10" />
+        </property>
+        <property name="hobby" type="string">
+            <column name="Hobby" length="50" />
+        </property>
+    </class>
+</hibernate-mapping>
