@@ -1,0 +1,602 @@
+
+
+
+
+
+
+Kafka Cluster Server IP
+192.168.27.27:9092,192.168.27.28:9092,192.168.27.30:9092
+
+topic: lsports.horse_racing.odds
+
+
+
+
+
+ConnectionFactory connectionFactory = new ConnectionFactory
+{
+    HostName = "prematch-rmq.lsports.eu",
+    Port = 5672,
+    UserName = "MyEmail",
+    Password = "Passw0rd1234",
+    AutomaticRecoveryEnabled = true,
+    VirtualHost = "Customers", //Default value
+    RequestedHeartbeat = 580,
+    NetworkRecoveryInterval = TimeSpan.FromSeconds(1)
+};
+
+RMQ HostName:
+InPlay: inplay-rmq.lsports.eu
+PreMatch: prematch-rmq.lsports.eu
+
+
+
+
+
+scp 192.168.120.219:/home/szspider/temp/UN_Lsports_BookOdds.jar UN_Lsports_BookOdds.jar
+
+
+use lsports
+
+select COUNT(*) from LSports_Bookie_liveOdds_history 
+
+select distinct RaceDate from LSports_Bookie_liveOdds order by 1
+
+select top 100 * from LSports_Bookie_liveOdds where RaceDate = '2017-09-08'
+
+select top 1 * from LSports_Bookie_liveOdds where OddsID is not null order by RaceDate asc
+
+
+
+
+
+
+scp 192.168.120.219:/home/szspider/za/UN_Lsports_BookOdds_fix.jar UN_Lsports_BookOdds_fix.jar
+
+/home/szspider/jdk18/jdk1.8.0_45/bin/java -jar UN_Lsports_BookOdds_fix.jar 20171003 20171003
+
+
+
+美属维尔京群岛（The United States Virgin Islands）
+关岛	Guam
+ 美国本土外小岛屿(英语:United States Minor Outlying Islands),
+ 
+
+28.10
+/home/szspider/us/lsports
+
+   <databaseName>LSports_USA</databaseName>
+   <url><![CDATA[http://xml.oddservice.com/OS/OddsWebService.svc/GetSportEventByDate?email=freddygalliers@googlemail.com&password=cdd8b962&guid=a1772950-77f5-4f24-8926-49393f2e7ad5&sports=687888,687894&countries=3,4,51,235,73&lang=en&oddsFormat=EU&]]></url>
+
+3,4,51,235,73
+
+USA
+<option value="3">USA Minor Outlying Islands (3)</option>
+<option value="51">Guam (USA) (51)</option>
+<option value="235">Virgin Islands (USA) (235)</option>
+<option value="4">United States (4)</option>
+
+Canada
+<option value="73">Canada (73)</option>
+
+
+
+
+
+
+
+
+ssh 192.168.28.10
+        
+scp 192.168.120.219:/home/szspider/za/UN_Lsports_BookOdds/UN_Lsports_BookOdds.jar .
+
+/home/szspider/fr/lsports/FR_Lsports_BookOdds.jar
+/home/szspider/us/lsports/US_Lsports_BookOdds.jar
+/home/szspider/uk/lsports/UK_Lsports_BookOdds.jar
+/home/szspider/za/lsports/ZA_Lsports_BookOdds.jar
+
+mv /home/szspider/fr/lsports/FR_Lsports_BookOdds.jar /home/szspider/fr/lsports/FR_Lsports_BookOdds.jar_20171227
+mv /home/szspider/us/lsports/US_Lsports_BookOdds.jar /home/szspider/us/lsports/US_Lsports_BookOdds.jar_20171227
+mv /home/szspider/uk/lsports/UK_Lsports_BookOdds.jar /home/szspider/uk/lsports/UK_Lsports_BookOdds.jar_20171115
+mv /home/szspider/za/lsports/ZA_Lsports_BookOdds.jar /home/szspider/za/lsports/ZA_Lsports_BookOdds.jar_20171227
+
+cp UN_Lsports_BookOdds.jar /home/szspider/fr/lsports/FR_Lsports_BookOdds.jar
+cp UN_Lsports_BookOdds.jar /home/szspider/us/lsports/US_Lsports_BookOdds.jar
+cp UN_Lsports_BookOdds.jar /home/szspider/uk/lsports/UK_Lsports_BookOdds.jar
+cp UN_Lsports_BookOdds.jar /home/szspider/za/lsports/ZA_Lsports_BookOdds.jar
+
+cp UN_Lsports_BookOdds.jar /home/szspider/fr/lsports/fix/UN_Lsports_BookOdds_fix.jar
+cp UN_Lsports_BookOdds.jar /home/szspider/us/lsports/fix/UN_Lsports_BookOdds_fix.jar
+cp UN_Lsports_BookOdds.jar /home/szspider/uk/lsports/fix/UN_Lsports_BookOdds_fix.jar
+cp UN_Lsports_BookOdds.jar /home/szspider/za/lsports/fix/UN_Lsports_BookOdds_fix.jar
+
+mv /home/szspider/fr/lsports/sys.log /home/szspider/fr/lsports/sys.log.1
+mv /home/szspider/us/lsports/sys.log /home/szspider/us/lsports/sys.log.1
+mv /home/szspider/uk/lsports/sys.log /home/szspider/uk/lsports/sys.log.6
+mv /home/szspider/za/lsports/sys.log /home/szspider/za/lsports/sys.log.1
+  
+
+ps -ef|grep Lsports
+
+
+ssh 192.168.10.9
+
+cd /home/szspider/au_flat/lsports
+
+mv UN_Lsports_BookOdds.jar UN_Lsports_BookOdds.jar_20171030
+
+scp 192.168.120.219:/home/szspider/za/UN_Lsports_BookOdds/UN_Lsports_BookOdds.jar UN_Lsports_BookOdds.jar
+
+scp 192.168.120.219:/home/szspider/za/UN_Lsports_BookOdds.jar UN_Lsports_BookOdds.jar
+
+scp 192.168.120.219:/home/szspider/za/UN_Lsports_BookOdds/lib/kafka.consumer-0.0.1-SNAPSHOT.jar .
+scp 192.168.120.219:/home/szspider/za/UN_Lsports_BookOdds/lib/kafka.producer-0.0.1-SNAPSHOT.jar .
+scp 192.168.120.219:/home/szspider/za/UN_Lsports_BookOdds/lib/sqljdbc42.jar .
+
+
+cp kafka.consumer-0.0.1-SNAPSHOT.jar /home/szspider/fr/lsports/lib/kafka.consumer-0.0.1-SNAPSHOT.jar
+cp kafka.producer-0.0.1-SNAPSHOT.jar /home/szspider/fr/lsports/lib/kafka.producer-0.0.1-SNAPSHOT.jar
+cp sqljdbc42.jar /home/szspider/fr/lsports/lib/sqljdbc42.jar
+
+cp kafka.consumer-0.0.1-SNAPSHOT.jar /home/szspider/us/lsports/lib/kafka.consumer-0.0.1-SNAPSHOT.jar
+cp kafka.producer-0.0.1-SNAPSHOT.jar /home/szspider/us/lsports/lib/kafka.producer-0.0.1-SNAPSHOT.jar
+cp sqljdbc42.jar /home/szspider/us/lsports/lib/sqljdbc42.jar
+
+cp kafka.consumer-0.0.1-SNAPSHOT.jar /home/szspider/uk/lsports/lib/kafka.consumer-0.0.1-SNAPSHOT.jar
+cp kafka.producer-0.0.1-SNAPSHOT.jar /home/szspider/uk/lsports/lib/kafka.producer-0.0.1-SNAPSHOT.jar
+cp sqljdbc42.jar /home/szspider/uk/lsports/lib/sqljdbc42.jar
+
+cp kafka.consumer-0.0.1-SNAPSHOT.jar /home/szspider/za/lsports/lib/kafka.consumer-0.0.1-SNAPSHOT.jar
+cp kafka.producer-0.0.1-SNAPSHOT.jar /home/szspider/za/lsports/lib/kafka.producer-0.0.1-SNAPSHOT.jar
+cp sqljdbc42.jar /home/szspider/za/lsports/lib/sqljdbc42.jar
+
+
+
+
+cp kafka.consumer-0.0.1-SNAPSHOT.jar /home/szspider/fr/lsports/fix/lib/kafka.consumer-0.0.1-SNAPSHOT.jar
+cp kafka.producer-0.0.1-SNAPSHOT.jar /home/szspider/fr/lsports/fix/lib/kafka.producer-0.0.1-SNAPSHOT.jar
+cp sqljdbc42.jar /home/szspider/fr/lsports/fix/lib/sqljdbc42.jar
+
+cp kafka.consumer-0.0.1-SNAPSHOT.jar /home/szspider/us/lsports/fix/lib/kafka.consumer-0.0.1-SNAPSHOT.jar
+cp kafka.producer-0.0.1-SNAPSHOT.jar /home/szspider/us/lsports/fix/lib/kafka.producer-0.0.1-SNAPSHOT.jar
+cp sqljdbc42.jar /home/szspider/us/lsports/fix/lib/sqljdbc42.jar
+
+cp kafka.consumer-0.0.1-SNAPSHOT.jar /home/szspider/uk/lsports/fix/lib/kafka.consumer-0.0.1-SNAPSHOT.jar
+cp kafka.producer-0.0.1-SNAPSHOT.jar /home/szspider/uk/lsports/fix/lib/kafka.producer-0.0.1-SNAPSHOT.jar
+cp sqljdbc42.jar /home/szspider/uk/lsports/fix/lib/sqljdbc42.jar
+
+cp kafka.consumer-0.0.1-SNAPSHOT.jar /home/szspider/za/lsports/fix/lib/kafka.consumer-0.0.1-SNAPSHOT.jar
+cp kafka.producer-0.0.1-SNAPSHOT.jar /home/szspider/za/lsports/fix/lib/kafka.producer-0.0.1-SNAPSHOT.jar
+cp sqljdbc42.jar /home/szspider/za/lsports/fix/lib/sqljdbc42.jar
+
+
+
+
+
+cp UN_Lsports_BookOdds.jar /home/szspider/us/lsports/US_Lsports_BookOdds.jar
+cp UN_Lsports_BookOdds.jar /home/szspider/uk/lsports/UK_Lsports_BookOdds.jar
+cp UN_Lsports_BookOdds.jar /home/szspider/za/lsports/ZA_Lsports_BookOdds.jar
+
+
+greyhound
+
+28.10
+LSports_UK
+eusqld:1433/LSports;instance=inst04
+countries=2,59,241,243
+http://xml.oddservice.com/OS/OddsWebService.svc/GetSportEventByDate?email=freddygalliers@googlemail.com&password=cdd8b962&guid=a1772950-77f5-4f24-8926-49393f2e7ad5&sports=687893&countries=2,59,241,243&lang=en&oddsFormat=EU&
+		
+
+/home/szspider/uk_greyhound/lsports
+/home/szspider/us_greyhound/lsports
+
+<property name="LSports_GreyhoundUK">drivers=net.sourceforge.jtds.jdbc.Driver;url=jdbc:jtds:sqlserver://EUSQLK:1433/LSports;instance=inst16;user=spider;password=83862909</property>
+<property name="LSports_GreyhoundUS">drivers=net.sourceforge.jtds.jdbc.Driver;url=jdbc:jtds:sqlserver://EUSQLC:1433/LSports;instance=inst14;user=spider;password=83862909</property>
+
+
+
+
+LSports_USA
+192.168.28.128:1433/LSports;instance=inst14
+3,4,51,235,73
+http://xml.oddservice.com/OS/OddsWebService.svc/GetSportEventByDate?email=freddygalliers@googlemail.com&password=cdd8b962&guid=a1772950-77f5-4f24-8926-49393f2e7ad5&sports=687893&countries=3,4,51,235,73&lang=en&oddsFormat=EU&
+
+
+10.9
+LSports_AU
+192.168.10.110:1433/LSports;instance=inst05
+countries=172
+http://xml.oddservice.com/OS/OddsWebService.svc/GetSportEventByDate?email=freddygalliers@googlemail.com&password=cdd8b962&guid=a1772950-77f5-4f24-8926-49393f2e7ad5&sports=687893&countries=172&lang=en&oddsFormat=EU&
+
+
+
+<property name="LSports_GreyHoundAU">drivers=net.sourceforge.jtds.jdbc.Driver;url=jdbc:jtds:sqlserver://192.168.10.115:1433/LSports;instance=inst05;user=spider;password=83862909</property>
+
+
+5-59/5 * * * * cd /home/szspider/au_greyHound/lsports; sh check.sh > /dev/null 2>&1
+0 0 * * * cd /home/szspider/au_greyHound/lsports; sh kill.sh > /dev/null 2>&1
+
+
+select top 100 * from LSports..LSports_Bookie_liveOdds
+-------------------------------
+
+
+28.10
+LSports_UK
+eusqld:1433/LSports;instance=inst04
+countries=2,59,241,243
+http://xml.oddservice.com/OS/OddsWebService.svc/GetSportEventByDate?email=freddygalliers@googlemail.com&password=cdd8b962&guid=a1772950-77f5-4f24-8926-49393f2e7ad5&sports=687888,687894&countries=2,59,241,243&lang=en&oddsFormat=EU&
+<option value="241">Northern Ireland (241)</option>
+		
+LSports_ZA
+192.168.28.115:1433/LSports;instance=inst07
+countries=14
+http://xml.oddservice.com/OS/OddsWebService.svc/GetSportEventByDate?email=freddygalliers@googlemail.com&password=cdd8b962&guid=a1772950-77f5-4f24-8926-49393f2e7ad5&sports=687888,687894&countries=14&lang=en&oddsFormat=EU&
+
+LSports_USA
+192.168.28.128:1433/LSports;instance=inst14
+3,4,51,235,73
+http://xml.oddservice.com/OS/OddsWebService.svc/GetSportEventByDate?email=freddygalliers@googlemail.com&password=cdd8b962&guid=a1772950-77f5-4f24-8926-49393f2e7ad5&sports=687888,687894&countries=3,4,51,235,73&lang=en&oddsFormat=EU&
+
+LSports_FR
+192.168.28.126:2882/LSports;instance=inst12
+countries=147
+http://xml.oddservice.com/OS/OddsWebService.svc/GetSportEventByDate?email=freddygalliers@googlemail.com&password=cdd8b962&guid=a1772950-77f5-4f24-8926-49393f2e7ad5&sports=687888,687894&countries=147&lang=en&oddsFormat=EU&
+		
+10.9
+LSports_AU
+192.168.10.110:1433/LSports;instance=inst03
+countries=172
+http://xml.oddservice.com/OS/OddsWebService.svc/GetSportEventByDate?email=freddygalliers@googlemail.com&password=cdd8b962&guid=a1772950-77f5-4f24-8926-49393f2e7ad5&sports=687888,687894&countries=172&lang=en&oddsFormat=EU&
+
+0-59/5 * * * * cd /home/szspider/au_flat/lsports; sh check.sh > /dev/null 2>&1
+0 0 * * * cd /home/szspider/au_flat/lsports; sh kill.sh > /dev/null 2>&1
+
+
+		
+120.219
+<url><![CDATA[http://xml.oddservice.com/OS/OddsWebService.svc/GetSportEventByDate?email=freddygalliers@googlemail.com&password=cdd8b962&guid=a1772950-77f5-4f24-8926-49393f2e7ad5&sports=687888,687894&countries=2,3,4,14,51,59,73,147,172,235,243&lang=en&oddsFormat=EU&]]></url>
+
+
+curl "" -H "Accept-Encoding: gzip, deflate, br"
+
+curl "http://xml.oddservice.com/OS/OddsWebService.svc/GetSportEvents?email=freddygalliers@googlemail.com&password=cdd8b962&guid=a1772950-77f5-4f24-8926-49393f2e7ad5&sports=687893&countries=3,4,51,235,73&lang=en&oddsFormat=EU&" -H "Accept-Encoding: gzip, deflate, br"
+
+there is an API that provide bookie odds including ZA UK etc
+we now have a trial account
+but the trial is only for 2 weeks
+so we need to code the program quickly to get it running before the trial expire.
+
+Your test account details are as follow: (for 2 weeks period)
+The URL to enter the system is http://client.lsports.eu
+User name: freddygalliers@googlemail.com
+Password: cdd8b962
+
+
+
+To use the pre match odds service: http://client.lsports.eu/OddService/Constructor?func=GetSportEvents
+you can filter data by sports, country, Bookmaker and bet type.
+
+To use in play odds, first enter here: http://client.lsports.eu/OddService/Pusher
+And then enter your IP address (for example: http://IP/PUSH or http://WEB/PUSH)
+in play will be sent by push to this address.
+Once done, you can open your push.
+
+Few notes regarding the test account:
+1. If you have any technical questions, please contact Support (support@lsports.eu)
+2. To see our technical overview online, please visit here: http://client.lsports.eu/OddService/Documentation (other manuals are also online under the relevant section)
+3. You can update your IP's here: http://client.lsports.eu/OddService/Account
+
+http://xml.oddservice.com/OS/OddsWebService.svc/GetSportEventByID?email={email}&password={password}&guid={guid}&eventID={eventID}&timestamp={timestamp}&sports={sports}&countries={countries}&bookmakers={bookmakers}&offertypes={offertypes}&lang={lang}&oddsFormat={oddsFormat}&
+
+AU
+http://xml.oddservice.com/OS/OddsWebService.svc/GetSportEvents?email=freddygalliers@googlemail.com&password=cdd8b962&guid=a1772950-77f5-4f24-8926-49393f2e7ad5&sports=687888&countries=172&lang=en&oddsFormat=EU&
+
+SA
+http://xml.oddservice.com/OS/OddsWebService.svc/GetSportEvents?email=freddygalliers@googlemail.com&password=cdd8b962&guid=a1772950-77f5-4f24-8926-49393f2e7ad5&sports=687888&countries=14&lang=en&oddsFormat=EU&
+
+GetSportEventByDate
+http://xml.oddservice.com/OS/OddsWebService.svc/GetSportEventByDate?email=freddygalliers@googlemail.com&password=cdd8b962&guid=a1772950-77f5-4f24-8926-49393f2e7ad5&startDate=6/26/2017&endDate=7/26/2017&lang=en&oddsFormat=EU&
+
+http://xml.oddservice.com/OS/OddsWebService.svc/GetLiveSportEvents?email=freddygalliers@googlemail.com&password=cdd8b962&guid=a1772950-77f5-4f24-8926-49393f2e7ad5&lang=en&
+
+
+http://xml.oddservice.com/OS/OddsWebService.svc/GetBookmakers?email={email}&password={password}&guid={guid}&lang={lang}&
+http://xml.oddservice.com/OS/OddsWebService.svc/GetBookmakers?email=freddygalliers@googlemail.com&password=cdd8b962&guid=a1772950-77f5-4f24-8926-49393f2e7ad5&lang=en& 
+
+http://xml.oddservice.com/OS/OddsWebService.svc/GetOutcomes?email={email}&password={password}&guid={guid}&lang={lang}& 
+http://xml.oddservice.com/OS/OddsWebService.svc/GetOutcomes?email=freddygalliers@googlemail.com&password=cdd8b962&guid=a1772950-77f5-4f24-8926-49393f2e7ad5&lang=en&  
+
+
+http://xml.oddservice.com/OS/OddsWebService.svc/GetCountries?email={email}&password={password}&guid={guid}&lang={lang}& 
+http://xml.oddservice.com/OS/OddsWebService.svc/GetCountries?email=freddygalliers@googlemail.com&password=cdd8b962&guid=a1772950-77f5-4f24-8926-49393f2e7ad5&lang=en&
+
+http://xml.oddservice.com/OS/OddsWebService.svc/GetLeagues?email={email}&password={password}&guid={guid}&lang={lang}& 
+http://xml.oddservice.com/OS/OddsWebService.svc/GetLeagues?email=freddygalliers@googlemail.com&password=cdd8b962&guid=a1772950-77f5-4f24-8926-49393f2e7ad5&lang=en& 
+
+http://xml.oddservice.com/OS/OddsWebService.svc/GetSports?email={email}&password={password}&guid={guid}&lang={lang}& 
+http://xml.oddservice.com/OS/OddsWebService.svc/GetSports?email=freddygalliers@googlemail.com&password=cdd8b962&guid=a1772950-77f5-4f24-8926-49393f2e7ad5&lang=en& 
+
+
+
+http://xml.oddservice.com/OS/OddsWebService.svc/GetPushSnapshot?email={email}&password={password}&guid={guid}&eventIDs={eventIDs}&bookmakers={bookmakers}&offertypes={offertypes}&
+
+http://xml.oddservice.com/OS/OddsWebService.svc/SetPusher?email={email}&password={password}&guid={guid}&action={action}& 
+http://xml.oddservice.com/OS/OddsWebService.svc/SetPusher?email=freddygalliers@googlemail.com&password=cdd8b962&guid=a1772950-77f5-4f24-8926-49393f2e7ad5&action=Start& 
+
+Status Code	Description
+000	Success
+001	Invalid credentials. Either the username or the password you provided is incorrect.
+002	Invalid guid. The username and password are correct, but the custom membership package guid is incorrect.
+003	Invalid parameter. The format of some parameter is invalid.
+004	Your membership package is expired or inactive.
+005	The timestamp parameter you passed is smaller than the allowed minimum limit for this parameter.
+006	You exceeded the data amount you are allowed to get. For more information, please contact our sales department at sales@lsports.eu
+500	Internal error. 
+
+
+http://xml.oddservice.com/OS/OddsWebService.svc/GetInPlayEvents?email={email}&password={password}&guid={guid}&startDate={startDate}&endDate={endDate}&bookmakers={bookmakers}&sports={sports}&eventids={eventids}& 
+http://xml.oddservice.com/OS/OddsWebService.svc/GetInPlayEvents?email=freddygalliers@googlemail.com&password=cdd8b962&guid=a1772950-77f5-4f24-8926-49393f2e7ad5&startDate=6/26/2017&endDate=7/26/2017&
+
+
+<option value="687888">Horse Racing (687888)</option>
+<option value="687894">Trotting (687894)</option>
+<option value="687893">Greyhounds (687893)</option>
+
+
+<option value="1">Uganda (1)</option>
+<option value="2">Great Britain (2)</option>
+<option value="3">USA Minor Outlying Islands (3)</option>
+<option value="4">United States (4)</option>
+<option value="5">Uzbekistan (5)</option>
+<option value="6">Holy See (Vatican City State) (6)</option>
+<option value="7">Saint Vincent &amp; Grenadines (7)</option>
+<option value="8">Virgin Islands (British) (8)</option>
+<option value="9">Vietnam (9)</option>
+<option value="10">Vanuatu (10)</option>
+<option value="11">Wallis and Futuna Islands (11)</option>
+<option value="12">Mayotte (12)</option>
+<option value="13">Yugoslavia (13)</option>
+<option value="14">South Africa (14)</option>
+<option value="15">Zaire (15)</option>
+<option value="16">Zimbabwe (16)</option>
+<option value="17">Oman (17)</option>
+<option value="18">Peru (18)</option>
+<option value="19">Polynesia (French) (19)</option>
+<option value="20">Papua New Guinea (20)</option>
+<option value="21">Pakistan (21)</option>
+<option value="22">Poland (22)</option>
+<option value="23">Saint Pierre and Miquelon (23)</option>
+<option value="24">Pitcairn Island (24)</option>
+<option value="25">Puerto Rico (25)</option>
+<option value="26">Rwanda (26)</option>
+<option value="27">Svalbard and Jan Mayen Islands (27)</option>
+<option value="28">Senegal (28)</option>
+<option value="29">Turks and Caicos Islands (29)</option>
+<option value="30">Thailand (30)</option>
+<option value="31">Tuvalu (31)</option>
+<option value="32">Malta (32)</option>
+<option value="33">New Caledonia (French) (33)</option>
+<option value="34">Nicaragua (34)</option>
+<option value="35">Nauru (35)</option>
+<option value="36">Latvia (36)</option>
+<option value="37">Moldova (37)</option>
+<option value="38">Dominica (38)</option>
+<option value="39">Ethiopia (39)</option>
+<option value="40">Micronesia (40)</option>
+<option value="41">Grenada (41)</option>
+<option value="42">Georgia (42)</option>
+<option value="43">French Guyana (43)</option>
+<option value="44">Gibraltar (44)</option>
+<option value="45">Gambia (45)</option>
+<option value="46">Guadeloupe (French) (46)</option>
+<option value="47">Equatorial Guinea (47)</option>
+<option value="48">Greece (48)</option>
+<option value="49">S. Georgia &amp; S. Sandwich Isls. (49)</option>
+<option value="50">Guatemala (50)</option>
+<option value="51">Guam (USA) (51)</option>
+<option value="52">Guyana (52)</option>
+<option value="53">Hong Kong (53)</option>
+<option value="54">Heard and McDonald Islands (54)</option>
+<option value="55">Croatia (55)</option>
+<option value="56">Haiti (56)</option>
+<option value="57">Hungary (57)</option>
+<option value="58">Indonesia (58)</option>
+<option value="59">Ireland (59)</option>
+<option value="60">Israel (60)</option>
+<option value="61">India (61)</option>
+<option value="62">British Indian Ocean Territory (62)</option>
+<option value="63">Jamaica (63)</option>
+<option value="64">Jordan (64)</option>
+<option value="65">Cambodia, Kingdom of (65)</option>
+<option value="66">North Korea (66)</option>
+<option value="67">Liechtenstein (67)</option>
+<option value="68">Afghanistan, Islamic State of (68)</option>
+<option value="69">Armenia (69)</option>
+<option value="70">Aruba (70)</option>
+<option value="71">Bolivia (71)</option>
+<option value="72">Bouvet Island (72)</option>
+<option value="73">Canada (73)</option>
+<option value="74">Cameroon (74)</option>
+<option value="75">Cyprus (75)</option>
+<option value="76">Portugal (76)</option>
+<option value="77">Palau (77)</option>
+<option value="78">Romania (78)</option>
+<option value="79">Russia (79)</option>
+<option value="80">Saudi Arabia (80)</option>
+<option value="81">Solomon Islands (81)</option>
+<option value="82">Seychelles (82)</option>
+<option value="83">Sweden (83)</option>
+<option value="84">Saint Helena (84)</option>
+<option value="85">Slovenia (85)</option>
+<option value="86">Slovakia (86)</option>
+<option value="87">Sierra Leone (87)</option>
+<option value="88">San Marino (88)</option>
+<option value="89">Somalia (89)</option>
+<option value="90">Suriname (90)</option>
+<option value="91">Saint Tome (Sao Tome) and Principe (91)</option>
+<option value="92">El Salvador (92)</option>
+<option value="93">Syria (93)</option>
+<option value="94">Swaziland (94)</option>
+<option value="95">Chad (95)</option>
+<option value="96">French Southern Territories (96)</option>
+<option value="97">Togo (97)</option>
+<option value="98">Tajikistan (98)</option>
+<option value="99">Tokelau (99)</option>
+<option value="100">Turkmenistan (100)</option>
+<option value="101">Tunisia (101)</option>
+<option value="102">East Timor (102)</option>
+<option value="103">Turkey (103)</option>
+<option value="104">Taiwan (104)</option>
+<option value="105">Marshall Islands (105)</option>
+<option value="106">Mali (106)</option>
+<option value="107">Myanmar (107)</option>
+<option value="108">Mongolia (108)</option>
+<option value="109">Macau (109)</option>
+<option value="110">Martinique (French) (110)</option>
+<option value="111">Mauritania (111)</option>
+<option value="112">Montserrat (112)</option>
+<option value="113">Mauritius (113)</option>
+<option value="114">Maldives (114)</option>
+<option value="115">Malawi (115)</option>
+<option value="116">Malaysia (116)</option>
+<option value="117">Mozambique (117)</option>
+<option value="118">Namibia (118)</option>
+<option value="119">Niger (119)</option>
+<option value="120">Norfolk Island (120)</option>
+<option value="121">Nigeria (121)</option>
+<option value="122">Netherlands (122)</option>
+<option value="123">Norway (123)</option>
+<option value="124">Nepal (124)</option>
+<option value="125">Niue (125)</option>
+<option value="126">New Zealand (126)</option>
+<option value="127">Lesotho (127)</option>
+<option value="128">Lithuania (128)</option>
+<option value="129">Luxembourg (129)</option>
+<option value="130">Libya (130)</option>
+<option value="131">Morocco (131)</option>
+<option value="132">Monaco (132)</option>
+<option value="133">Madagascar (133)</option>
+<option value="134">Djibouti (134)</option>
+<option value="135">Denmark (135)</option>
+<option value="136">Dominican Republic (136)</option>
+<option value="137">Algeria (137)</option>
+<option value="138">Ecuador (138)</option>
+<option value="139">Estonia (139)</option>
+<option value="140">Western Sahara (140)</option>
+<option value="141">Eritrea (141)</option>
+<option value="142">Spain (142)</option>
+<option value="143">Finland (143)</option>
+<option value="144">Fiji (144)</option>
+<option value="145">Falkland Islands (145)</option>
+<option value="146">Faroe Islands (146)</option>
+<option value="147">France (147)</option>
+<option value="148">Japan (148)</option>
+<option value="149">Kenya (149)</option>
+<option value="150">Kyrgyz Republic (Kyrgyzstan) (150)</option>
+<option value="151">Kiribati (151)</option>
+<option value="152">Comoros (152)</option>
+<option value="153">Saint Kitts &amp; Nevis Anguilla (153)</option>
+<option value="154">South Korea (154)</option>
+<option value="155">Kuwait (155)</option>
+<option value="156">Cayman Islands (156)</option>
+<option value="157">Laos (157)</option>
+<option value="158">Lebanon (158)</option>
+<option value="159">Saint Lucia (159)</option>
+<option value="160">Sri Lanka (160)</option>
+<option value="161">Germany (161)</option>
+<option value="163">UAE (163)</option>
+<option value="164">Antigua and Barbuda (164)</option>
+<option value="165">Anguilla (165)</option>
+<option value="166">Albania (166)</option>
+<option value="167">Netherlands Antilles (167)</option>
+<option value="168">Angola (168)</option>
+<option value="169">Antarctica (169)</option>
+<option value="170">American Samoa (170)</option>
+<option value="171">Austria (171)</option>
+<option value="172">Australia (172)</option>
+<option value="173">Azerbaijan (173)</option>
+<option value="174">Bosnia-Herz (174)</option>
+<option value="175">Barbados (175)</option>
+<option value="176">Belgium (176)</option>
+<option value="177">Burkina Faso (177)</option>
+<option value="178">Bulgaria (178)</option>
+<option value="179">Bahrain (179)</option>
+<option value="180">Benin (180)</option>
+<option value="181">Bermuda (181)</option>
+<option value="182">Brunei Darussalam (182)</option>
+<option value="183">Brazil (183)</option>
+<option value="184">Bahamas (184)</option>
+<option value="185">Bhutan (185)</option>
+<option value="186">Botswana (186)</option>
+<option value="187">Belarus (187)</option>
+<option value="188">Belize (188)</option>
+<option value="189">Cocos (Keeling) Islands (189)</option>
+<option value="190">Central African Republic (190)</option>
+<option value="191">Congo, The Democratic Republic of the (191)</option>
+<option value="192">Switzerland (192)</option>
+<option value="193">Ivory Coast (Cote D&#39;Ivoire) (193)</option>
+<option value="194">Cook Islands (194)</option>
+<option value="195">Chile (195)</option>
+<option value="196">China (196)</option>
+<option value="197">Colombia (197)</option>
+<option value="198">Costa Rica (198)</option>
+<option value="199">Cuba (199)</option>
+<option value="200">Cape Verde (200)</option>
+<option value="201">Christmas Island (201)</option>
+<option value="202">Czech Republic (202)</option>
+<option value="203">Argentina (203)</option>
+<option value="204">Bangladesh (204)</option>
+<option value="205">Burundi (205)</option>
+<option value="206">Congo (206)</option>
+<option value="207">Egypt (207)</option>
+<option value="208">Gabon (208)</option>
+<option value="209">Ghana (209)</option>
+<option value="210">Greenland (210)</option>
+<option value="211">Guinea (211)</option>
+<option value="212">Honduras (212)</option>
+<option value="213">Iceland (213)</option>
+<option value="214">Iraq (214)</option>
+<option value="215">Italy (215)</option>
+<option value="216">Kazakhstan (216)</option>
+<option value="217">Liberia (217)</option>
+<option value="218">Mexico (218)</option>
+<option value="219">Northern Mariana Islands (219)</option>
+<option value="220">Panama (220)</option>
+<option value="221">Paraguay (221)</option>
+<option value="222">Philippines (222)</option>
+<option value="223">Qatar (223)</option>
+<option value="224">Samoa (224)</option>
+<option value="225">Singapore (225)</option>
+<option value="226">Sudan (226)</option>
+<option value="227">Tonga (227)</option>
+<option value="228">Trinidad and Tobago (228)</option>
+<option value="229">Ukraine (229)</option>
+<option value="230">Uruguay (230)</option>
+<option value="231">Venezuela (231)</option>
+<option value="232">Yemen (232)</option>
+<option value="233">Zambia (233)</option>
+<option value="234">Macedonia (234)</option>
+<option value="235">Virgin Islands (USA) (235)</option>
+<option value="236">Tanzania (236)</option>
+<option value="237">Guinea Bissau (237)</option>
+<option value="238">Iran (238)</option>
+<option value="239">Reunion (French) (239)</option>
+<option value="240">Scotland (240)</option>
+<option value="241">Northern Ireland (241)</option>
+<option value="242">Wales (242)</option>
+<option value="243">England (243)</option>
+<option value="244">Serbia (244)</option>
+<option value="245">N/A (245)</option>
+<option value="246">Palestine (246)</option>
+<option value="247">Montenegro (247)</option>
+<option value="248">International (248)</option>
+<option value="250">Chinese Taipei (250)</option>
+<option value="251">Andorra (251)</option>
+<option value="252">French Guiana (252)</option>
+<option value="253">Kosovo (253)</option>
+<option value="254">New Caledonia (254)</option>
+<option value="255">Cura&#231;ao (255)</option>
+<option value="256">R&#233;union (256)</option>
+<option value="257">Bonaire (257)</option>
+</select>

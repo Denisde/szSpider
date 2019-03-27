@@ -1,0 +1,406 @@
+[ INFO] main 2018-12-18 10:50:29 PageHelper version : 20170615
+[ INFO] main 2018-12-18 10:50:32 2 proxy can use:
+[ INFO] main 2018-12-18 10:50:32 103.6.213.45:10808:aus:se4rfdgy7ujh
+[ INFO] main 2018-12-18 10:50:32 78.129.196.103:8080:pmu:se4rfdgy7ujh
+[ INFO] main 2018-12-18 10:50:32 use proxy : 103.6.213.45
+[ INFO] main 2018-12-18 10:50:32 doGet 0 : http://prematch.lsports.eu/OddService/EnablePackage?username=freddygalliers@googlemail.com&password=cdd8b962&guid=a1772950-77f5-4f24-8926-49393f2e7ad5&packageid=a1772950-77f5-4f24-8926-49393f2e7ad5
+[ INFO] main 2018-12-18 10:50:37 Body = 
+{"Header":{"Type":34,"ServerTimestamp":1545101418},"Body":[{"Response":"The operation you tried to perform has failed reason: Value was already set"}]}
+[ INFO] Thread-0 2018-12-18 10:50:37 ReceiveCount = 0
+[ INFO] main 2018-12-18 10:50:39  [*] Waiting for messages. To exit press CTRL+C
+[ INFO] _SaveAndParseDataThread_ 2018-12-18 10:50:43 1/1 2018-12-18 10:50:43.703 2018-12-18 10:50:43.688
+[ INFO] pool-3-thread-1 2018-12-18 10:50:43 4208595 = null
+[ERROR] pool-3-thread-1 2018-12-18 10:50:43 RaceInfo not find. EventsID = 4208595
+[ INFO] _SaveAndParseDataThread_ 2018-12-18 10:50:43 2/2 2018-12-18 10:50:43.768 2018-12-18 10:50:43.760
+[ INFO] pool-3-thread-2 2018-12-18 10:50:43 4208586 = null
+[ERROR] pool-3-thread-2 2018-12-18 10:50:43 RaceInfo not find. EventsID = 4208586
+[ INFO] _SaveAndParseDataThread_ 2018-12-18 10:50:43 3/4 2018-12-18 10:50:43.788 2018-12-18 10:50:43.780
+[ INFO] _SaveAndParseDataThread_ 2018-12-18 10:50:43 4/4 2018-12-18 10:50:43.790 2018-12-18 10:50:43.782
+[ INFO] pool-3-thread-3 2018-12-18 10:50:43 4207231 = null
+[ERROR] pool-3-thread-3 2018-12-18 10:50:43 RaceInfo not find. EventsID = 4207231
+[ INFO] pool-3-thread-4 2018-12-18 10:50:43 4207232 = null
+[ERROR] pool-3-thread-4 2018-12-18 10:50:43 RaceInfo not find. EventsID = 4207232
+[ INFO] _SaveAndParseDataThread_ 2018-12-18 10:50:43 5/5 2018-12-18 10:50:43.811 2018-12-18 10:50:43.805
+[ INFO] pool-3-thread-5 2018-12-18 10:50:43 4208691 = null
+[ERROR] pool-3-thread-5 2018-12-18 10:50:43 RaceInfo not find. EventsID = 4208691
+[ INFO] _SaveAndParseDataThread_ 2018-12-18 10:50:43 6/6 2018-12-18 10:50:43.851 2018-12-18 10:50:43.846
+[ INFO] pool-3-thread-6 2018-12-18 10:50:43 4208950 = null
+[ERROR] pool-3-thread-6 2018-12-18 10:50:43 RaceInfo not find. EventsID = 4208950
+[ INFO] _SaveAndParseDataThread_ 2018-12-18 10:50:44 7/7 2018-12-18 10:50:44.81 2018-12-18 10:50:44.74
+[ INFO] pool-3-thread-7 2018-12-18 10:50:44 4208615 = null
+[ERROR] pool-3-thread-7 2018-12-18 10:50:44 RaceInfo not find. EventsID = 4208615
+[ INFO] _SaveAndParseDataThread_ 2018-12-18 10:50:47 8/8 2018-12-18 10:50:47.963 2018-12-18 10:50:47.961
+[ INFO] pool-3-thread-8 2018-12-18 10:50:47 4208950 = null
+[ERROR] pool-3-thread-8 2018-12-18 10:50:47 RaceInfo not find. EventsID = 4208950
+[ INFO] _SaveAndParseDataThread_ 2018-12-18 10:50:56 9/9 2018-12-18 10:50:56.144 2018-12-18 10:50:56.141
+[ INFO] _SaveAndParseDataThread_ 2018-12-18 10:50:59 10/10 2018-12-18 10:50:59.534 2018-12-18 10:50:59.531
+[ INFO] pool-3-thread-10 2018-12-18 10:50:59 4208585 = null
+[ERROR] pool-3-thread-10 2018-12-18 10:50:59 RaceInfo not find. EventsID = 4208585
+[ INFO] _SaveAndParseDataThread_ 2018-12-18 10:50:59 11/11 2018-12-18 10:50:59.554 2018-12-18 10:50:59.544
+[ INFO] pool-3-thread-11 2018-12-18 10:50:59 4208618 = null
+[ERROR] pool-3-thread-11 2018-12-18 10:50:59 RaceInfo not find. EventsID = 4208618
+[ INFO] _SaveAndParseDataThread_ 2018-12-18 10:50:59 12/12 2018-12-18 10:50:59.584 2018-12-18 10:50:59.576
+[ INFO] pool-3-thread-12 2018-12-18 10:50:59 4208694 = null
+[ERROR] pool-3-thread-12 2018-12-18 10:50:59 RaceInfo not find. EventsID = 4208694
+[ INFO] _SaveAndParseDataThread_ 2018-12-18 10:50:59 13/13 2018-12-18 10:50:59.624 2018-12-18 10:50:59.615
+[ INFO] pool-3-thread-13 2018-12-18 10:50:59 4208691 = null
+[ERROR] pool-3-thread-13 2018-12-18 10:50:59 RaceInfo not find. EventsID = 4208691
+[ INFO] _SaveAndParseDataThread_ 2018-12-18 10:50:59 14/14 2018-12-18 10:50:59.664 2018-12-18 10:50:59.661
+[ INFO] pool-3-thread-14 2018-12-18 10:50:59 4208698 = null
+[ERROR] pool-3-thread-14 2018-12-18 10:50:59 RaceInfo not find. EventsID = 4208698
+[ INFO] _SaveAndParseDataThread_ 2018-12-18 10:50:59 15/15 2018-12-18 10:50:59.714 2018-12-18 10:50:59.711
+[ INFO] pool-3-thread-15 2018-12-18 10:50:59 4208689 = null
+[ERROR] pool-3-thread-15 2018-12-18 10:50:59 RaceInfo not find. EventsID = 4208689
+[ INFO] _SaveAndParseDataThread_ 2018-12-18 10:50:59 16/16 2018-12-18 10:50:59.775 2018-12-18 10:50:59.773
+[ INFO] pool-3-thread-16 2018-12-18 10:50:59 4208595 = null
+[ERROR] pool-3-thread-16 2018-12-18 10:50:59 RaceInfo not find. EventsID = 4208595
+[ INFO] _SaveAndParseDataThread_ 2018-12-18 10:50:59 17/17 2018-12-18 10:50:59.805 2018-12-18 10:50:59.799
+[ INFO] pool-3-thread-17 2018-12-18 10:50:59 4208659 = null
+[ERROR] pool-3-thread-17 2018-12-18 10:50:59 RaceInfo not find. EventsID = 4208659
+[ INFO] _SaveAndParseDataThread_ 2018-12-18 10:51:03 18/18 2018-12-18 10:51:03.145 2018-12-18 10:51:03.143
+[ INFO] pool-3-thread-18 2018-12-18 10:51:03 4208989 = null
+[ERROR] pool-3-thread-18 2018-12-18 10:51:03 RaceInfo not find. EventsID = 4208989
+[ INFO] _SaveAndParseDataThread_ 2018-12-18 10:51:04 19/19 2018-12-18 10:51:04.795 2018-12-18 10:51:04.790
+[ INFO] pool-3-thread-19 2018-12-18 10:51:04 4209047 = null
+[ERROR] pool-3-thread-19 2018-12-18 10:51:04 RaceInfo not find. EventsID = 4209047
+[ INFO] _SaveAndParseDataThread_ 2018-12-18 10:51:10 20/20 2018-12-18 10:51:10.595 2018-12-18 10:51:10.587
+[ INFO] pool-3-thread-20 2018-12-18 10:51:10 4207232 = null
+[ERROR] pool-3-thread-20 2018-12-18 10:51:10 RaceInfo not find. EventsID = 4207232
+[ INFO] _SaveAndParseDataThread_ 2018-12-18 10:51:10 21/21 2018-12-18 10:51:10.615 2018-12-18 10:51:10.608
+[ INFO] pool-3-thread-2 2018-12-18 10:51:10 4207231 = null
+[ERROR] pool-3-thread-2 2018-12-18 10:51:10 RaceInfo not find. EventsID = 4207231
+[ INFO] _SaveAndParseDataThread_ 2018-12-18 10:51:10 22/22 2018-12-18 10:51:10.635 2018-12-18 10:51:10.633
+[ INFO] pool-3-thread-5 2018-12-18 10:51:10 4208618 = null
+[ERROR] pool-3-thread-5 2018-12-18 10:51:10 RaceInfo not find. EventsID = 4208618
+[ INFO] _SaveAndParseDataThread_ 2018-12-18 10:51:10 23/24 2018-12-18 10:51:10.685 2018-12-18 10:51:10.674
+[ INFO] _SaveAndParseDataThread_ 2018-12-18 10:51:10 24/24 2018-12-18 10:51:10.685 2018-12-18 10:51:10.680
+[ INFO] pool-3-thread-3 2018-12-18 10:51:10 4208951 = null
+[ERROR] pool-3-thread-3 2018-12-18 10:51:10 RaceInfo not find. EventsID = 4208951
+[ INFO] pool-3-thread-7 2018-12-18 10:51:10 4208615 = null
+[ERROR] pool-3-thread-7 2018-12-18 10:51:10 RaceInfo not find. EventsID = 4208615
+[ INFO] _SaveAndParseDataThread_ 2018-12-18 10:51:10 25/25 2018-12-18 10:51:10.736 2018-12-18 10:51:10.730
+[ INFO] pool-3-thread-1 2018-12-18 10:51:10 4208694 = null
+[ERROR] pool-3-thread-1 2018-12-18 10:51:10 RaceInfo not find. EventsID = 4208694
+[ INFO] _SaveAndParseDataThread_ 2018-12-18 10:51:21 26/26 2018-12-18 10:51:21.607 2018-12-18 10:51:21.603
+[ INFO] pool-3-thread-4 2018-12-18 10:51:21 4208615 = null
+[ERROR] pool-3-thread-4 2018-12-18 10:51:21 RaceInfo not find. EventsID = 4208615
+[ INFO] _SaveAndParseDataThread_ 2018-12-18 10:51:21 27/27 2018-12-18 10:51:21.628 2018-12-18 10:51:21.620
+[ INFO] pool-3-thread-6 2018-12-18 10:51:21 4208618 = null
+[ERROR] pool-3-thread-6 2018-12-18 10:51:21 RaceInfo not find. EventsID = 4208618
+[ INFO] _SaveAndParseDataThread_ 2018-12-18 10:51:21 28/28 2018-12-18 10:51:21.648 2018-12-18 10:51:21.644
+[ INFO] pool-3-thread-8 2018-12-18 10:51:21 4208691 = null
+[ERROR] pool-3-thread-8 2018-12-18 10:51:21 RaceInfo not find. EventsID = 4208691
+[ INFO] _SaveAndParseDataThread_ 2018-12-18 10:51:21 29/30 2018-12-18 10:51:21.698 2018-12-18 10:51:21.694
+[ INFO] _SaveAndParseDataThread_ 2018-12-18 10:51:21 30/30 2018-12-18 10:51:21.698 2018-12-18 10:51:21.694
+[ INFO] pool-3-thread-10 2018-12-18 10:51:21 4208585 = null
+[ERROR] pool-3-thread-10 2018-12-18 10:51:21 RaceInfo not find. EventsID = 4208585
+[ INFO] pool-3-thread-13 2018-12-18 10:51:21 4208689 = null
+[ERROR] pool-3-thread-13 2018-12-18 10:51:21 RaceInfo not find. EventsID = 4208689
+[ INFO] _SaveAndParseDataThread_ 2018-12-18 10:51:32 31/31 2018-12-18 10:51:32.590 2018-12-18 10:51:32.589
+[ INFO] pool-3-thread-14 2018-12-18 10:51:32 4208585 = null
+[ERROR] pool-3-thread-14 2018-12-18 10:51:32 RaceInfo not find. EventsID = 4208585
+[ INFO] _SaveAndParseDataThread_ 2018-12-18 10:51:32 32/33 2018-12-18 10:51:32.620 2018-12-18 10:51:32.617
+[ INFO] _SaveAndParseDataThread_ 2018-12-18 10:51:32 33/33 2018-12-18 10:51:32.621 2018-12-18 10:51:32.618
+[ INFO] pool-3-thread-12 2018-12-18 10:51:32 4208595 = null
+[ERROR] pool-3-thread-12 2018-12-18 10:51:32 RaceInfo not find. EventsID = 4208595
+[ INFO] pool-3-thread-15 2018-12-18 10:51:32 4208586 = null
+[ERROR] pool-3-thread-15 2018-12-18 10:51:32 RaceInfo not find. EventsID = 4208586
+[ INFO] _SaveAndParseDataThread_ 2018-12-18 10:51:32 34/34 2018-12-18 10:51:32.652 2018-12-18 10:51:32.651
+[ INFO] pool-3-thread-11 2018-12-18 10:51:32 4208689 = null
+[ERROR] pool-3-thread-11 2018-12-18 10:51:32 RaceInfo not find. EventsID = 4208689
+[ INFO] _SaveAndParseDataThread_ 2018-12-18 10:51:32 35/36 2018-12-18 10:51:32.703 2018-12-18 10:51:32.695
+[ INFO] _SaveAndParseDataThread_ 2018-12-18 10:51:32 36/36 2018-12-18 10:51:32.703 2018-12-18 10:51:32.695
+[ INFO] pool-3-thread-16 2018-12-18 10:51:32 4207232 = null
+[ERROR] pool-3-thread-16 2018-12-18 10:51:32 RaceInfo not find. EventsID = 4207232
+[ INFO] pool-3-thread-17 2018-12-18 10:51:32 4208950 = null
+[ERROR] pool-3-thread-17 2018-12-18 10:51:32 RaceInfo not find. EventsID = 4208950
+[ INFO] _SaveAndParseDataThread_ 2018-12-18 10:51:34 37/37 2018-12-18 10:51:34.24 2018-12-18 10:51:34.20
+[ INFO] pool-3-thread-9 2018-12-18 10:51:34 4208585 = null
+[ERROR] pool-3-thread-9 2018-12-18 10:51:34 RaceInfo not find. EventsID = 4208585
+[ INFO] _SaveAndParseDataThread_ 2018-12-18 10:51:44 38/38 2018-12-18 10:51:44.447 2018-12-18 10:51:44.446
+[ INFO] pool-3-thread-18 2018-12-18 10:51:44 4207232 = null
+[ERROR] pool-3-thread-18 2018-12-18 10:51:44 RaceInfo not find. EventsID = 4207232
+[ INFO] _SaveAndParseDataThread_ 2018-12-18 10:51:44 39/39 2018-12-18 10:51:44.468 2018-12-18 10:51:44.468
+[ INFO] pool-3-thread-19 2018-12-18 10:51:44 4208617 = null
+[ERROR] pool-3-thread-19 2018-12-18 10:51:44 RaceInfo not find. EventsID = 4208617
+[ INFO] _SaveAndParseDataThread_ 2018-12-18 10:51:44 40/40 2018-12-18 10:51:44.488 2018-12-18 10:51:44.487
+[ INFO] pool-3-thread-2 2018-12-18 10:51:44 4208659 = null
+[ERROR] pool-3-thread-2 2018-12-18 10:51:44 RaceInfo not find. EventsID = 4208659
+[ INFO] _SaveAndParseDataThread_ 2018-12-18 10:51:44 41/41 2018-12-18 10:51:44.498 2018-12-18 10:51:44.493
+[ INFO] pool-3-thread-7 2018-12-18 10:51:44 4208689 = null
+[ERROR] pool-3-thread-7 2018-12-18 10:51:44 RaceInfo not find. EventsID = 4208689
+[ INFO] _SaveAndParseDataThread_ 2018-12-18 10:51:44 42/42 2018-12-18 10:51:44.528 2018-12-18 10:51:44.525
+[ INFO] pool-3-thread-5 2018-12-18 10:51:44 4208585 = null
+[ERROR] pool-3-thread-5 2018-12-18 10:51:44 RaceInfo not find. EventsID = 4208585
+[ INFO] _SaveAndParseDataThread_ 2018-12-18 10:51:45 43/43 2018-12-18 10:51:45.148 2018-12-18 10:51:45.142
+[ INFO] pool-3-thread-1 2018-12-18 10:51:45 4209048 = null
+[ERROR] pool-3-thread-1 2018-12-18 10:51:45 RaceInfo not find. EventsID = 4209048
+[ INFO] _SaveAndParseDataThread_ 2018-12-18 10:51:45 44/44 2018-12-18 10:51:45.578 2018-12-18 10:51:45.575
+[ INFO] pool-3-thread-20 2018-12-18 10:51:45 4209049 = null
+[ERROR] pool-3-thread-20 2018-12-18 10:51:45 RaceInfo not find. EventsID = 4209049
+[ INFO] main 2018-12-18 10:54:14 PageHelper version : 20170615
+[ INFO] main 2018-12-18 10:54:14 2 proxy can use:
+[ INFO] main 2018-12-18 10:54:14 103.6.213.45:10808:aus:se4rfdgy7ujh
+[ INFO] main 2018-12-18 10:54:14 78.129.196.103:8080:pmu:se4rfdgy7ujh
+[ INFO] main 2018-12-18 10:54:14 use proxy : 103.6.213.45
+[ INFO] main 2018-12-18 10:54:14 doGet 0 : http://prematch.lsports.eu/OddService/EnablePackage?username=freddygalliers@googlemail.com&password=cdd8b962&guid=a1772950-77f5-4f24-8926-49393f2e7ad5&packageid=a1772950-77f5-4f24-8926-49393f2e7ad5
+[ INFO] main 2018-12-18 10:54:16 Body = 
+{"Header":{"Type":34,"ServerTimestamp":1545101637},"Body":[{"Response":"The operation you tried to perform has failed reason: Value was already set"}]}
+[ INFO] Thread-0 2018-12-18 10:54:16 ReceiveCount = 0
+[ INFO] main 2018-12-18 10:54:17  [*] Waiting for messages. To exit press CTRL+C
+[ INFO] pool-1-thread-4 2018-12-18 10:54:23 MsgGuid = null
+[ INFO] pool-1-thread-6 2018-12-18 10:54:34 MsgGuid = null
+[ INFO] pool-1-thread-7 2018-12-18 10:54:34 MsgGuid = null
+[ INFO] pool-1-thread-8 2018-12-18 10:54:34 MsgGuid = null
+[ INFO] pool-1-thread-9 2018-12-18 10:54:34 MsgGuid = null
+[ INFO] pool-1-thread-10 2018-12-18 10:54:34 MsgGuid = null
+[ INFO] pool-1-thread-11 2018-12-18 10:54:34 MsgGuid = null
+[ INFO] pool-1-thread-12 2018-12-18 10:54:36 MsgGuid = null
+[ INFO] main 2018-12-18 10:55:31 PageHelper version : 20170615
+[ INFO] main 2018-12-18 10:55:31 2 proxy can use:
+[ INFO] main 2018-12-18 10:55:31 103.6.213.45:10808:aus:se4rfdgy7ujh
+[ INFO] main 2018-12-18 10:55:31 78.129.196.103:8080:pmu:se4rfdgy7ujh
+[ INFO] main 2018-12-18 10:55:31 use proxy : 103.6.213.45
+[ INFO] main 2018-12-18 10:55:31 doGet 0 : http://prematch.lsports.eu/OddService/EnablePackage?username=freddygalliers@googlemail.com&password=cdd8b962&guid=a1772950-77f5-4f24-8926-49393f2e7ad5&packageid=a1772950-77f5-4f24-8926-49393f2e7ad5
+[ INFO] main 2018-12-18 10:55:36 Body = 
+{"Header":{"Type":34,"ServerTimestamp":1545101718},"Body":[{"Response":"The operation you tried to perform has failed reason: Value was already set"}]}
+[ INFO] Thread-0 2018-12-18 10:55:36 ReceiveCount = 0
+[ INFO] main 2018-12-18 10:55:38  [*] Waiting for messages. To exit press CTRL+C
+[ INFO] pool-1-thread-4 2018-12-18 10:55:42 MsgGuid = 80a03951-5a7f-4508-a2b1-732f9f59ff10
+[ INFO] pool-1-thread-5 2018-12-18 10:55:45 MsgGuid = 90513edb-b941-4e39-a53a-87c4bae2d47b
+[ INFO] pool-1-thread-6 2018-12-18 10:55:45 MsgGuid = 3f2f4693-3a2c-4bd9-a7a8-0b6a1864148a
+[ INFO] pool-1-thread-7 2018-12-18 10:55:45 MsgGuid = db35e8f0-3368-45df-9b3a-a7100dd5b397
+[ INFO] pool-1-thread-8 2018-12-18 10:55:46 MsgGuid = 52dfa2d6-97f5-4701-99a4-5871d0f04bb0
+[ INFO] pool-1-thread-9 2018-12-18 10:55:46 MsgGuid = b44e0045-e424-4bdf-aa99-b5b6462efe0c
+[ INFO] pool-1-thread-11 2018-12-18 10:55:57 MsgGuid = beed5a79-1bac-446e-8dc3-4cdb51e4c9ad
+[ INFO] pool-1-thread-12 2018-12-18 10:55:57 MsgGuid = ed646016-46a8-4061-bb10-5ad733af1014
+[ INFO] pool-1-thread-13 2018-12-18 10:55:57 MsgGuid = b0e2a3bf-a792-4173-9f8d-782d2d341d8a
+[ INFO] pool-1-thread-14 2018-12-18 10:55:57 MsgGuid = e714eb76-59f9-43e1-8d1c-3b9dca223016
+[ INFO] pool-1-thread-15 2018-12-18 10:55:57 MsgGuid = bff37764-4c13-4b2e-a3c7-93175e76cc1f
+[ INFO] pool-1-thread-16 2018-12-18 10:55:57 MsgGuid = a0d92b7d-f8f3-4f0c-b7cf-1dca71703c5b
+[ INFO] pool-1-thread-17 2018-12-18 10:55:57 MsgGuid = 5c4638c4-d3be-464e-bfc3-def2b176dc99
+[ INFO] pool-1-thread-18 2018-12-18 10:55:57 MsgGuid = 381a74ec-4e64-42db-a66d-3826c87827c6
+[ INFO] pool-1-thread-3 2018-12-18 10:55:59 MsgGuid = c2bc06a1-9b29-460c-8677-bab1a92e5de1
+[ INFO] pool-1-thread-4 2018-12-18 10:56:02 MsgGuid = 55a40464-c7b0-4706-aafc-7507930fed78
+[ INFO] pool-1-thread-5 2018-12-18 10:56:03 MsgGuid = ce5e63d9-9310-4617-aa79-db3550e0bcfe
+[ INFO] pool-1-thread-7 2018-12-18 10:56:11 MsgGuid = 1c0ea338-ba1c-4cc5-802e-2bb2c43463f5
+[ INFO] pool-1-thread-8 2018-12-18 10:56:11 MsgGuid = 948c6e4a-11e1-4c6b-aa69-eb0d31191928
+[ INFO] pool-1-thread-9 2018-12-18 10:56:11 MsgGuid = 06e2e169-377f-4488-8037-cdb91ba714a9
+[ INFO] pool-1-thread-10 2018-12-18 10:56:11 MsgGuid = 6cb401c3-f9a7-4d30-a826-c1d5c337fd11
+[ INFO] pool-1-thread-11 2018-12-18 10:56:11 MsgGuid = 1614bc40-6f6e-48ef-ae9e-9657d64f0eb7
+[ INFO] pool-1-thread-12 2018-12-18 10:56:11 MsgGuid = d4fdb323-1702-477a-b1cf-edffcee0d0ea
+[ INFO] pool-1-thread-13 2018-12-18 10:56:11 MsgGuid = 194c1b65-c49c-480d-9038-39f46cd2c603
+[ INFO] pool-1-thread-15 2018-12-18 10:56:21 MsgGuid = 31845bd1-9382-456f-aa3f-62a8ae7a9812
+[ INFO] pool-1-thread-16 2018-12-18 10:56:22 MsgGuid = d6d4f15b-6372-4fdc-8d56-5b4a2c19f436
+[ INFO] pool-1-thread-17 2018-12-18 10:56:22 MsgGuid = c1639fa4-184d-4aa4-b198-41bccb2fcd79
+[ INFO] pool-1-thread-18 2018-12-18 10:56:22 MsgGuid = 4e7ccf11-d335-47d4-b437-e55426b9cf6e
+[ INFO] pool-1-thread-3 2018-12-18 10:56:22 MsgGuid = 235c0e59-92d6-47f0-8c10-f85e27ed4451
+[ INFO] pool-1-thread-3 2018-12-18 10:56:22 MsgGuid = c936b6cf-29b4-4097-909d-56727796b881
+[ INFO] pool-1-thread-5 2018-12-18 10:56:22 MsgGuid = 6723d56c-178f-4284-b1c5-675574d1875f
+[ INFO] pool-1-thread-7 2018-12-18 10:56:33 MsgGuid = 08c28c09-aad8-4f3c-88cb-328b84d173ce
+[ INFO] pool-1-thread-8 2018-12-18 10:56:33 MsgGuid = 772ce642-e646-4af5-855b-3729ab121e6f
+[ INFO] pool-1-thread-9 2018-12-18 10:56:33 MsgGuid = cb1a4115-e2a5-45e1-9cdf-123dfdc2721a
+[ INFO] pool-1-thread-10 2018-12-18 10:56:33 MsgGuid = 91cf2713-de1a-4608-a218-636c2ea6c4e1
+[ INFO] pool-1-thread-11 2018-12-18 10:56:33 MsgGuid = c45ceeda-f283-4696-b217-c02677aa6893
+[ INFO] pool-1-thread-12 2018-12-18 10:56:33 MsgGuid = d29eec25-6733-47a5-8d81-31a3d3dc89ae
+[ INFO] pool-1-thread-13 2018-12-18 10:56:33 MsgGuid = c83c85a0-9204-4cf9-817c-629aeb78d2a6
+[ INFO] pool-1-thread-15 2018-12-18 10:56:44 MsgGuid = acc93bfa-1125-435b-b9ee-063648888d1f
+[ INFO] pool-1-thread-16 2018-12-18 10:56:44 MsgGuid = b469b642-cc0a-4405-ab34-05e67950a2cd
+[ INFO] pool-1-thread-17 2018-12-18 10:56:44 MsgGuid = cd7b8a8b-1cbc-4c4b-a628-78827ef14726
+[ INFO] pool-1-thread-17 2018-12-18 10:56:44 MsgGuid = 840b16f0-1492-4ec4-961a-242fd0c1b322
+[ INFO] pool-1-thread-4 2018-12-18 10:56:44 MsgGuid = 13eab10c-32a8-4b5d-a6b3-6c1d6d8d74b1
+[ INFO] pool-1-thread-3 2018-12-18 10:56:44 MsgGuid = 6dafb868-42fc-4f29-b0f4-73bf7a49ec75
+[ INFO] pool-1-thread-5 2018-12-18 10:56:45 MsgGuid = 949ebd72-b81b-47d8-a4d6-1463dc00230d
+[ INFO] pool-1-thread-7 2018-12-18 10:56:52 MsgGuid = 4cb5e267-6ff7-407a-8fed-b83777c50ec0
+[ INFO] pool-1-thread-8 2018-12-18 10:56:52 MsgGuid = 3ac4d57d-ebc8-45c0-afc8-14edde3af5ca
+[ INFO] pool-1-thread-9 2018-12-18 10:56:55 MsgGuid = 40964ecc-a67c-4435-9d4b-9be2b9539495
+[ INFO] pool-1-thread-10 2018-12-18 10:56:56 MsgGuid = a2b97b56-4482-46c2-888a-35c211108e5e
+[ INFO] pool-1-thread-10 2018-12-18 10:56:56 MsgGuid = 6970d0fc-484e-47a8-af9a-78f915ef8ceb
+[ INFO] pool-1-thread-10 2018-12-18 10:56:56 MsgGuid = 9a3be96c-48b6-40b6-ae71-2e4fba4bad5d
+[ INFO] pool-1-thread-10 2018-12-18 10:56:56 MsgGuid = ff07a53a-8d05-4c28-ab3d-18e7ead42810
+[ INFO] pool-1-thread-10 2018-12-18 10:56:56 MsgGuid = 9c30e12a-2fd0-4448-8044-593b02c059e2
+[ INFO] pool-1-thread-10 2018-12-18 10:56:56 MsgGuid = bba38c90-0869-41da-b955-777710332ee9
+[ INFO] pool-1-thread-10 2018-12-18 10:56:56 MsgGuid = f39e4941-f5f6-458f-91e6-0dd99b72fd1c
+[ INFO] pool-1-thread-12 2018-12-18 10:56:58 MsgGuid = aeb51435-4aea-436b-a2a1-5537211cb8aa
+[ INFO] pool-1-thread-13 2018-12-18 10:57:07 MsgGuid = 449cbe50-cfb0-4e80-aa91-3810d241793b
+[ INFO] pool-1-thread-14 2018-12-18 10:57:07 MsgGuid = 59f825a2-d4cf-4c7b-b5e0-eab645565480
+[ INFO] pool-1-thread-15 2018-12-18 10:57:07 MsgGuid = 5cf2baab-804c-42e6-ac63-dfd76b49eafe
+[ INFO] pool-1-thread-15 2018-12-18 10:57:07 MsgGuid = dd399221-50aa-4a8f-8090-69689578986c
+[ INFO] pool-1-thread-17 2018-12-18 10:57:07 MsgGuid = b8c98068-660d-43da-a1fc-ebe6009f18bf
+[ INFO] pool-1-thread-4 2018-12-18 10:57:07 MsgGuid = b996f6f7-5527-4fff-a915-16170a98fe73
+[ INFO] pool-1-thread-5 2018-12-18 10:57:20 MsgGuid = a31c7683-0936-4c50-952e-4e8e1a27b01c
+[ INFO] pool-1-thread-6 2018-12-18 10:57:20 MsgGuid = e6dc0f22-8220-4ac4-8c56-9d5bdf06f598
+[ INFO] pool-1-thread-7 2018-12-18 10:57:20 MsgGuid = a144a032-a4e5-4e9e-a3d6-6701b23f85c1
+[ INFO] pool-1-thread-7 2018-12-18 10:57:20 MsgGuid = 0408a2cb-8c0c-472e-a1e3-915a02ac28f7
+[ INFO] pool-1-thread-9 2018-12-18 10:57:20 MsgGuid = b0d7a3a7-bb2a-4f1d-92b4-85d3932c740d
+[ INFO] pool-1-thread-9 2018-12-18 10:57:20 MsgGuid = 7b1895e1-f936-4b87-98a5-b0c686950f22
+[ INFO] pool-1-thread-9 2018-12-18 10:57:20 MsgGuid = f4dec110-74b8-40d9-95b1-c9608d42b3b1
+[ INFO] pool-1-thread-10 2018-12-18 10:57:22 MsgGuid = cf9ba7b7-0363-437e-ac82-c622bd0ab02b
+[ INFO] main 2018-12-18 11:26:07 KafkaSender version : 20170922
+[ INFO] main 2018-12-18 11:26:07 version:20170907
+[ INFO] KafkaSender_Thread 2018-12-18 11:26:07 sending Kafka 1/1
+[ INFO] KafkaSender_Thread 2018-12-18 11:26:07 Top Name: lsports.horse_racing.odds
+[ INFO] KafkaSender_Thread 2018-12-18 11:26:07 ProducerConfig values: 
+	acks = 0
+	batch.size = 16384
+	block.on.buffer.full = false
+	bootstrap.servers = [192.168.27.27:9092, 192.168.27.28:9092, 192.168.27.30:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = gzip
+	connections.max.idle.ms = 540000
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.fetch.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	timeout.ms = 30000
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+[ INFO] main 2018-12-18 16:01:37 KafkaSender version : 20170922
+[ INFO] KafkaSender_Thread 2018-12-18 16:01:37 sending Kafka 1/1
+[ INFO] KafkaSender_Thread 2018-12-18 16:01:37 ProducerConfig values: 
+	acks = 0
+	batch.size = 16384
+	block.on.buffer.full = false
+	bootstrap.servers = [192.168.128.17:9092, 192.168.128.18:9092, 192.168.128.19:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = gzip
+	connections.max.idle.ms = 540000
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.fetch.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	timeout.ms = 30000
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+[ INFO] main 2018-12-18 16:01:37 ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.128.17:9092, 192.168.128.18:9092, 192.168.128.19:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = ConsumerTestClient
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+

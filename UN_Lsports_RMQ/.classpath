@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/activation.jar"/>
+	<classpathentry kind="lib" path="lib/commons-discovery-0.2.jar"/>
+	<classpathentry kind="lib" path="lib/commons-lang-2.3.jar"/>
+	<classpathentry kind="lib" path="lib/dom4j-1.6.jar"/>
+	<classpathentry kind="lib" path="lib/jdom.jar"/>
+	<classpathentry kind="lib" path="lib/jtds-1.0.3.jar"/>
+	<classpathentry kind="lib" path="lib/mail.jar"/>
+	<classpathentry kind="lib" path="lib/xerces.jar"/>
+	<classpathentry kind="lib" path="lib/commons-pool-1.6.jar"/>
+	<classpathentry kind="lib" path="lib/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/jna-platform-4.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/fluent-hc-4.5.3.jar"/>
+	<classpathentry kind="lib" path="lib/httpclient-4.5.3.jar"/>
+	<classpathentry kind="lib" path="lib/httpclient-cache-4.5.3.jar"/>
+	<classpathentry kind="lib" path="lib/httpclient-win-4.5.3.jar"/>
+	<classpathentry kind="lib" path="lib/httpcore-4.4.6.jar"/>
+	<classpathentry kind="lib" path="lib/httpmime-4.5.3.jar"/>
+	<classpathentry kind="lib" path="lib/KafkaSenderV2.jar"/>
+	<classpathentry kind="lib" path="lib/kafka.consumer-0.0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="lib/kafka.producer-0.0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="lib/sqljdbc42.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-annotations-2.8.5.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-core-2.8.5.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-databind-2.8.5.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-over-slf4j-1.7.25.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-core-2.11.1.jar"/>
+	<classpathentry kind="lib" path="lib/amqp-client-3.6.5.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

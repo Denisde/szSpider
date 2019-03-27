@@ -1,0 +1,10 @@
+<style>
+	<Send>1</Send>	
+	<URL>axis:http://192.168.10.6:44444/services/msgDispatcher?method=statusUpdate</URL>
+	<SenderName>NzXmlOdds</SenderName>
+	<WinUpdate>WinUpdate</WinUpdate>
+	<PlaceUpdate>PlaceUpdate</PlaceUpdate>
+	<QuinellaUpdate>QuinellaUpdate</QuinellaUpdate>
+	
+	<MarketID>2</MarketID>
+</style>

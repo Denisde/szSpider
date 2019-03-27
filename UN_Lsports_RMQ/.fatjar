@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Mon Nov 19 10:31:34 CST 2018
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=UN_Lsports_BookOdds_RMQ.jar
+manifest.mergeall=true
+manifest.mainclass=com.datalabchina.controler.Controler
+manifest.file=MANIFEST.MF
+jarname.isextern=false
+onejar.expand=
+excludes=<jar|activation.jar>;<jar|commons-discovery-0.2.jar>;<jar|commons-lang-2.3.jar>;<jar|dom4j-1.6.jar>;<jar|jdom.jar>;<jar|jtds-1.0.3.jar>;<jar|mail.jar>;<jar|xerces.jar>;<jar|commons-pool-1.6.jar>;<jar|commons-codec-1.9.jar>;<jar|commons-logging-1.2.jar>;<jar|jna-4.1.0.jar>;<jar|jna-platform-4.1.0.jar>;<jar|fluent-hc-4.5.3.jar>;<jar|httpclient-4.5.3.jar>;<jar|httpclient-cache-4.5.3.jar>;<jar|httpclient-win-4.5.3.jar>;<jar|httpcore-4.4.6.jar>;<jar|httpmime-4.5.3.jar>;<jar|KafkaSenderV2.jar>;<jar|kafka.consumer-0.0.1-SNAPSHOT.jar>;<jar|kafka.producer-0.0.1-SNAPSHOT.jar>;<jar|sqljdbc42.jar>;<jar|jackson-annotations-2.8.5.jar>;<jar|jackson-core-2.8.5.jar>;<jar|jackson-databind-2.8.5.jar>;<jar|log4j-over-slf4j-1.7.25.jar>;<jar|log4j-core-2.11.1.jar>
+includes=

@@ -1,0 +1,22 @@
+#
+#Thu Nov 08 14:04:19 CST 2007
+genBasicCompId=false
+sessionFactoryName=
+profile=
+daoSFId=
+version=3.0
+jndiPath=
+detectM2M=false
+reStrategyClass=
+springDaoFile=
+useJavaTypes=true
+keyGenerator=identity
+libInstallFolder=lib
+addLibs2Project=false
+genVersionTag=false
+sessionFactoryId=
+basePersistenceClass=
+reSettingsFile=
+configFile=/Wimbledon_Tennis/src/hibernate.cfg.xml
+createConfigFile=true
+addLibs2Classpath=false

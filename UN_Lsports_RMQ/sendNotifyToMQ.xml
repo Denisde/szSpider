@@ -1,0 +1,23 @@
+<style>
+	<Send>1</Send>
+	
+	<URL>tcp://192.168.60.221:61616</URL> 
+	<Queues>AU_Tab_WebService.Test.Queue</Queues>
+	<Topics></Topics>
+	
+	<RacingCode>G</RacingCode>
+	
+	<SendWinOdds>1</SendWinOdds>
+	<SendPlaceOdds>1</SendPlaceOdds>
+	
+	<ShowSendText>1</ShowSendText>
+	
+</style>
+
+<!--
+	tcp://192.168.60.234:61616
+	tcp://192.168.14.21:61616
+	http://192.168.60.221:8161/admin/topics.jsp
+	
+	AU_Tab_WebService.Test.Queue
+-->

@@ -1,0 +1,56 @@
+ssh 192.168.28.10
+
+scp 192.168.120.219:/home/szspider/un/UN_Lsports_BookOdds_RMQ_RMQ/UN_Lsports_BookOdds_RMQ_RMQ.jar .
+scp 192.168.120.219:/home/szspider/un/UN_Lsports_BookOdds_RMQ_RMQ/*.sh . 
+scp 192.168.120.219:/home/szspider/un/UN_Lsports_BookOdds_RMQ_RMQ/log4j.properties .
+scp 192.168.120.219:/home/szspider/un/UN_Lsports_BookOdds_RMQ_RMQ/*.xml .
+
+cd lib
+scp 192.168.120.219:/home/szspider/un/UN_Lsports_BookOdds_RMQ_RMQ/lib/* .
+
+28.10
+/home/szspider/lsportsRMQ
+
+cp -r /home/szspider/lsportsRMQ lsportsRMQ
+
+
+cd /home/szspider/usa/lsportsRMQ
+
+
+--------------------------------------------------
+
+cd /home/szspider/usa/lsportsRMQ
+cd /home/szspider/uk/lsportsRMQ
+
+mv /home/szspider/fr/lsportsRMQ/UN_Lsports_BookOdds_RMQ_FR.jar /home/szspider/fr/lsportsRMQ/UN_Lsports_BookOdds_RMQ_FR.jar_bak
+mv /home/szspider/usa/lsportsRMQ/UN_Lsports_BookOdds_RMQ_USA.jar /home/szspider/usa/lsportsRMQ/UN_Lsports_BookOdds_RMQ_USA.jar_bak
+mv /home/szspider/uk/lsportsRMQ/UN_Lsports_BookOdds_RMQ_UK.jar /home/szspider/uk/lsportsRMQ/UN_Lsports_BookOdds_RMQ_UK.jar_bak
+mv /home/szspider/za/lsportsRMQ/UN_Lsports_BookOdds_RMQ_ZA.jar /home/szspider/za/lsportsRMQ/UN_Lsports_BookOdds_RMQ_ZA.jar_bak
+
+cp UN_Lsports_BookOdds_RMQ.jar /home/szspider/fr/lsportsRMQ/UN_Lsports_BookOdds_RMQ_FR.jar
+cp UN_Lsports_BookOdds_RMQ.jar /home/szspider/usa/lsportsRMQ/UN_Lsports_BookOdds_RMQ_USA.jar
+cp UN_Lsports_BookOdds_RMQ.jar /home/szspider/uk/lsportsRMQ/UN_Lsports_BookOdds_RMQ_UK.jar
+cp UN_Lsports_BookOdds_RMQ.jar /home/szspider/za/lsportsRMQ/UN_Lsports_BookOdds_RMQ_ZA.jar
+
+mv /home/szspider/fr/lsportsRMQ/sys.log /home/szspider/fr/lsportsRMQ/sys.log.1
+mv /home/szspider/usa/lsportsRMQ/sys.log /home/szspider/usa/lsportsRMQ/sys.log.1
+mv /home/szspider/uk/lsportsRMQ/sys.log /home/szspider/uk/lsportsRMQ/sys.log.1
+mv /home/szspider/za/lsportsRMQ/sys.log /home/szspider/za/lsportsRMQ/sys.log.1
+
+
+
+
+check cmd:
+-------------------------------------------------------------------------
+
+cat sys.log | grep SQLException
+
+cat sys.log | grep ExtraData
+
+cat sys.log | grep GetOutrightFixtures
+
+cat sys.log | grep sleep
+
+cat sys.log | grep 'not find'
+
+cat sys.log | grep '!= null'
