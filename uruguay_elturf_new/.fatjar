@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Wed Oct 11 11:09:21 CST 2017
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=elturf.jar
+manifest.mergeall=true
+manifest.mainclass=com.datalabchina.Controller
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=
+includes=

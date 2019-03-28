@@ -1,0 +1,35 @@
+<CONFIG>
+	<databaseName>UruguayDB</databaseName>
+	<dbconfigPath>D:\config</dbconfigPath> 
+	<HttpTimeout>90000</HttpTimeout>
+	<HttpRetry>3</HttpRetry>
+		<BLL>
+		<BLLNO>1</BLLNO>
+		<BLLNAME>PostRaceBll</BLLNAME>		
+		<ISEXTRACTFROMWEB>1</ISEXTRACTFROMWEB>		
+		<ISEXTRACTFROMLOCAL>0</ISEXTRACTFROMLOCAL>
+		<SAVEFILEPATH>F:\\Denis\\elturf\\PostRace</SAVEFILEPATH>
+		<RUN>1</RUN>
+		<ISDELETEFILE>0</ISDELETEFILE>
+		<BAKFILEPATH>F:\\Denis\\elturf\\PostRace_Bak</BAKFILEPATH>
+	</BLL>
+	
+	<BLL>
+        <BLLNO>3</BLLNO>
+        <BLLNAME>PreRaceBll</BLLNAME>      
+        <ISEXTRACTFROMWEB>1</ISEXTRACTFROMWEB>      
+        <ISEXTRACTFROMLOCAL>0</ISEXTRACTFROMLOCAL>
+        <SAVEFILEPATH>F:\\Denis\\elturf\\PreRace</SAVEFILEPATH>
+        <RUN>0</RUN>
+        <ISDELETEFILE>0</ISDELETEFILE>
+        <BAKFILEPATH>F:\\Denis\\elturf\\PreRace_Bak</BAKFILEPATH>
+    </BLL>
+	
+	<MAIL>
+         <RETRIEVEADDR>denis.deng@datalabchina.com</RETRIEVEADDR>
+         <SENDADDR>admin.intranet@datalabchina.com</SENDADDR>
+         <SENDPASSWORD></SENDPASSWORD>
+         <SENDHOSTSMTP>mail.datalabchina.com</SENDHOSTSMTP>
+         <ISSEND>0</ISSEND>
+    </MAIL>
+</CONFIG> 	

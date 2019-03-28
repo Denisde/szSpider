@@ -1,0 +1,236 @@
+[INFO] 2019-03-07 10:03:34,930 [com.datalabchina.common.PageHelper.getPageHelper(PageHelper.java:83)]
+use proxy : http://192.168.60.2:8080
+[INFO] 2019-03-07 10:03:35,256 [com.datalabchina.common.PageHelper.doPost(PageHelper.java:256)]
+doPost 0 : http://elturf.com/elturfcom/dashboard-login-in
+[WARN] 2019-03-07 10:03:36,070 [com.datalabchina.common.PageHelper.doPost(PageHelper.java:284)]
+StatusCode = 302, Location = //elturf.com/elturfcom/dashboard-home
+[INFO] 2019-03-07 10:03:36,070 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://elturf.com/elturfcom/dashboard-home
+[INFO] 2019-03-07 10:03:37,407 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/home
+[INFO] 2019-03-07 10:03:53,245 [com.datalabchina.common.PageHelper.doPost(PageHelper.java:256)]
+doPost 0 : http://elturf.com/elturfcom/dashboard-login-in
+[WARN] 2019-03-07 10:03:53,705 [com.datalabchina.common.PageHelper.doPost(PageHelper.java:284)]
+StatusCode = 302, Location = //elturf.com/elturfcom/dashboard-home
+[INFO] 2019-03-07 10:03:53,705 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://elturf.com/elturfcom/dashboard-home
+[INFO] 2019-03-07 10:03:55,971 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/home
+[INFO] 2019-03-07 10:04:20,865 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/venta-ejemplares-home?id_ejemplar=410439
+[ERROR] 2019-03-07 10:04:25,695 [com.datalabchina.bll.HorseBll.parsePage(HorseBll.java:110)]
+
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at com.datalabchina.bll.HorseBll.parsePage(HorseBll.java:97)
+	at com.datalabchina.bll.HorseBll.parsePage(HorseBll.java:44)
+	at com.datalabchina.bll.HorseBll.run(HorseBll.java:31)
+	at com.datalabchina.bll.HorseBll.main(HorseBll.java:223)
+[INFO] 2019-03-07 10:06:05,112 [com.datalabchina.common.PageHelper.getPageHelper(PageHelper.java:83)]
+use proxy : http://192.168.60.2:8080
+[INFO] 2019-03-07 10:06:05,191 [com.datalabchina.common.PageHelper.doPost(PageHelper.java:256)]
+doPost 0 : http://elturf.com/elturfcom/dashboard-login-in
+[WARN] 2019-03-07 10:06:05,771 [com.datalabchina.common.PageHelper.doPost(PageHelper.java:284)]
+StatusCode = 302, Location = //elturf.com/elturfcom/dashboard-home
+[INFO] 2019-03-07 10:06:05,772 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://elturf.com/elturfcom/dashboard-home
+[INFO] 2019-03-07 10:06:07,392 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/home
+[INFO] 2019-03-07 10:06:14,303 [com.datalabchina.common.PageHelper.doPost(PageHelper.java:256)]
+doPost 0 : http://elturf.com/elturfcom/dashboard-login-in
+[WARN] 2019-03-07 10:06:14,753 [com.datalabchina.common.PageHelper.doPost(PageHelper.java:284)]
+StatusCode = 302, Location = //elturf.com/elturfcom/dashboard-home
+[INFO] 2019-03-07 10:06:14,754 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://elturf.com/elturfcom/dashboard-home
+[INFO] 2019-03-07 10:06:16,880 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/home
+[INFO] 2019-03-07 10:06:27,213 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/venta-ejemplares-home?id_ejemplar=410439
+[INFO] 2019-03-07 10:13:17,932 [com.datalabchina.common.PageHelper.getPageHelper(PageHelper.java:83)]
+use proxy : http://192.168.60.2:8080
+[INFO] 2019-03-07 10:13:17,980 [com.datalabchina.common.PageHelper.doPost(PageHelper.java:256)]
+doPost 0 : http://elturf.com/elturfcom/dashboard-login-in
+[WARN] 2019-03-07 10:13:18,865 [com.datalabchina.common.PageHelper.doPost(PageHelper.java:284)]
+StatusCode = 302, Location = //elturf.com/elturfcom/dashboard-home
+[INFO] 2019-03-07 10:13:18,866 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://elturf.com/elturfcom/dashboard-home
+[INFO] 2019-03-07 10:13:20,483 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/home
+[INFO] 2019-03-07 10:13:35,915 [com.datalabchina.common.PageHelper.doPost(PageHelper.java:256)]
+doPost 0 : http://elturf.com/elturfcom/dashboard-login-in
+[WARN] 2019-03-07 10:13:36,355 [com.datalabchina.common.PageHelper.doPost(PageHelper.java:284)]
+StatusCode = 302, Location = //elturf.com/elturfcom/dashboard-home
+[INFO] 2019-03-07 10:13:36,356 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://elturf.com/elturfcom/dashboard-home
+[INFO] 2019-03-07 10:13:37,644 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/home
+[INFO] 2019-03-07 10:13:59,774 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/venta-ejemplares-home?id_ejemplar=410439
+[ERROR] 2019-03-07 10:20:46,386 [com.datalabchina.bll.HorseBll.parsePage(HorseBll.java:121)]
+
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at com.datalabchina.bll.HorseBll.parsePage(HorseBll.java:108)
+	at com.datalabchina.bll.HorseBll.parsePage(Unknown Source)
+	at com.datalabchina.bll.HorseBll.run(Unknown Source)
+	at com.datalabchina.bll.HorseBll.main(Unknown Source)
+[INFO] 2019-03-07 10:20:59,976 [com.datalabchina.common.PageHelper.getPageHelper(PageHelper.java:83)]
+use proxy : http://192.168.60.2:8080
+[INFO] 2019-03-07 10:21:00,031 [com.datalabchina.common.PageHelper.doPost(PageHelper.java:256)]
+doPost 0 : http://elturf.com/elturfcom/dashboard-login-in
+[WARN] 2019-03-07 10:21:00,915 [com.datalabchina.common.PageHelper.doPost(PageHelper.java:284)]
+StatusCode = 302, Location = //elturf.com/elturfcom/dashboard-home
+[INFO] 2019-03-07 10:21:00,915 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://elturf.com/elturfcom/dashboard-home
+[INFO] 2019-03-07 10:21:02,553 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/home
+[INFO] 2019-03-07 10:21:18,319 [com.datalabchina.common.PageHelper.doPost(PageHelper.java:256)]
+doPost 0 : http://elturf.com/elturfcom/dashboard-login-in
+[WARN] 2019-03-07 10:21:18,763 [com.datalabchina.common.PageHelper.doPost(PageHelper.java:284)]
+StatusCode = 302, Location = //elturf.com/elturfcom/dashboard-home
+[INFO] 2019-03-07 10:21:18,763 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://elturf.com/elturfcom/dashboard-home
+[INFO] 2019-03-07 10:21:20,041 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/home
+[INFO] 2019-03-07 10:21:39,795 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/venta-ejemplares-home?id_ejemplar=410439
+[INFO] 2019-03-07 10:24:02,361 [com.datalabchina.bll.HorseBll.saveHorseToDB(HorseBll.java:149)]
+pr_Elturf_Horse_InsertData sql :N'410439',N'Oshawa San',N'20160715',NULL,N'Lookin At Lucky',N'Oshawa',NULL,NULL,NULL,NULL,NULL,NULL,NULL,N'Scat Daddy',N'2019-03-07 10:24:02',N'Macho',NULL,NULL
+[INFO] 2019-03-07 10:26:44,483 [com.datalabchina.common.PageHelper.getPageHelper(PageHelper.java:83)]
+use proxy : http://192.168.60.2:8080
+[INFO] 2019-03-07 10:26:44,529 [com.datalabchina.common.PageHelper.doPost(PageHelper.java:256)]
+doPost 0 : http://elturf.com/elturfcom/dashboard-login-in
+[WARN] 2019-03-07 10:26:45,369 [com.datalabchina.common.PageHelper.doPost(PageHelper.java:284)]
+StatusCode = 302, Location = //elturf.com/elturfcom/dashboard-home
+[INFO] 2019-03-07 10:26:45,370 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://elturf.com/elturfcom/dashboard-home
+[INFO] 2019-03-07 10:26:47,030 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/home
+[ERROR] 2019-03-07 10:27:04,660 [com.datalabchina.common.ZTStd.getResultBySelect(ZTStd.java:62)]
+error:exec sql=select  top 100*  from Elturf_Horse where webHorseId = Mistake WebHorseID
+[ERROR] 2019-03-07 10:27:04,660 [com.datalabchina.common.ZTStd.getResultBySelect(ZTStd.java:63)]
+java.sql.SQLException: Incorrect syntax near 'WebHorseID'.
+[INFO] 2019-03-07 10:27:35,046 [com.datalabchina.common.PageHelper.getPageHelper(PageHelper.java:83)]
+use proxy : http://192.168.60.2:8080
+[INFO] 2019-03-07 10:27:35,090 [com.datalabchina.common.PageHelper.doPost(PageHelper.java:256)]
+doPost 0 : http://elturf.com/elturfcom/dashboard-login-in
+[WARN] 2019-03-07 10:27:35,591 [com.datalabchina.common.PageHelper.doPost(PageHelper.java:284)]
+StatusCode = 302, Location = //elturf.com/elturfcom/dashboard-home
+[INFO] 2019-03-07 10:27:35,592 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://elturf.com/elturfcom/dashboard-home
+[INFO] 2019-03-07 10:27:36,868 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/home
+[INFO] 2019-03-07 10:27:55,418 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/venta-ejemplares-home?id_ejemplar=410398
+[INFO] 2019-03-07 10:27:58,750 [com.datalabchina.bll.HorseBll.saveHorseToDB(HorseBll.java:149)]
+pr_Elturf_Horse_InsertData sql :N'410398',N'Alao',N'20160813',NULL,N'Lookin At Lucky',N'Alucina',NULL,NULL,NULL,NULL,NULL,NULL,NULL,N'Powerscourt',N'2019-03-07 10:27:58',N'Macho',NULL,NULL
+[INFO] 2019-03-07 10:27:58,800 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/venta-ejemplares-home?id_ejemplar=410180
+[INFO] 2019-03-07 10:28:02,098 [com.datalabchina.bll.HorseBll.saveHorseToDB(HorseBll.java:149)]
+pr_Elturf_Horse_InsertData sql :N'410180',N'In Sa Allah',N'20160716',NULL,N'Boboman',N'Anucci',NULL,NULL,NULL,NULL,NULL,NULL,NULL,N'Dushyantor',N'2019-03-07 10:28:02',N'Macho',NULL,NULL
+[INFO] 2019-03-07 10:28:02,144 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/venta-ejemplares-home?id_ejemplar=409919
+[INFO] 2019-03-07 10:28:05,419 [com.datalabchina.bll.HorseBll.saveHorseToDB(HorseBll.java:149)]
+pr_Elturf_Horse_InsertData sql :N'409919',N'Almirante Maurot',N'20160824',NULL,N'War Command',N'Payette',NULL,NULL,NULL,NULL,NULL,NULL,NULL,N'Until Sundown',N'2019-03-07 10:28:05',N'Macho',NULL,NULL
+[INFO] 2019-03-07 10:28:05,464 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/venta-ejemplares-home?id_ejemplar=409818
+[INFO] 2019-03-07 10:28:09,153 [com.datalabchina.bll.HorseBll.saveHorseToDB(HorseBll.java:149)]
+pr_Elturf_Horse_InsertData sql :N'409818',N'El Mero Mero',N'20161023',NULL,N'Stay Thirsty',N'Delfa',NULL,NULL,NULL,NULL,NULL,NULL,NULL,N'Total Impact',N'2019-03-07 10:28:09',N'Macho',NULL,NULL
+[INFO] 2019-03-07 10:28:09,232 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/venta-ejemplares-home?id_ejemplar=348214
+[INFO] 2019-03-07 10:28:12,440 [com.datalabchina.bll.HorseBll.saveHorseToDB(HorseBll.java:149)]
+pr_Elturf_Horse_InsertData sql :N'348214',N'Bien Pensado',N'20160908',NULL,N'Global Hunter',N'Ser o No Ser',NULL,NULL,NULL,NULL,NULL,NULL,NULL,N'Golden Voyager',N'2019-03-07 10:28:12',N'Macho',NULL,NULL
+[INFO] 2019-03-07 10:28:12,500 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/venta-ejemplares-home?id_ejemplar=337141
+[INFO] 2019-03-07 10:28:15,667 [com.datalabchina.bll.HorseBll.saveHorseToDB(HorseBll.java:149)]
+pr_Elturf_Horse_InsertData sql :N'337141',N'Ruggeri',N'20160924',NULL,N'True Cause',N'Baritina',NULL,NULL,NULL,NULL,NULL,NULL,NULL,N'Roy',N'2019-03-07 10:28:15',N'Macho',NULL,NULL
+[INFO] 2019-03-07 10:28:15,715 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/venta-ejemplares-home?id_ejemplar=410697
+[INFO] 2019-03-07 10:28:19,003 [com.datalabchina.bll.HorseBll.saveHorseToDB(HorseBll.java:149)]
+pr_Elturf_Horse_InsertData sql :N'410697',N'king brulyn',N'20160823',NULL,N'Irish Brother',N'Flaming Torch',NULL,NULL,NULL,NULL,NULL,NULL,NULL,N'Morning Raider',N'2019-03-07 10:28:19',N'Macho',NULL,NULL
+[INFO] 2019-03-07 10:28:19,052 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/venta-ejemplares-home?id_ejemplar=410226
+[INFO] 2019-03-07 10:28:22,424 [com.datalabchina.bll.HorseBll.saveHorseToDB(HorseBll.java:149)]
+pr_Elturf_Horse_InsertData sql :N'410226',N'Gran Tomas',N'20161017',NULL,N'Scat Royal',N'Melosilla Mia',NULL,NULL,NULL,NULL,NULL,NULL,NULL,N'Merchant Of Venice',N'2019-03-07 10:28:22',N'Macho',NULL,NULL
+[INFO] 2019-03-07 10:28:22,471 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/venta-ejemplares-home?id_ejemplar=408596
+[INFO] 2019-03-07 10:28:25,695 [com.datalabchina.bll.HorseBll.saveHorseToDB(HorseBll.java:149)]
+pr_Elturf_Horse_InsertData sql :N'408596',N'Jefe De Jefes',N'20160930',NULL,N'Mastercraftsman',N'Gracili',NULL,NULL,NULL,NULL,NULL,NULL,NULL,N'Stormin Fever',N'2019-03-07 10:28:25',N'Macho',NULL,NULL
+[INFO] 2019-03-07 10:28:25,738 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/venta-ejemplares-home?id_ejemplar=408312
+[INFO] 2019-03-07 10:28:29,819 [com.datalabchina.bll.HorseBll.saveHorseToDB(HorseBll.java:149)]
+pr_Elturf_Horse_InsertData sql :N'408312',N'Daddy',N'20160720',NULL,N'Seeking The Dia',N'Answer Me',NULL,NULL,NULL,NULL,NULL,NULL,NULL,N'Fusaichi Pegasus',N'2019-03-07 10:28:29',N'Macho',NULL,NULL
+[INFO] 2019-03-07 10:28:29,867 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/venta-ejemplares-home?id_ejemplar=396402
+[INFO] 2019-03-07 10:28:33,985 [com.datalabchina.bll.HorseBll.saveHorseToDB(HorseBll.java:149)]
+pr_Elturf_Horse_InsertData sql :N'396402',N'Tio Alejandro',N'20161013',NULL,N'Tumblebrutus',N'Doctora Pequita',NULL,NULL,NULL,NULL,NULL,NULL,NULL,N'Monthir',N'2019-03-07 10:28:33',N'Macho',NULL,NULL
+[INFO] 2019-03-07 10:28:34,030 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/venta-ejemplares-home?id_ejemplar=340840
+[INFO] 2019-03-07 10:28:37,374 [com.datalabchina.bll.HorseBll.saveHorseToDB(HorseBll.java:149)]
+pr_Elturf_Horse_InsertData sql :N'340840',N'Long Shot',N'20160915',NULL,N'Grassy II',N'Liatru',NULL,NULL,NULL,NULL,NULL,NULL,NULL,N'Candy Ride',N'2019-03-07 10:28:37',N'Macho',NULL,NULL
+[INFO] 2019-03-07 10:28:37,418 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/venta-ejemplares-home?id_ejemplar=331276
+[INFO] 2019-03-07 10:28:40,649 [com.datalabchina.bll.HorseBll.saveHorseToDB(HorseBll.java:149)]
+pr_Elturf_Horse_InsertData sql :N'331276',N'Clear Point',N'20150711',NULL,N'Henrythenavigator',N'Clear Water',NULL,NULL,NULL,NULL,NULL,NULL,NULL,N'Dushyantor',N'2019-03-07 10:28:40',N'Macho',NULL,NULL
+[INFO] 2019-03-07 10:28:40,694 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/venta-ejemplares-home?id_ejemplar=350424
+[INFO] 2019-03-07 10:28:44,033 [com.datalabchina.bll.HorseBll.saveHorseToDB(HorseBll.java:149)]
+pr_Elturf_Horse_InsertData sql :N'350424',N'Hagamosla Feliz',N'20151013',NULL,N'Seville',N'Hagamoslo',NULL,NULL,NULL,NULL,NULL,NULL,NULL,N'Dance Brightly',N'2019-03-07 10:28:44',N'Hembra',NULL,NULL
+[INFO] 2019-03-07 10:28:44,077 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/venta-ejemplares-home?id_ejemplar=330629
+[INFO] 2019-03-07 10:28:47,110 [com.datalabchina.bll.HorseBll.saveHorseToDB(HorseBll.java:149)]
+pr_Elturf_Horse_InsertData sql :N'330629',N'Dulce De La Ligua',N'20150913',NULL,N'Passion for Gold',N'Hidden Bahri',NULL,NULL,NULL,NULL,NULL,NULL,NULL,N'Bahri',N'2019-03-07 10:28:47',N'Hembra',NULL,NULL
+[INFO] 2019-03-07 10:28:47,161 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/venta-ejemplares-home?id_ejemplar=435160
+[INFO] 2019-03-07 10:28:50,596 [com.datalabchina.bll.HorseBll.saveHorseToDB(HorseBll.java:149)]
+pr_Elturf_Horse_InsertData sql :N'435160',N'Corazon Minero',N'20160815',NULL,N'Grassy II',N'Whoopi',NULL,NULL,NULL,NULL,NULL,NULL,NULL,N'Mash One',N'2019-03-07 10:28:50',N'Macho',NULL,NULL
+[INFO] 2019-03-07 10:28:50,641 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/venta-ejemplares-home?id_ejemplar=409971
+[INFO] 2019-03-07 10:28:53,764 [com.datalabchina.bll.HorseBll.saveHorseToDB(HorseBll.java:149)]
+pr_Elturf_Horse_InsertData sql :N'409971',N'Jose Pablo',N'20160806',NULL,N'Viscount Nelson',N'Suprema Diva',NULL,NULL,NULL,NULL,NULL,NULL,NULL,N'Total Impact',N'2019-03-07 10:28:53',N'Macho',NULL,NULL
+[INFO] 2019-03-07 10:28:53,809 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/venta-ejemplares-home?id_ejemplar=409700
+[INFO] 2019-03-07 10:28:57,263 [com.datalabchina.bll.HorseBll.saveHorseToDB(HorseBll.java:149)]
+pr_Elturf_Horse_InsertData sql :N'409700',N'El Salto Del Lobo',N'20161014',NULL,N'Gstaad II',N'Era Feliz Aqui',NULL,NULL,NULL,NULL,NULL,NULL,NULL,N'Election Day',N'2019-03-07 10:28:57',N'Macho',NULL,NULL
+[INFO] 2019-03-07 10:28:57,309 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/venta-ejemplares-home?id_ejemplar=402880
+[INFO] 2019-03-07 10:29:00,518 [com.datalabchina.bll.HorseBll.saveHorseToDB(HorseBll.java:149)]
+pr_Elturf_Horse_InsertData sql :N'402880',N'El Mañio',N'20160825',NULL,N'Papelon',N'MiZona',NULL,NULL,NULL,NULL,NULL,NULL,NULL,N'Dushyantor',N'2019-03-07 10:29:00',N'Macho',NULL,NULL
+[INFO] 2019-03-07 10:29:00,565 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/venta-ejemplares-home?id_ejemplar=410463
+[INFO] 2019-03-07 10:29:03,658 [com.datalabchina.bll.HorseBll.saveHorseToDB(HorseBll.java:149)]
+pr_Elturf_Horse_InsertData sql :N'410463',N'Lucky Luciano',N'20160817',NULL,N'Ecliptic',N'Telsea',NULL,NULL,NULL,NULL,NULL,NULL,NULL,N'Tumblebrutus',N'2019-03-07 10:29:03',N'Macho',NULL,NULL
+[INFO] 2019-03-07 10:29:03,704 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/venta-ejemplares-home?id_ejemplar=410376
+[INFO] 2019-03-07 10:29:07,113 [com.datalabchina.bll.HorseBll.saveHorseToDB(HorseBll.java:149)]
+pr_Elturf_Horse_InsertData sql :N'410376',N'Ingeniero Mario',N'20160813',NULL,N'Ecliptic',N'Tanpietra',NULL,NULL,NULL,NULL,NULL,NULL,NULL,N'Tumblebrutus',N'2019-03-07 10:29:07',N'Macho',NULL,NULL
+[INFO] 2019-03-07 10:29:07,165 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/venta-ejemplares-home?id_ejemplar=409870
+[INFO] 2019-03-07 10:29:10,161 [com.datalabchina.bll.HorseBll.saveHorseToDB(HorseBll.java:149)]
+pr_Elturf_Horse_InsertData sql :N'409870',N'Lago Lai',N'20160821',NULL,N'Viscount Nelson',N'La Steffanella',NULL,NULL,NULL,NULL,NULL,NULL,NULL,N'Total Impact',N'2019-03-07 10:29:10',N'Macho',NULL,NULL
+[INFO] 2019-03-07 10:29:10,208 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/venta-ejemplares-home?id_ejemplar=409767
+[INFO] 2019-03-07 10:29:13,667 [com.datalabchina.bll.HorseBll.saveHorseToDB(HorseBll.java:149)]
+pr_Elturf_Horse_InsertData sql :N'409767',N'Decimo Real',N'20160929',NULL,N'Aragorn',N'Niña Joscefa',NULL,NULL,NULL,NULL,NULL,NULL,NULL,N'Until Sundown',N'2019-03-07 10:29:13',N'Macho',NULL,NULL
+[INFO] 2019-03-07 10:29:13,712 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/venta-ejemplares-home?id_ejemplar=410343
+[INFO] 2019-03-07 10:29:17,631 [com.datalabchina.bll.HorseBll.saveHorseToDB(HorseBll.java:149)]
+pr_Elturf_Horse_InsertData sql :N'410343',N'Solo Oregon',N'20160810',NULL,N'Tumblebrutus',N'Es Buena Chica',NULL,NULL,NULL,NULL,NULL,NULL,NULL,N'Ecton Park',N'2019-03-07 10:29:17',N'Macho',NULL,NULL
+[INFO] 2019-03-07 10:29:17,676 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/venta-ejemplares-home?id_ejemplar=410105
+[INFO] 2019-03-07 10:29:21,654 [com.datalabchina.bll.HorseBll.saveHorseToDB(HorseBll.java:149)]
+pr_Elturf_Horse_InsertData sql :N'410105',N'Estrella Nortina',N'20160909',NULL,N'Dance Brightly',N'The Great Star',NULL,NULL,NULL,NULL,NULL,NULL,NULL,N'A.P. Five Hundred',N'2019-03-07 10:29:21',N'Macho',NULL,NULL
+[INFO] 2019-03-07 10:29:21,703 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/venta-ejemplares-home?id_ejemplar=346312
+[INFO] 2019-03-07 10:29:24,969 [com.datalabchina.bll.HorseBll.saveHorseToDB(HorseBll.java:149)]
+pr_Elturf_Horse_InsertData sql :N'346312',N'Albo',N'20160914',NULL,N'Boboman',N'Alba Mar',NULL,NULL,NULL,NULL,NULL,NULL,NULL,N'Hardy II',N'2019-03-07 10:29:24',N'Macho',NULL,NULL
+[INFO] 2019-03-07 10:29:25,016 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/venta-ejemplares-home?id_ejemplar=346273
+[INFO] 2019-03-07 10:29:28,593 [com.datalabchina.bll.HorseBll.saveHorseToDB(HorseBll.java:149)]
+pr_Elturf_Horse_InsertData sql :N'346273',N'Poderoso Antonio',N'20160904',NULL,N'Shanghai Bobby',N'Flamingo Hill',NULL,NULL,NULL,NULL,NULL,NULL,NULL,N'Tiger Hill',N'2019-03-07 10:29:28',N'Macho',NULL,NULL
+[INFO] 2019-03-07 10:32:42,001 [com.datalabchina.common.PageHelper.getPageHelper(PageHelper.java:83)]
+use proxy : http://192.168.60.2:8080
+[INFO] 2019-03-07 10:32:42,044 [com.datalabchina.common.PageHelper.doPost(PageHelper.java:256)]
+doPost 0 : http://elturf.com/elturfcom/dashboard-login-in
+[WARN] 2019-03-07 10:32:42,901 [com.datalabchina.common.PageHelper.doPost(PageHelper.java:284)]
+StatusCode = 302, Location = //elturf.com/elturfcom/dashboard-home
+[INFO] 2019-03-07 10:32:42,901 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://elturf.com/elturfcom/dashboard-home

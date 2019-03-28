@@ -1,0 +1,46 @@
+<CONFIG>
+	<databaseName>UruguayDB</databaseName>
+	<dbconfigPath>/home/szspider/config</dbconfigPath> 
+	<HttpTimeout>90000</HttpTimeout>
+	<HttpRetry>3</HttpRetry>
+        <BLL>
+        <BLLNO>1</BLLNO>
+        <BLLNAME>PostRaceBll</BLLNAME>      
+        <ISEXTRACTFROMWEB>1</ISEXTRACTFROMWEB>      
+        <ISEXTRACTFROMLOCAL>0</ISEXTRACTFROMLOCAL>
+        <SAVEFILEPATH>/home/szspider/websitefile/uruguay/elturf_new/PostRace</SAVEFILEPATH>
+        <RUN>0</RUN>
+        <ISDELETEFILE>0</ISDELETEFILE>
+        <BAKFILEPATH>/home/szspider/websitefile/uruguay/elturf_new/PostRace_Bak</BAKFILEPATH>
+    </BLL>
+    
+       <BLL>
+        <BLLNO>2</BLLNO>
+        <BLLNAME>DividendBll</BLLNAME>      
+        <ISEXTRACTFROMWEB>1</ISEXTRACTFROMWEB>      
+        <ISEXTRACTFROMLOCAL>0</ISEXTRACTFROMLOCAL>
+        <SAVEFILEPATH>/home/szspider/websitefile/uruguay/elturf_new/Dividend</SAVEFILEPATH>
+        <RUN>0</RUN>
+        <ISDELETEFILE>0</ISDELETEFILE>
+        <BAKFILEPATH>/home/szspider/websitefile/uruguay/elturf_new/Dividend</BAKFILEPATH>
+    </BLL>
+    
+    <BLL>
+        <BLLNO>3</BLLNO>
+        <BLLNAME>PreRaceBll</BLLNAME>      
+        <ISEXTRACTFROMWEB>1</ISEXTRACTFROMWEB>      
+        <ISEXTRACTFROMLOCAL>0</ISEXTRACTFROMLOCAL>
+        <SAVEFILEPATH>/home/szspider/websitefile/uruguay/elturf_new/PreRace</SAVEFILEPATH>
+        <RUN>1</RUN>
+        <ISDELETEFILE>0</ISDELETEFILE>
+        <BAKFILEPATH>/home/szspider/websitefile/uruguay/elturf_new/PreRace_Bak</BAKFILEPATH>
+    </BLL>
+    
+    <MAIL>
+         <RETRIEVEADDR>denis.deng@datalabchina.com</RETRIEVEADDR>
+         <SENDADDR>admin.intranet@datalabchina.com</SENDADDR>
+         <SENDPASSWORD></SENDPASSWORD>
+         <SENDHOSTSMTP>mail.datalabchina.com</SENDHOSTSMTP>
+         <ISSEND>0</ISSEND>
+    </MAIL>
+</CONFIG>   

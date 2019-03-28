@@ -1,0 +1,84 @@
+[INFO] 2019-03-21 09:48:18,826 [com.datalabchina.common.PageHelper.getPageHelper(PageHelper.java:83)]
+use proxy : http://192.168.60.2:8080
+[INFO] 2019-03-21 09:48:19,004 [com.datalabchina.common.PageHelper.doPost(PageHelper.java:256)]
+doPost 0 : http://elturf.com/elturfcom/dashboard-login-in
+[WARN] 2019-03-21 09:48:20,293 [com.datalabchina.common.PageHelper.doPost(PageHelper.java:284)]
+StatusCode = 302, Location = //elturf.com/elturfcom/dashboard-home
+[INFO] 2019-03-21 09:48:20,293 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://elturf.com/elturfcom/dashboard-home
+[INFO] 2019-03-21 09:48:23,165 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/home
+[INFO] 2019-03-21 09:49:35,572 [com.datalabchina.common.PageHelper.doPost(PageHelper.java:256)]
+doPost 0 : http://elturf.com/elturfcom/dashboard-login-in
+[WARN] 2019-03-21 09:49:36,103 [com.datalabchina.common.PageHelper.doPost(PageHelper.java:284)]
+StatusCode = 302, Location = //elturf.com/elturfcom/dashboard-home
+[INFO] 2019-03-21 09:49:36,104 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://elturf.com/elturfcom/dashboard-home
+[INFO] 2019-03-21 09:49:38,263 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/home
+[INFO] 2019-03-21 09:50:25,566 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/venta-ejemplares-home?id_ejemplar=356408
+[ERROR] 2019-03-21 09:50:30,448 [com.datalabchina.bll.HorseBll.parsePage(HorseBll.java:121)]
+
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at com.datalabchina.bll.HorseBll.parsePage(HorseBll.java:108)
+	at com.datalabchina.bll.HorseBll.parsePage(HorseBll.java:44)
+	at com.datalabchina.bll.HorseBll.run(HorseBll.java:31)
+	at com.datalabchina.bll.HorseBll.main(HorseBll.java:233)
+[INFO] 2019-03-21 10:00:47,442 [com.datalabchina.common.PageHelper.getPageHelper(PageHelper.java:83)]
+use proxy : http://192.168.60.2:8080
+[INFO] 2019-03-21 10:00:47,491 [com.datalabchina.common.PageHelper.doPost(PageHelper.java:256)]
+doPost 0 : http://elturf.com/elturfcom/dashboard-login-in
+[WARN] 2019-03-21 10:00:49,684 [com.datalabchina.common.PageHelper.doPost(PageHelper.java:284)]
+StatusCode = 302, Location = //elturf.com/elturfcom/dashboard-home
+[INFO] 2019-03-21 10:00:49,684 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://elturf.com/elturfcom/dashboard-home
+[INFO] 2019-03-21 10:00:53,561 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/home
+[INFO] 2019-03-21 10:02:04,716 [com.datalabchina.common.PageHelper.doPost(PageHelper.java:256)]
+doPost 0 : http://elturf.com/elturfcom/dashboard-login-in
+[WARN] 2019-03-21 10:02:05,254 [com.datalabchina.common.PageHelper.doPost(PageHelper.java:284)]
+StatusCode = 302, Location = //elturf.com/elturfcom/dashboard-home
+[INFO] 2019-03-21 10:02:05,255 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://elturf.com/elturfcom/dashboard-home
+[INFO] 2019-03-21 10:02:08,670 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/home
+[INFO] 2019-03-21 10:03:13,731 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/venta-ejemplares-home?id_ejemplar=356408
+[ERROR] 2019-03-21 10:03:19,052 [com.datalabchina.bll.HorseBll.parsePage(HorseBll.java:136)]
+
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at com.datalabchina.bll.HorseBll.parsePage(HorseBll.java:124)
+	at com.datalabchina.bll.HorseBll.parsePage(HorseBll.java:44)
+	at com.datalabchina.bll.HorseBll.run(HorseBll.java:31)
+	at com.datalabchina.bll.HorseBll.main(HorseBll.java:248)
+[INFO] 2019-03-21 10:04:05,871 [com.datalabchina.common.PageHelper.getPageHelper(PageHelper.java:83)]
+use proxy : http://192.168.60.2:8080
+[INFO] 2019-03-21 10:04:05,912 [com.datalabchina.common.PageHelper.doPost(PageHelper.java:256)]
+doPost 0 : http://elturf.com/elturfcom/dashboard-login-in
+[WARN] 2019-03-21 10:04:06,537 [com.datalabchina.common.PageHelper.doPost(PageHelper.java:284)]
+StatusCode = 302, Location = //elturf.com/elturfcom/dashboard-home
+[INFO] 2019-03-21 10:04:06,538 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://elturf.com/elturfcom/dashboard-home
+[INFO] 2019-03-21 10:04:16,230 [com.datalabchina.common.PageHelper.getPageHelper(PageHelper.java:83)]
+use proxy : http://192.168.60.2:8080
+[INFO] 2019-03-21 10:04:16,291 [com.datalabchina.common.PageHelper.doPost(PageHelper.java:256)]
+doPost 0 : http://elturf.com/elturfcom/dashboard-login-in
+[WARN] 2019-03-21 10:04:16,950 [com.datalabchina.common.PageHelper.doPost(PageHelper.java:284)]
+StatusCode = 302, Location = //elturf.com/elturfcom/dashboard-home
+[INFO] 2019-03-21 10:04:16,951 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://elturf.com/elturfcom/dashboard-home
+[INFO] 2019-03-21 10:04:19,378 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/home
+[INFO] 2019-03-21 10:05:08,365 [com.datalabchina.common.PageHelper.doPost(PageHelper.java:256)]
+doPost 0 : http://elturf.com/elturfcom/dashboard-login-in
+[WARN] 2019-03-21 10:05:08,925 [com.datalabchina.common.PageHelper.doPost(PageHelper.java:284)]
+StatusCode = 302, Location = //elturf.com/elturfcom/dashboard-home
+[INFO] 2019-03-21 10:05:08,925 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://elturf.com/elturfcom/dashboard-home
+[INFO] 2019-03-21 10:05:13,130 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/home
+[INFO] 2019-03-21 10:05:59,584 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:194)]
+doGet 0 : http://www.elturf.com/elturfcom/venta-ejemplares-home?id_ejemplar=356408
+[INFO] 2019-03-21 10:06:13,782 [com.datalabchina.bll.HorseBll.saveHorseToDB(HorseBll.java:164)]
+pr_Elturf_Horse_InsertData sql :N'356408',N'Tapadita Fever',N'20150831',NULL,N'Texas Fever',N'May You',NULL,NULL,NULL,NULL,NULL,NULL,NULL,N'Brancusi',N'2019-03-21 10:06:13',N'Hembra',NULL,NULL
