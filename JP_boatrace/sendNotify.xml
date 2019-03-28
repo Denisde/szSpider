@@ -1,0 +1,4 @@
+<style>
+	<Send>1</Send>
+	<URL>http://192.168.10.24:33333/services/msgDispatcher?method=statusUpdate</URL>
+</style>

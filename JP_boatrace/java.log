@@ -1,0 +1,158 @@
+[INFO] 2017-09-29 16:32:44,883 [com.datalabchina.common.PageHelper.getPageHelper(PageHelper.java:73)]
+use proxy : http://192.168.60.3:8080
+[INFO] 2017-09-29 16:32:45,046 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:189)]
+doGet 0 : http://www.boatrace.jp/owpc/pc/race/racelist?rno=12&jcd=09&hd=20170923
+[INFO] 2017-09-29 16:32:46,773 [com.datalabchina.common.FileDispose.saveFile(FileDispose.java:272)]
+save file to E:\Denis\Jpboat\test\20170923\trackId_09\raceNo_12.html
+[INFO] 2017-09-29 16:32:46,904 [com.datalabchina.bll.PreRaceBll.saveBoatRaceToDB(PreRaceBll.java:549)]
+pr_BoatRace_PreRace_Race_InsertData 2017092300912,N'009',N'ＧⅢ',N'Ｇ３津オールレディース上富良野町友好都市２０周年',N'５日目',N'20170919-20170924',N'20170923',N'12',N'2017-09-29 16:32:46',NULL,N'津',N'準優勝戦',N'201709231200912',0,NULL
+[INFO] 2017-09-29 16:32:48,329 [com.datalabchina.bll.PreRaceBll.saveBoatPlayerToDB(PreRaceBll.java:596)]
+pr_BoatRace_PreRace_Player_InsertData 2017092300912,N'12',N'1',N'4190',N'長嶋　　万記',N'2017-09-29 16:32:48',N'静岡',N'36',N'49.2',N'A1',N'PlayerImage/4190.jpg',NULL,NULL,NULL,NULL,NULL,NULL,N'201709231200912',N'23',N'45',NULL,NULL,N'0',N'0',N'0.16',N'7.35',N'58.67',N'5.47',N'35.29',N'0.3431',N'0.000',0,N'静岡'
+[INFO] 2017-09-29 16:32:48,378 [com.datalabchina.bll.PreRaceBll.saveBoatPlayerToDB(PreRaceBll.java:596)]
+pr_BoatRace_PreRace_Player_InsertData 2017092300912,N'12',N'2',N'4065',N'金田　　幸子',N'2017-09-29 16:32:48',N'岡山',N'37',N'44.0',N'A1',N'PlayerImage/4065.jpg',NULL,NULL,NULL,NULL,NULL,NULL,N'201709231200912',N'65',N'27',NULL,NULL,N'1',N'0',N'0.16',N'5.79',N'45.59',N'5.46',N'38.46',N'0.3562',N'0.000',0,N'岡山'
+[INFO] 2017-09-29 16:32:48,408 [com.datalabchina.bll.PreRaceBll.saveBoatPlayerToDB(PreRaceBll.java:596)]
+pr_BoatRace_PreRace_Player_InsertData 2017092300912,N'12',N'3',N'3579',N'中里　　優子',N'2017-09-29 16:32:48',N'東京',N'44',N'47.7',N'B1',N'PlayerImage/3579.jpg',NULL,NULL,NULL,NULL,NULL,NULL,N'201709231200912',N'29',N'36',NULL,NULL,N'1',N'0',N'0.17',N'5.58',N'39.81',N'5.84',N'36.49',N'0.4239',N'0.000',0,N'埼玉'
+[INFO] 2017-09-29 16:32:48,437 [com.datalabchina.bll.PreRaceBll.saveBoatPlayerToDB(PreRaceBll.java:596)]
+pr_BoatRace_PreRace_Player_InsertData 2017092300912,N'12',N'4',N'4546',N'浜田　亜理沙',N'2017-09-29 16:32:48',N'広島',N'29',N'46.5',N'A2',N'PlayerImage/4546.jpg',NULL,NULL,NULL,NULL,NULL,NULL,N'201709231200912',N'43',N'51',NULL,NULL,N'1',N'0',N'0.18',N'6.22',N'42.39',N'0.00',N'0.00',N'0.2702',N'0.000',0,N'埼玉'
+[INFO] 2017-09-29 16:32:48,465 [com.datalabchina.bll.PreRaceBll.saveBoatPlayerToDB(PreRaceBll.java:596)]
+pr_BoatRace_PreRace_Player_InsertData 2017092300912,N'12',N'5',N'4726',N'島田　なぎさ',N'2017-09-29 16:32:48',N'埼玉',N'30',N'46.5',N'B1',N'PlayerImage/4726.jpg',NULL,NULL,NULL,NULL,NULL,NULL,N'201709231200912',N'26',N'35',NULL,NULL,N'0',N'0',N'0.16',N'5.27',N'34.18',N'4.28',N'22.22',N'0.3319',N'0.000',0,N'埼玉'
+[INFO] 2017-09-29 16:32:48,494 [com.datalabchina.bll.PreRaceBll.saveBoatPlayerToDB(PreRaceBll.java:596)]
+pr_BoatRace_PreRace_Player_InsertData 2017092300912,N'12',N'6',N'3604',N'武藤　　綾子',N'2017-09-29 16:32:48',N'福岡',N'46',N'48.6',N'B1',N'PlayerImage/3604.jpg',NULL,NULL,NULL,NULL,NULL,NULL,N'201709231200912',N'64',N'38',NULL,NULL,N'0',N'0',N'0.23',N'4.85',N'26.26',N'4.33',N'11.11',N'0.2831',N'0.000',0,N'福岡'
+[INFO] 2017-09-29 16:32:48,516 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:189)]
+doGet 0 : http://www.boatrace.jp/owpc/pc/race/beforeinfo?rno=12&jcd=09&hd=20170923
+[INFO] 2017-09-29 16:32:48,821 [com.datalabchina.common.CommonDB.updPlayer(CommonDB.java:906)]
+update BoatRace_PreRace_Player set Adjustment =N'0.0',Tilt =N'-0.5',Start =N'0.00',Exhibition =N'6.50',RawST =N'L' ,ST_type =N'L',Course =N'1' where raceid =2017092300912 and playerid = 4190
+[INFO] 2017-09-29 16:32:48,851 [com.datalabchina.common.CommonDB.updPlayer(CommonDB.java:906)]
+update BoatRace_PreRace_Player set Adjustment =N'3.0',Tilt =N'-0.5',Start =N'.11',Exhibition =N'6.60',RawST =N'.11' ,ST_type =N'',Course =N'3' where raceid =2017092300912 and playerid = 4065
+[INFO] 2017-09-29 16:32:48,876 [com.datalabchina.common.CommonDB.updPlayer(CommonDB.java:906)]
+update BoatRace_PreRace_Player set Adjustment =N'0.0',Tilt =N'-0.5',Start =N'.21',Exhibition =N'6.60',RawST =N'.21' ,ST_type =N'',Course =N'2' where raceid =2017092300912 and playerid = 3579
+[INFO] 2017-09-29 16:32:48,902 [com.datalabchina.common.CommonDB.updPlayer(CommonDB.java:906)]
+update BoatRace_PreRace_Player set Adjustment =N'0.5',Tilt =N'-0.5',Start =N'.05',Exhibition =N'6.65',RawST =N'.05' ,ST_type =N'',Course =N'4' where raceid =2017092300912 and playerid = 4546
+[INFO] 2017-09-29 16:32:48,928 [com.datalabchina.common.CommonDB.updPlayer(CommonDB.java:906)]
+update BoatRace_PreRace_Player set Adjustment =N'0.5',Tilt =N'-0.5',Start =N'.04',Exhibition =N'6.65',RawST =N'.04' ,ST_type =N'',Course =N'5' where raceid =2017092300912 and playerid = 4726
+[INFO] 2017-09-29 16:32:48,956 [com.datalabchina.common.CommonDB.updPlayer(CommonDB.java:906)]
+update BoatRace_PreRace_Player set Adjustment =N'0.0',Tilt =N'-0.5',Start =N'.06',Exhibition =N'6.64',RawST =N'.06' ,ST_type =N'',Course =N'6' where raceid =2017092300912 and playerid = 3604
+[INFO] 2017-09-29 16:35:40,714 [com.datalabchina.common.PageHelper.getPageHelper(PageHelper.java:73)]
+use proxy : http://192.168.60.3:8080
+[INFO] 2017-09-29 16:35:40,749 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:189)]
+doGet 0 : http://www.boatrace.jp/owpc/pc/race/racelist?rno=07&jcd=12&hd=20170924
+[INFO] 2017-09-29 16:36:04,987 [com.datalabchina.common.PageHelper.getPageHelper(PageHelper.java:73)]
+use proxy : http://192.168.60.3:8080
+[INFO] 2017-09-29 16:36:05,021 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:189)]
+doGet 0 : http://www.boatrace.jp/owpc/pc/race/racelist?rno=07&jcd=12&hd=20170924
+[INFO] 2017-09-29 16:37:40,443 [com.datalabchina.common.PageHelper.getPageHelper(PageHelper.java:73)]
+use proxy : http://192.168.60.3:8080
+[INFO] 2017-09-29 16:37:40,476 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:189)]
+doGet 0 : http://www.boatrace.jp/owpc/pc/race/racelist?rno=07&jcd=12&hd=20170924
+[INFO] 2017-09-29 16:37:41,034 [com.datalabchina.common.FileDispose.saveFile(FileDispose.java:272)]
+save file to E:\Denis\Jpboat\test\20170924\trackId_12\raceNo_07.html
+[INFO] 2017-09-29 16:37:41,082 [com.datalabchina.bll.PreRaceBll.saveBoatRaceToDB(PreRaceBll.java:550)]
+pr_BoatRace_PreRace_Race_InsertData 2017092401207,N'012',N'一般',N'２０１７ダイスポジャンピーカップ',N'３日目',N'20170922-20170925',N'20170924',N'07',N'2017-09-29 16:37:41',NULL,N'住之江',N'予選',N'201709241201207',0,NULL
+[INFO] 2017-09-29 16:37:41,468 [com.datalabchina.bll.PreRaceBll.saveBoatPlayerToDB(PreRaceBll.java:597)]
+pr_BoatRace_PreRace_Player_InsertData 2017092401207,N'07',N'1',N'3988',N'古川　　誠之',N'2017-09-29 16:37:41',N'愛知',N'39',N'54.2',N'A2',N'PlayerImage/3988.jpg',NULL,NULL,NULL,NULL,NULL,NULL,N'201709241201207',N'28',N'16',NULL,NULL,N'0',N'0',N'0.17',N'5.28',N'31.75',N'4.63',N'22.22',N'0.3056',N'0.3222',0,N'愛知'
+[INFO] 2017-09-29 16:37:41,505 [com.datalabchina.bll.PreRaceBll.saveBoatPlayerToDB(PreRaceBll.java:597)]
+pr_BoatRace_PreRace_Player_InsertData 2017092401207,N'07',N'2',N'4853',N'前原　　　哉',N'2017-09-29 16:37:41',N'岡山',N'22',N'47.4',N'B1',N'PlayerImage/4853.jpg',NULL,NULL,NULL,NULL,NULL,NULL,N'201709241201207',N'11',N'32',NULL,NULL,N'0',N'0',N'0.17',N'4.12',N'16.67',N'0.88',N'0.00',N'0.2963',N'0.3511',0,N'岡山'
+[INFO] 2017-09-29 16:37:41,533 [com.datalabchina.bll.PreRaceBll.saveBoatPlayerToDB(PreRaceBll.java:597)]
+pr_BoatRace_PreRace_Player_InsertData 2017092401207,N'07',N'3',N'4124',N'池田　　雄一',N'2017-09-29 16:37:41',N'静岡',N'35',N'53.5',N'B1',N'PlayerImage/4124.jpg',NULL,NULL,NULL,NULL,NULL,NULL,N'201709241201207',N'38',N'13',NULL,NULL,N'0',N'0',N'0.19',N'5.70',N'39.00',N'6.29',N'47.06',N'0.3854',N'0.2644',0,N'静岡'
+[INFO] 2017-09-29 16:37:41,561 [com.datalabchina.bll.PreRaceBll.saveBoatPlayerToDB(PreRaceBll.java:597)]
+pr_BoatRace_PreRace_Player_InsertData 2017092401207,N'07',N'4',N'4187',N'香川　　友尚',N'2017-09-29 16:37:41',N'香川',N'36',N'53.5',N'B1',N'PlayerImage/4187.jpg',NULL,NULL,NULL,NULL,NULL,NULL,N'201709241201207',N'70',N'87',NULL,NULL,N'0',N'0',N'0.19',N'3.90',N'17.86',N'4.29',N'19.05',N'0.2637',N'0.4545',0,N'香川'
+[INFO] 2017-09-29 16:37:41,590 [com.datalabchina.bll.PreRaceBll.saveBoatPlayerToDB(PreRaceBll.java:597)]
+pr_BoatRace_PreRace_Player_InsertData 2017092401207,N'07',N'5',N'3010',N'大嶋　　一也',N'2017-09-29 16:37:41',N'愛知',N'59',N'51.0',N'A1',N'PlayerImage/3010.jpg',NULL,NULL,NULL,NULL,NULL,NULL,N'201709241201207',N'61',N'93',NULL,NULL,N'0',N'0',N'0.15',N'7.19',N'57.60',N'6.10',N'50.00',N'0.3578',N'0.3684',0,N'愛知'
+[INFO] 2017-09-29 16:37:41,619 [com.datalabchina.bll.PreRaceBll.saveBoatPlayerToDB(PreRaceBll.java:597)]
+pr_BoatRace_PreRace_Player_InsertData 2017092401207,N'07',N'6',N'4109',N'谷津　　幸宏',N'2017-09-29 16:37:41',N'埼玉',N'37',N'51.0',N'A2',N'PlayerImage/4109.jpg',NULL,NULL,NULL,NULL,NULL,NULL,N'201709241201207',N'9',N'75',NULL,NULL,N'0',N'0',N'0.15',N'6.85',N'50.47',N'0.00',N'0.00',N'0.2500',N'0.2360',0,N'埼玉'
+[INFO] 2017-09-29 16:37:41,641 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:189)]
+doGet 0 : http://www.boatrace.jp/owpc/pc/race/beforeinfo?rno=7&jcd=12&hd=20170924
+[INFO] 2017-09-29 16:37:42,397 [com.datalabchina.common.CommonDB.updPlayer(CommonDB.java:906)]
+update BoatRace_PreRace_Player set Adjustment =N'0.0',Tilt =N'-0.5',Start =N'0.00',Exhibition =N'6.82',RawST =N'L' ,ST_type =N'L',Course =N'1' where raceid =2017092401207 and playerid = 3988
+[INFO] 2017-09-29 16:37:42,426 [com.datalabchina.common.CommonDB.updPlayer(CommonDB.java:906)]
+update BoatRace_PreRace_Player set Adjustment =N'0.0',Tilt =N'-0.5',Start =N'.23',Exhibition =N'6.85',RawST =N'.23' ,ST_type =N'',Course =N'6' where raceid =2017092401207 and playerid = 4853
+[INFO] 2017-09-29 16:37:42,450 [com.datalabchina.common.CommonDB.updPlayer(CommonDB.java:906)]
+update BoatRace_PreRace_Player set Adjustment =N'0.0',Tilt =N'-0.5',Start =N'.20',Exhibition =N'6.91',RawST =N'.20' ,ST_type =N'',Course =N'3' where raceid =2017092401207 and playerid = 4124
+[INFO] 2017-09-29 16:37:42,474 [com.datalabchina.common.CommonDB.updPlayer(CommonDB.java:906)]
+update BoatRace_PreRace_Player set Adjustment =N'0.0',Tilt =N'-0.5',Start =N'.08',Exhibition =N'6.88',RawST =N'.08' ,ST_type =N'',Course =N'4' where raceid =2017092401207 and playerid = 4187
+[INFO] 2017-09-29 16:37:42,498 [com.datalabchina.common.CommonDB.updPlayer(CommonDB.java:906)]
+update BoatRace_PreRace_Player set Adjustment =N'0.0',Tilt =N'-0.5',Start =N'.17',Exhibition =N'6.86',RawST =N'.17' ,ST_type =N'',Course =N'2' where raceid =2017092401207 and playerid = 3010
+[INFO] 2017-09-29 16:37:42,523 [com.datalabchina.common.CommonDB.updPlayer(CommonDB.java:906)]
+update BoatRace_PreRace_Player set Adjustment =N'0.0',Tilt =N'-0.5',Start =N'.19',Exhibition =N'6.88',RawST =N'.19' ,ST_type =N'',Course =N'5' where raceid =2017092401207 and playerid = 4109
+[INFO] 2017-09-29 16:57:36,551 [com.datalabchina.common.PageHelper.getPageHelper(PageHelper.java:73)]
+use proxy : http://192.168.60.3:8080
+[INFO] 2017-09-29 16:57:36,595 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:189)]
+doGet 0 : http://www.boatrace.jp/owpc/pc/race/racelist?rno=07&jcd=12&hd=20170924
+[INFO] 2017-09-29 16:58:01,610 [com.datalabchina.common.PageHelper.getPageHelper(PageHelper.java:73)]
+use proxy : http://192.168.60.3:8080
+[INFO] 2017-09-29 16:58:01,653 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:189)]
+doGet 0 : http://www.boatrace.jp/owpc/pc/race/racelist?rno=07&jcd=12&hd=20170924
+[INFO] 2017-09-29 16:58:29,535 [com.datalabchina.common.PageHelper.getPageHelper(PageHelper.java:73)]
+use proxy : http://192.168.60.2:8080
+[INFO] 2017-09-29 16:58:29,577 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:189)]
+doGet 0 : http://www.boatrace.jp/owpc/pc/race/racelist?rno=07&jcd=12&hd=20170924
+[INFO] 2017-09-29 16:58:36,322 [com.datalabchina.common.FileDispose.saveFile(FileDispose.java:272)]
+save file to E:\Denis\Jpboat\test\20170924\trackId_12\raceNo_07.html
+[INFO] 2017-09-29 16:59:27,112 [com.datalabchina.common.PageHelper.getPageHelper(PageHelper.java:73)]
+use proxy : http://192.168.60.2:8080
+[INFO] 2017-09-29 16:59:27,147 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:189)]
+doGet 0 : http://www.boatrace.jp/owpc/pc/race/racelist?rno=07&jcd=12&hd=20170924
+[INFO] 2017-09-29 16:59:27,700 [com.datalabchina.common.FileDispose.saveFile(FileDispose.java:272)]
+save file to E:\Denis\Jpboat\test\20170924\trackId_12\raceNo_07.html
+[INFO] 2017-09-29 16:59:27,761 [com.datalabchina.bll.PreRaceBll.saveBoatRaceToDB(PreRaceBll.java:550)]
+pr_BoatRace_PreRace_Race_InsertData 2017092401207,N'012',N'一般',N'２０１７ダイスポジャンピーカップ',N'３日目',N'20170922-20170925',N'20170924',N'07',N'2017-09-29 16:59:27',N'18:08',N'住之江',N'予選',N'201709241201207',0,NULL
+[INFO] 2017-09-29 16:59:28,108 [com.datalabchina.bll.PreRaceBll.saveBoatPlayerToDB(PreRaceBll.java:597)]
+pr_BoatRace_PreRace_Player_InsertData 2017092401207,N'07',N'1',N'3988',N'古川　　誠之',N'2017-09-29 16:59:28',N'愛知',N'39',N'54.2',N'A2',N'PlayerImage/3988.jpg',NULL,NULL,NULL,NULL,NULL,NULL,N'201709241201207',N'28',N'16',NULL,NULL,N'0',N'0',N'0.17',N'5.28',N'31.75',N'4.63',N'22.22',N'0.3056',N'0.3222',0,N'愛知'
+[INFO] 2017-09-29 16:59:28,149 [com.datalabchina.bll.PreRaceBll.saveBoatPlayerToDB(PreRaceBll.java:597)]
+pr_BoatRace_PreRace_Player_InsertData 2017092401207,N'07',N'2',N'4853',N'前原　　　哉',N'2017-09-29 16:59:28',N'岡山',N'22',N'47.4',N'B1',N'PlayerImage/4853.jpg',NULL,NULL,NULL,NULL,NULL,NULL,N'201709241201207',N'11',N'32',NULL,NULL,N'0',N'0',N'0.17',N'4.12',N'16.67',N'0.88',N'0.00',N'0.2963',N'0.3511',0,N'岡山'
+[INFO] 2017-09-29 16:59:28,181 [com.datalabchina.bll.PreRaceBll.saveBoatPlayerToDB(PreRaceBll.java:597)]
+pr_BoatRace_PreRace_Player_InsertData 2017092401207,N'07',N'3',N'4124',N'池田　　雄一',N'2017-09-29 16:59:28',N'静岡',N'35',N'53.5',N'B1',N'PlayerImage/4124.jpg',NULL,NULL,NULL,NULL,NULL,NULL,N'201709241201207',N'38',N'13',NULL,NULL,N'0',N'0',N'0.19',N'5.70',N'39.00',N'6.29',N'47.06',N'0.3854',N'0.2644',0,N'静岡'
+[INFO] 2017-09-29 16:59:28,210 [com.datalabchina.bll.PreRaceBll.saveBoatPlayerToDB(PreRaceBll.java:597)]
+pr_BoatRace_PreRace_Player_InsertData 2017092401207,N'07',N'4',N'4187',N'香川　　友尚',N'2017-09-29 16:59:28',N'香川',N'36',N'53.5',N'B1',N'PlayerImage/4187.jpg',NULL,NULL,NULL,NULL,NULL,NULL,N'201709241201207',N'70',N'87',NULL,NULL,N'0',N'0',N'0.19',N'3.90',N'17.86',N'4.29',N'19.05',N'0.2637',N'0.4545',0,N'香川'
+[INFO] 2017-09-29 16:59:28,239 [com.datalabchina.bll.PreRaceBll.saveBoatPlayerToDB(PreRaceBll.java:597)]
+pr_BoatRace_PreRace_Player_InsertData 2017092401207,N'07',N'5',N'3010',N'大嶋　　一也',N'2017-09-29 16:59:28',N'愛知',N'59',N'51.0',N'A1',N'PlayerImage/3010.jpg',NULL,NULL,NULL,NULL,NULL,NULL,N'201709241201207',N'61',N'93',NULL,NULL,N'0',N'0',N'0.15',N'7.19',N'57.60',N'6.10',N'50.00',N'0.3578',N'0.3684',0,N'愛知'
+[INFO] 2017-09-29 16:59:28,268 [com.datalabchina.bll.PreRaceBll.saveBoatPlayerToDB(PreRaceBll.java:597)]
+pr_BoatRace_PreRace_Player_InsertData 2017092401207,N'07',N'6',N'4109',N'谷津　　幸宏',N'2017-09-29 16:59:28',N'埼玉',N'37',N'51.0',N'A2',N'PlayerImage/4109.jpg',NULL,NULL,NULL,NULL,NULL,NULL,N'201709241201207',N'9',N'75',NULL,NULL,N'0',N'0',N'0.15',N'6.85',N'50.47',N'0.00',N'0.00',N'0.2500',N'0.2360',0,N'埼玉'
+[INFO] 2017-09-29 16:59:28,291 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:189)]
+doGet 0 : http://www.boatrace.jp/owpc/pc/race/beforeinfo?rno=7&jcd=12&hd=20170924
+[INFO] 2017-09-29 16:59:28,577 [com.datalabchina.common.CommonDB.updPlayer(CommonDB.java:906)]
+update BoatRace_PreRace_Player set Adjustment =N'0.0',Tilt =N'-0.5',Start =N'0.00',Exhibition =N'6.82',RawST =N'L' ,ST_type =N'L',Course =N'1' where raceid =2017092401207 and playerid = 3988
+[INFO] 2017-09-29 16:59:28,609 [com.datalabchina.common.CommonDB.updPlayer(CommonDB.java:906)]
+update BoatRace_PreRace_Player set Adjustment =N'0.0',Tilt =N'-0.5',Start =N'.23',Exhibition =N'6.85',RawST =N'.23' ,ST_type =N'',Course =N'6' where raceid =2017092401207 and playerid = 4853
+[INFO] 2017-09-29 16:59:28,636 [com.datalabchina.common.CommonDB.updPlayer(CommonDB.java:906)]
+update BoatRace_PreRace_Player set Adjustment =N'0.0',Tilt =N'-0.5',Start =N'.20',Exhibition =N'6.91',RawST =N'.20' ,ST_type =N'',Course =N'3' where raceid =2017092401207 and playerid = 4124
+[INFO] 2017-09-29 16:59:28,660 [com.datalabchina.common.CommonDB.updPlayer(CommonDB.java:906)]
+update BoatRace_PreRace_Player set Adjustment =N'0.0',Tilt =N'-0.5',Start =N'.08',Exhibition =N'6.88',RawST =N'.08' ,ST_type =N'',Course =N'4' where raceid =2017092401207 and playerid = 4187
+[INFO] 2017-09-29 16:59:28,684 [com.datalabchina.common.CommonDB.updPlayer(CommonDB.java:906)]
+update BoatRace_PreRace_Player set Adjustment =N'0.0',Tilt =N'-0.5',Start =N'.17',Exhibition =N'6.86',RawST =N'.17' ,ST_type =N'',Course =N'2' where raceid =2017092401207 and playerid = 3010
+[INFO] 2017-09-29 16:59:28,707 [com.datalabchina.common.CommonDB.updPlayer(CommonDB.java:906)]
+update BoatRace_PreRace_Player set Adjustment =N'0.0',Tilt =N'-0.5',Start =N'.19',Exhibition =N'6.88',RawST =N'.19' ,ST_type =N'',Course =N'5' where raceid =2017092401207 and playerid = 4109
+[INFO] 2017-09-29 16:59:59,659 [com.datalabchina.common.PageHelper.getPageHelper(PageHelper.java:73)]
+use proxy : http://192.168.60.2:8080
+[INFO] 2017-09-29 16:59:59,694 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:189)]
+doGet 0 : http://www.boatrace.jp/owpc/pc/race/racelist?rno=12&jcd=09&hd=20170923
+[INFO] 2017-09-29 17:00:00,485 [com.datalabchina.common.FileDispose.saveFile(FileDispose.java:272)]
+save file to E:\Denis\Jpboat\test\20170923\trackId_09\raceNo_12.html
+[INFO] 2017-09-29 17:00:00,550 [com.datalabchina.bll.PreRaceBll.saveBoatRaceToDB(PreRaceBll.java:550)]
+pr_BoatRace_PreRace_Race_InsertData 2017092300912,N'009',N'ＧⅢ',N'Ｇ３津オールレディース上富良野町友好都市２０周年',N'５日目',N'20170919-20170924',N'20170923',N'12',N'2017-09-29 17:00:00',N'16:37',N'津',N'準優勝戦',N'201709231200912',0,NULL
+[INFO] 2017-09-29 17:00:00,872 [com.datalabchina.bll.PreRaceBll.saveBoatPlayerToDB(PreRaceBll.java:597)]
+pr_BoatRace_PreRace_Player_InsertData 2017092300912,N'12',N'1',N'4190',N'長嶋　　万記',N'2017-09-29 17:00:00',N'静岡',N'36',N'49.2',N'A1',N'PlayerImage/4190.jpg',NULL,NULL,NULL,NULL,NULL,NULL,N'201709231200912',N'23',N'45',NULL,NULL,N'0',N'0',N'0.16',N'7.35',N'58.67',N'5.47',N'35.29',N'0.3431',N'0.000',0,N'静岡'
+[INFO] 2017-09-29 17:00:00,897 [com.datalabchina.bll.PreRaceBll.saveBoatPlayerToDB(PreRaceBll.java:597)]
+pr_BoatRace_PreRace_Player_InsertData 2017092300912,N'12',N'2',N'4065',N'金田　　幸子',N'2017-09-29 17:00:00',N'岡山',N'37',N'44.0',N'A1',N'PlayerImage/4065.jpg',NULL,NULL,NULL,NULL,NULL,NULL,N'201709231200912',N'65',N'27',NULL,NULL,N'1',N'0',N'0.16',N'5.79',N'45.59',N'5.46',N'38.46',N'0.3562',N'0.000',0,N'岡山'
+[INFO] 2017-09-29 17:00:00,922 [com.datalabchina.bll.PreRaceBll.saveBoatPlayerToDB(PreRaceBll.java:597)]
+pr_BoatRace_PreRace_Player_InsertData 2017092300912,N'12',N'3',N'3579',N'中里　　優子',N'2017-09-29 17:00:00',N'東京',N'44',N'47.7',N'B1',N'PlayerImage/3579.jpg',NULL,NULL,NULL,NULL,NULL,NULL,N'201709231200912',N'29',N'36',NULL,NULL,N'1',N'0',N'0.17',N'5.58',N'39.81',N'5.84',N'36.49',N'0.4239',N'0.000',0,N'埼玉'
+[INFO] 2017-09-29 17:00:00,949 [com.datalabchina.bll.PreRaceBll.saveBoatPlayerToDB(PreRaceBll.java:597)]
+pr_BoatRace_PreRace_Player_InsertData 2017092300912,N'12',N'4',N'4546',N'浜田　亜理沙',N'2017-09-29 17:00:00',N'広島',N'29',N'46.5',N'A2',N'PlayerImage/4546.jpg',NULL,NULL,NULL,NULL,NULL,NULL,N'201709231200912',N'43',N'51',NULL,NULL,N'1',N'0',N'0.18',N'6.22',N'42.39',N'0.00',N'0.00',N'0.2702',N'0.000',0,N'埼玉'
+[INFO] 2017-09-29 17:00:00,973 [com.datalabchina.bll.PreRaceBll.saveBoatPlayerToDB(PreRaceBll.java:597)]
+pr_BoatRace_PreRace_Player_InsertData 2017092300912,N'12',N'5',N'4726',N'島田　なぎさ',N'2017-09-29 17:00:00',N'埼玉',N'30',N'46.5',N'B1',N'PlayerImage/4726.jpg',NULL,NULL,NULL,NULL,NULL,NULL,N'201709231200912',N'26',N'35',NULL,NULL,N'0',N'0',N'0.16',N'5.27',N'34.18',N'4.28',N'22.22',N'0.3319',N'0.000',0,N'埼玉'
+[INFO] 2017-09-29 17:00:00,998 [com.datalabchina.bll.PreRaceBll.saveBoatPlayerToDB(PreRaceBll.java:597)]
+pr_BoatRace_PreRace_Player_InsertData 2017092300912,N'12',N'6',N'3604',N'武藤　　綾子',N'2017-09-29 17:00:00',N'福岡',N'46',N'48.6',N'B1',N'PlayerImage/3604.jpg',NULL,NULL,NULL,NULL,NULL,NULL,N'201709231200912',N'64',N'38',NULL,NULL,N'0',N'0',N'0.23',N'4.85',N'26.26',N'4.33',N'11.11',N'0.2831',N'0.000',0,N'福岡'
+[INFO] 2017-09-29 17:00:01,020 [com.datalabchina.common.PageHelper.doGet(PageHelper.java:189)]
+doGet 0 : http://www.boatrace.jp/owpc/pc/race/beforeinfo?rno=12&jcd=09&hd=20170923
+[INFO] 2017-09-29 17:00:02,549 [com.datalabchina.common.CommonDB.updPlayer(CommonDB.java:906)]
+update BoatRace_PreRace_Player set Adjustment =N'0.0',Tilt =N'-0.5',Start =N'0.00',Exhibition =N'6.50',RawST =N'L' ,ST_type =N'L',Course =N'1' where raceid =2017092300912 and playerid = 4190
+[INFO] 2017-09-29 17:00:02,573 [com.datalabchina.common.CommonDB.updPlayer(CommonDB.java:906)]
+update BoatRace_PreRace_Player set Adjustment =N'3.0',Tilt =N'-0.5',Start =N'.11',Exhibition =N'6.60',RawST =N'.11' ,ST_type =N'',Course =N'3' where raceid =2017092300912 and playerid = 4065
+[INFO] 2017-09-29 17:00:02,601 [com.datalabchina.common.CommonDB.updPlayer(CommonDB.java:906)]
+update BoatRace_PreRace_Player set Adjustment =N'0.0',Tilt =N'-0.5',Start =N'.21',Exhibition =N'6.60',RawST =N'.21' ,ST_type =N'',Course =N'2' where raceid =2017092300912 and playerid = 3579
+[INFO] 2017-09-29 17:00:02,625 [com.datalabchina.common.CommonDB.updPlayer(CommonDB.java:906)]
+update BoatRace_PreRace_Player set Adjustment =N'0.5',Tilt =N'-0.5',Start =N'.05',Exhibition =N'6.65',RawST =N'.05' ,ST_type =N'',Course =N'4' where raceid =2017092300912 and playerid = 4546
+[INFO] 2017-09-29 17:00:02,650 [com.datalabchina.common.CommonDB.updPlayer(CommonDB.java:906)]
+update BoatRace_PreRace_Player set Adjustment =N'0.5',Tilt =N'-0.5',Start =N'.04',Exhibition =N'6.65',RawST =N'.04' ,ST_type =N'',Course =N'5' where raceid =2017092300912 and playerid = 4726
+[INFO] 2017-09-29 17:00:02,673 [com.datalabchina.common.CommonDB.updPlayer(CommonDB.java:906)]
+update BoatRace_PreRace_Player set Adjustment =N'0.0',Tilt =N'-0.5',Start =N'.06',Exhibition =N'6.64',RawST =N'.06' ,ST_type =N'',Course =N'6' where raceid =2017092300912 and playerid = 3604
