@@ -1,0 +1,68 @@
+<CONFIG>
+	<databaseName>FRDB</databaseName>
+	<dbconfigPath>D:\config</dbconfigPath>
+	
+	<LocationName>Finland,New Zealand,Italy,Hong Kong,Germany,United States,Malta,Australia,Sweden,Great Britain,India,Canada,Ireland,Norway,France,Turkey,Denmark,South Africa,UAE</LocationName>
+	
+	<url><![CDATA[http://prematch.lsports.eu/OddService/]]></url>
+	
+	<email>freddygalliers@googlemail.com</email>
+	<password>cdd8b962</password>
+	<guid>a1772950-77f5-4f24-8926-49393f2e7ad5</guid>
+	<queue_name>_1413_</queue_name>
+	<host>prematch-rmq.lsports.eu</host>
+	
+	<OutRight_Sleep_Hour>1</OutRight_Sleep_Hour>
+	
+	<proxyName>78</proxyName>
+	<proxyConfigPath>D:\config</proxyConfigPath>
+	
+	<enableProxy>1</enableProxy>
+	<testProxy>0</testProxy>
+	
+	<Enable_HBase>0</Enable_HBase>
+	<SpiderID>UN_Lsports_BookOdds</SpiderID>
+	
+	<kafkaName>171819</kafkaName>
+	<kafkaName>lsports_RMQ</kafkaName>
+	<enableKafka>1</enableKafka>
+	<showJsonMessage>1</showJsonMessage>	
+
+	
+	<sports>687888,687894</sports>
+	<countries>2,4,14,59,147,172,243</countries>
+	
+	<BLL>
+		<BLLNO>3</BLLNO>
+		<BLLNAME>Live Kafka</BLLNAME>
+		<ISEXTRACTFROMWEB>1</ISEXTRACTFROMWEB>
+		<ISEXTRACTFROMLOCAL>1</ISEXTRACTFROMLOCAL>
+		<SAVEFILEPATH>F:\ZA\UN_Lsports_BookOdds_RMQ</SAVEFILEPATH>
+		<RUN>0</RUN>
+		<ISDELETEFILE>0</ISDELETEFILE>
+		<BAKFILEPATH>F:\ZA\UN_Lsports_BookOdds_Bak</BAKFILEPATH>
+		<BAKFILEPATH>jdbc:sqlserver://192.168.28.126:1433;instanceName=inst12;databaseName=FRDB;user=spider;password=83862909</BAKFILEPATH>
+	</BLL>	
+
+<BLL>
+        <BLLNO>4</BLLNO>
+        <BLLNAME>readHistory</BLLNAME>
+        <ISEXTRACTFROMWEB>1</ISEXTRACTFROMWEB>
+        <ISEXTRACTFROMLOCAL>1</ISEXTRACTFROMLOCAL>
+        <SAVEFILEPATH>F:\ZA\UN_Lsports_BookOdds_RMQ</SAVEFILEPATH>
+        <RUN>1</RUN>
+        <ISDELETEFILE>0</ISDELETEFILE>
+        <BAKFILEPATH>F:\ZA\UN_Lsports_BookOdds_Bak</BAKFILEPATH>
+        <BAKFILEPATH>jdbc:sqlserver://192.168.28.126:1433;instanceName=inst12;databaseName=FRDB;user=spider;password=83862909</BAKFILEPATH>
+    </BLL>  
+
+
+	
+	<MAIL>
+         <RETRIEVEADDR>genius.zeng@datalabchina.com</RETRIEVEADDR>
+         <SENDADDR>admin.intranet@datalabchina.com</SENDADDR>
+         <SENDPASSWORD></SENDPASSWORD>
+         <SENDHOSTSMTP>mail.datalabchina.com</SENDHOSTSMTP>
+         <ISSEND>1</ISSEND>
+    </MAIL>
+</CONFIG>

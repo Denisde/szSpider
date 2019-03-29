@@ -1,0 +1,13 @@
+[ INFO] Thread-0 2019-03-06 17:09:08 ReceiveCount = 0
+[ERROR] main 2019-03-06 17:09:08 
+java.lang.NullPointerException
+	at java.util.Hashtable.put(Hashtable.java:459)
+	at com.momutech.kafka.consumer.impl.KafkaConsumerImpl.init(KafkaConsumerImpl.java:51)
+	at com.momutech.kafka.consumer.impl.KafkaConsumerImpl.startReceiver(KafkaConsumerImpl.java:42)
+	at com.datalabchina.bll1.RecvKafka.run(RecvKafka.java:114)
+	at com.datalabchina.bll1.RecvKafka.main(RecvKafka.java:24)
+[ INFO] Thread-2 2019-03-06 17:09:08 ReceiveCount = 0
+[ INFO] Thread-0 2019-03-06 17:09:27 ReceiveCount = 0
+[ INFO] Thread-0 2019-03-06 17:10:42 ReceiveCount = 0
+[ INFO] Thread-0 2019-03-06 18:04:29 ReceiveCount = 0
+[ INFO] Thread-0 2019-03-06 18:04:37 ReceiveCount = 0
